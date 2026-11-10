@@ -1,0 +1,636 @@
+{
+  "pdb_id": "5Y9J",
+  "title": "BAFF IN COMPLEX WITH BELIMUMAB",
+  "resolution": 2.05,
+  "target_chain": "A",
+  "binder_chains": [
+    "H",
+    "L"
+  ],
+  "chain_roles": {
+    "L": "antibody_light",
+    "H": "antibody_heavy",
+    "A": "target"
+  },
+  "epitope": [
+    {
+      "chain": "A",
+      "resseq": 160,
+      "icode": "",
+      "resname": "LYS",
+      "aa": "K",
+      "label": "A:K160",
+      "centroid": [
+        35.158,
+        -9.893,
+        68.52
+      ],
+      "min_distance_to_binder": 4.087
+    },
+    {
+      "chain": "A",
+      "resseq": 161,
+      "icode": "",
+      "resname": "GLY",
+      "aa": "G",
+      "label": "A:G161",
+      "centroid": [
+        32.233,
+        -5.623,
+        69.063
+      ],
+      "min_distance_to_binder": 3.78
+    },
+    {
+      "chain": "A",
+      "resseq": 162,
+      "icode": "",
+      "resname": "SER",
+      "aa": "S",
+      "label": "A:S162",
+      "centroid": [
+        30.172,
+        -4.207,
+        66.305
+      ],
+      "min_distance_to_binder": 2.785
+    },
+    {
+      "chain": "A",
+      "resseq": 163,
+      "icode": "",
+      "resname": "TYR",
+      "aa": "Y",
+      "label": "A:Y163",
+      "centroid": [
+        31.352,
+        -6.84,
+        63.268
+      ],
+      "min_distance_to_binder": 3.806
+    },
+    {
+      "chain": "A",
+      "resseq": 205,
+      "icode": "",
+      "resname": "THR",
+      "aa": "T",
+      "label": "A:T205",
+      "centroid": [
+        17.468,
+        -5.407,
+        65.937
+      ],
+      "min_distance_to_binder": 3.674
+    },
+    {
+      "chain": "A",
+      "resseq": 206,
+      "icode": "",
+      "resname": "TYR",
+      "aa": "Y",
+      "label": "A:Y206",
+      "centroid": [
+        16.557,
+        -2.032,
+        62.138
+      ],
+      "min_distance_to_binder": 2.561
+    },
+    {
+      "chain": "A",
+      "resseq": 207,
+      "icode": "",
+      "resname": "ALA",
+      "aa": "A",
+      "label": "A:A207",
+      "centroid": [
+        17.793,
+        -5.105,
+        61.206
+      ],
+      "min_distance_to_binder": 4.03
+    },
+    {
+      "chain": "A",
+      "resseq": 208,
+      "icode": "",
+      "resname": "MET",
+      "aa": "M",
+      "label": "A:M208",
+      "centroid": [
+        19.648,
+        -8.527,
+        61.795
+      ],
+      "min_distance_to_binder": 3.498
+    },
+    {
+      "chain": "A",
+      "resseq": 209,
+      "icode": "",
+      "resname": "GLY",
+      "aa": "G",
+      "label": "A:G209",
+      "centroid": [
+        22.592,
+        -9.67,
+        59.043
+      ],
+      "min_distance_to_binder": 3.667
+    },
+    {
+      "chain": "A",
+      "resseq": 210,
+      "icode": "",
+      "resname": "HIS",
+      "aa": "H",
+      "label": "A:H210",
+      "centroid": [
+        24.575,
+        -12.646,
+        56.727
+      ],
+      "min_distance_to_binder": 4.3
+    },
+    {
+      "chain": "A",
+      "resseq": 215,
+      "icode": "",
+      "resname": "LYS",
+      "aa": "K",
+      "label": "A:K215",
+      "centroid": [
+        41.473,
+        -11.531,
+        53.75
+      ],
+      "min_distance_to_binder": 3.486
+    },
+    {
+      "chain": "A",
+      "resseq": 221,
+      "icode": "",
+      "resname": "GLY",
+      "aa": "G",
+      "label": "A:G221",
+      "centroid": [
+        46.077,
+        -1.371,
+        43.128
+      ],
+      "min_distance_to_binder": 3.426
+    },
+    {
+      "chain": "A",
+      "resseq": 222,
+      "icode": "",
+      "resname": "ASP",
+      "aa": "D",
+      "label": "A:D222",
+      "centroid": [
+        42.273,
+        0.24,
+        43.892
+      ],
+      "min_distance_to_binder": 2.848
+    },
+    {
+      "chain": "A",
+      "resseq": 224,
+      "icode": "",
+      "resname": "LEU",
+      "aa": "L",
+      "label": "A:L224",
+      "centroid": [
+        40.514,
+        -3.217,
+        49.912
+      ],
+      "min_distance_to_binder": 3.549
+    },
+    {
+      "chain": "A",
+      "resseq": 225,
+      "icode": "",
+      "resname": "SER",
+      "aa": "S",
+      "label": "A:S225",
+      "centroid": [
+        42.323,
+        -7.093,
+        51.941
+      ],
+      "min_distance_to_binder": 2.827
+    },
+    {
+      "chain": "A",
+      "resseq": 226,
+      "icode": "",
+      "resname": "LEU",
+      "aa": "L",
+      "label": "A:L226",
+      "centroid": [
+        38.396,
+        -7.21,
+        53.597
+      ],
+      "min_distance_to_binder": 3.727
+    },
+    {
+      "chain": "A",
+      "resseq": 231,
+      "icode": "",
+      "resname": "ARG",
+      "aa": "R",
+      "label": "A:R231",
+      "centroid": [
+        25.092,
+        -6.773,
+        52.053
+      ],
+      "min_distance_to_binder": 2.935
+    },
+    {
+      "chain": "A",
+      "resseq": 232,
+      "icode": "",
+      "resname": "CYS",
+      "aa": "C",
+      "label": "A:C232",
+      "centroid": [
+        21.825,
+        -10.441,
+        53.777
+      ],
+      "min_distance_to_binder": 4.271
+    },
+    {
+      "chain": "A",
+      "resseq": 233,
+      "icode": "",
+      "resname": "ILE",
+      "aa": "I",
+      "label": "A:I233",
+      "centroid": [
+        19.233,
+        -7.301,
+        55.031
+      ],
+      "min_distance_to_binder": 3.97
+    },
+    {
+      "chain": "A",
+      "resseq": 264,
+      "icode": "",
+      "resname": "PRO",
+      "aa": "P",
+      "label": "A:P264",
+      "centroid": [
+        26.971,
+        -6.488,
+        61.392
+      ],
+      "min_distance_to_binder": 3.62
+    },
+    {
+      "chain": "A",
+      "resseq": 265,
+      "icode": "",
+      "resname": "ARG",
+      "aa": "R",
+      "label": "A:R265",
+      "centroid": [
+        24.173,
+        -5.849,
+        64.123
+      ],
+      "min_distance_to_binder": 2.724
+    },
+    {
+      "chain": "A",
+      "resseq": 266,
+      "icode": "",
+      "resname": "GLU",
+      "aa": "E",
+      "label": "A:E266",
+      "centroid": [
+        26.865,
+        -5.508,
+        70.251
+      ],
+      "min_distance_to_binder": 2.678
+    }
+  ],
+  "paratope_sequence": "NMFGTKDLLLPLRSYYKSSGSGN",
+  "epitope_sequence": "KGSYTYAMGHKGDLSLRCIPRE",
+  "descriptors": {
+    "n_residue_contacts": 49,
+    "n_salt_bridges": 3,
+    "n_hydrophobic_contacts": 13,
+    "epitope_radius_of_gyration": 12.007,
+    "n_epitope_residues": 22,
+    "n_paratope_residues": 23
+  },
+  "contacts": [
+    {
+      "target": "A:Y206",
+      "binder": "H:D101",
+      "min_distance": 2.561,
+      "atom_pairs": 5
+    },
+    {
+      "target": "A:E266",
+      "binder": "H:T57",
+      "min_distance": 2.678,
+      "atom_pairs": 16
+    },
+    {
+      "target": "A:R265",
+      "binder": "H:D101",
+      "min_distance": 2.724,
+      "atom_pairs": 9
+    },
+    {
+      "target": "A:R231",
+      "binder": "H:L103",
+      "min_distance": 2.935,
+      "atom_pairs": 7
+    },
+    {
+      "target": "A:Y206",
+      "binder": "H:N31",
+      "min_distance": 3.022,
+      "atom_pairs": 10
+    },
+    {
+      "target": "A:Y206",
+      "binder": "H:L104",
+      "min_distance": 3.277,
+      "atom_pairs": 5
+    },
+    {
+      "target": "A:R265",
+      "binder": "H:L103",
+      "min_distance": 3.423,
+      "atom_pairs": 9
+    },
+    {
+      "target": "A:E266",
+      "binder": "H:K59",
+      "min_distance": 3.496,
+      "atom_pairs": 7
+    },
+    {
+      "target": "A:M208",
+      "binder": "H:L103",
+      "min_distance": 3.498,
+      "atom_pairs": 4
+    },
+    {
+      "target": "A:R231",
+      "binder": "H:L104",
+      "min_distance": 3.532,
+      "atom_pairs": 5
+    },
+    {
+      "target": "A:Y206",
+      "binder": "H:M54",
+      "min_distance": 3.593,
+      "atom_pairs": 3
+    },
+    {
+      "target": "A:P264",
+      "binder": "H:L103",
+      "min_distance": 3.62,
+      "atom_pairs": 8
+    },
+    {
+      "target": "A:Y206",
+      "binder": "H:F55",
+      "min_distance": 3.621,
+      "atom_pairs": 5
+    },
+    {
+      "target": "A:G209",
+      "binder": "H:L103",
+      "min_distance": 3.667,
+      "atom_pairs": 6
+    },
+    {
+      "target": "A:T205",
+      "binder": "H:F55",
+      "min_distance": 3.674,
+      "atom_pairs": 9
+    },
+    {
+      "target": "A:E266",
+      "binder": "H:G56",
+      "min_distance": 3.685,
+      "atom_pairs": 3
+    },
+    {
+      "target": "A:R265",
+      "binder": "H:F55",
+      "min_distance": 3.79,
+      "atom_pairs": 8
+    },
+    {
+      "target": "A:Y163",
+      "binder": "H:L102",
+      "min_distance": 3.819,
+      "atom_pairs": 6
+    },
+    {
+      "target": "A:I233",
+      "binder": "H:L103",
+      "min_distance": 3.97,
+      "atom_pairs": 6
+    },
+    {
+      "target": "A:A207",
+      "binder": "H:L103",
+      "min_distance": 4.03,
+      "atom_pairs": 2
+    },
+    {
+      "target": "A:R231",
+      "binder": "H:P106",
+      "min_distance": 4.145,
+      "atom_pairs": 5
+    },
+    {
+      "target": "A:I233",
+      "binder": "H:L104",
+      "min_distance": 4.147,
+      "atom_pairs": 1
+    },
+    {
+      "target": "A:G161",
+      "binder": "H:K59",
+      "min_distance": 4.249,
+      "atom_pairs": 2
+    },
+    {
+      "target": "A:C232",
+      "binder": "H:L103",
+      "min_distance": 4.271,
+      "atom_pairs": 1
+    },
+    {
+      "target": "A:H210",
+      "binder": "H:L103",
+      "min_distance": 4.3,
+      "atom_pairs": 1
+    },
+    {
+      "target": "A:P264",
+      "binder": "H:L102",
+      "min_distance": 4.334,
+      "atom_pairs": 1
+    },
+    {
+      "target": "A:S162",
+      "binder": "L:N95",
+      "min_distance": 2.785,
+      "atom_pairs": 7
+    },
+    {
+      "target": "A:S225",
+      "binder": "L:R28",
+      "min_distance": 2.827,
+      "atom_pairs": 9
+    },
+    {
+      "target": "A:D222",
+      "binder": "L:K50",
+      "min_distance": 2.848,
+      "atom_pairs": 4
+    },
+    {
+      "target": "A:D222",
+      "binder": "L:S65",
+      "min_distance": 3.186,
+      "atom_pairs": 11
+    },
+    {
+      "target": "A:S225",
+      "binder": "L:S29",
+      "min_distance": 3.195,
+      "atom_pairs": 4
+    },
+    {
+      "target": "A:G221",
+      "binder": "L:S66",
+      "min_distance": 3.426,
+      "atom_pairs": 3
+    },
+    {
+      "target": "A:K215",
+      "binder": "L:S29",
+      "min_distance": 3.486,
+      "atom_pairs": 1
+    },
+    {
+      "target": "A:L224",
+      "binder": "L:Y31",
+      "min_distance": 3.549,
+      "atom_pairs": 15
+    },
+    {
+      "target": "A:L224",
+      "binder": "L:L27",
+      "min_distance": 3.625,
+      "atom_pairs": 1
+    },
+    {
+      "target": "A:L224",
+      "binder": "L:S29",
+      "min_distance": 3.708,
+      "atom_pairs": 4
+    },
+    {
+      "target": "A:L226",
+      "binder": "L:Y30",
+      "min_distance": 3.727,
+      "atom_pairs": 3
+    },
+    {
+      "target": "A:G161",
+      "binder": "L:N95",
+      "min_distance": 3.78,
+      "atom_pairs": 3
+    },
+    {
+      "target": "A:L224",
+      "binder": "L:R28",
+      "min_distance": 3.783,
+      "atom_pairs": 5
+    },
+    {
+      "target": "A:Y163",
+      "binder": "L:G94",
+      "min_distance": 3.806,
+      "atom_pairs": 3
+    },
+    {
+      "target": "A:Y163",
+      "binder": "L:N95",
+      "min_distance": 3.956,
+      "atom_pairs": 3
+    },
+    {
+      "target": "A:G221",
+      "binder": "L:S65",
+      "min_distance": 3.974,
+      "atom_pairs": 2
+    },
+    {
+      "target": "A:L226",
+      "binder": "L:S29",
+      "min_distance": 4.019,
+      "atom_pairs": 7
+    },
+    {
+      "target": "A:K160",
+      "binder": "L:N95",
+      "min_distance": 4.087,
+      "atom_pairs": 2
+    },
+    {
+      "target": "A:L224",
+      "binder": "L:Y30",
+      "min_distance": 4.154,
+      "atom_pairs": 6
+    },
+    {
+      "target": "A:L226",
+      "binder": "L:R28",
+      "min_distance": 4.295,
+      "atom_pairs": 1
+    },
+    {
+      "target": "A:Y163",
+      "binder": "L:S93",
+      "min_distance": 4.455,
+      "atom_pairs": 1
+    },
+    {
+      "target": "A:G221",
+      "binder": "L:G67",
+      "min_distance": 4.472,
+      "atom_pairs": 1
+    },
+    {
+      "target": "A:D222",
+      "binder": "L:S66",
+      "min_distance": 4.476,
+      "atom_pairs": 1
+    }
+  ],
+  "binder_kind": "antibody",
+  "target_identity": 1.0,
+  "target_coverage": 1.0,
+  "identity_method": "aligned",
+  "warnings": []
+}

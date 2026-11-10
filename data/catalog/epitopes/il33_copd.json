@@ -1,0 +1,748 @@
+{
+  "pdb_id": "9WWH",
+  "title": "CRYSTAL STRUCTURE OF IL-33 AND ANTIBODY TOZORAKIMAB FAB BINARY COMPLEX",
+  "resolution": 3.51,
+  "target_chain": "C",
+  "binder_chains": [
+    "A",
+    "B"
+  ],
+  "chain_roles": {
+    "H": "antibody_heavy",
+    "L": "antibody_light",
+    "A": "antibody_heavy",
+    "B": "antibody_light",
+    "C": "target",
+    "D": "target"
+  },
+  "epitope": [
+    {
+      "chain": "C",
+      "resseq": 123,
+      "icode": "",
+      "resname": "LEU",
+      "aa": "L",
+      "label": "C:L123",
+      "centroid": [
+        -24.067,
+        -47.396,
+        -20.098
+      ],
+      "min_distance_to_binder": 3.5
+    },
+    {
+      "chain": "C",
+      "resseq": 135,
+      "icode": "",
+      "resname": "THR",
+      "aa": "T",
+      "label": "C:T135",
+      "centroid": [
+        -29.318,
+        -36.034,
+        -28.032
+      ],
+      "min_distance_to_binder": 3.432
+    },
+    {
+      "chain": "C",
+      "resseq": 136,
+      "icode": "",
+      "resname": "PHE",
+      "aa": "F",
+      "label": "C:F136",
+      "centroid": [
+        -26.744,
+        -35.794,
+        -24.718
+      ],
+      "min_distance_to_binder": 3.604
+    },
+    {
+      "chain": "C",
+      "resseq": 137,
+      "icode": "",
+      "resname": "ALA",
+      "aa": "A",
+      "label": "C:A137",
+      "centroid": [
+        -24.417,
+        -31.606,
+        -27.707
+      ],
+      "min_distance_to_binder": 3.56
+    },
+    {
+      "chain": "C",
+      "resseq": 138,
+      "icode": "",
+      "resname": "LEU",
+      "aa": "L",
+      "label": "C:L138",
+      "centroid": [
+        -21.28,
+        -31.831,
+        -25.561
+      ],
+      "min_distance_to_binder": 2.798
+    },
+    {
+      "chain": "C",
+      "resseq": 139,
+      "icode": "",
+      "resname": "GLU",
+      "aa": "E",
+      "label": "C:E139",
+      "centroid": [
+        -19.286,
+        -27.475,
+        -28.908
+      ],
+      "min_distance_to_binder": 2.97
+    },
+    {
+      "chain": "C",
+      "resseq": 140,
+      "icode": "",
+      "resname": "ASP",
+      "aa": "D",
+      "label": "C:D140",
+      "centroid": [
+        -16.14,
+        -27.543,
+        -24.529
+      ],
+      "min_distance_to_binder": 2.663
+    },
+    {
+      "chain": "C",
+      "resseq": 141,
+      "icode": "",
+      "resname": "GLU",
+      "aa": "E",
+      "label": "C:E141",
+      "centroid": [
+        -18.456,
+        -22.465,
+        -25.868
+      ],
+      "min_distance_to_binder": 3.235
+    },
+    {
+      "chain": "C",
+      "resseq": 146,
+      "icode": "",
+      "resname": "TYR",
+      "aa": "Y",
+      "label": "C:Y146",
+      "centroid": [
+        -30.669,
+        -31.26,
+        -29.242
+      ],
+      "min_distance_to_binder": 3.507
+    },
+    {
+      "chain": "C",
+      "resseq": 148,
+      "icode": "",
+      "resname": "GLU",
+      "aa": "E",
+      "label": "C:E148",
+      "centroid": [
+        -34.121,
+        -36.03,
+        -31.282
+      ],
+      "min_distance_to_binder": 3.978
+    },
+    {
+      "chain": "C",
+      "resseq": 151,
+      "icode": "",
+      "resname": "LYS",
+      "aa": "K",
+      "label": "C:K151",
+      "centroid": [
+        -32.398,
+        -40.849,
+        -38.398
+      ],
+      "min_distance_to_binder": 2.679
+    },
+    {
+      "chain": "C",
+      "resseq": 152,
+      "icode": "",
+      "resname": "LYS",
+      "aa": "K",
+      "label": "C:K152",
+      "centroid": [
+        -33.3,
+        -45.771,
+        -40.023
+      ],
+      "min_distance_to_binder": 2.726
+    },
+    {
+      "chain": "C",
+      "resseq": 153,
+      "icode": "",
+      "resname": "ASP",
+      "aa": "D",
+      "label": "C:D153",
+      "centroid": [
+        -28.88,
+        -45.889,
+        -40.21
+      ],
+      "min_distance_to_binder": 3.179
+    },
+    {
+      "chain": "C",
+      "resseq": 154,
+      "icode": "",
+      "resname": "GLU",
+      "aa": "E",
+      "label": "C:E154",
+      "centroid": [
+        -27.945,
+        -42.529,
+        -35.605
+      ],
+      "min_distance_to_binder": 3.174
+    },
+    {
+      "chain": "C",
+      "resseq": 155,
+      "icode": "",
+      "resname": "LYS",
+      "aa": "K",
+      "label": "C:K155",
+      "centroid": [
+        -25.923,
+        -42.953,
+        -32.413
+      ],
+      "min_distance_to_binder": 3.156
+    },
+    {
+      "chain": "C",
+      "resseq": 157,
+      "icode": "",
+      "resname": "ASP",
+      "aa": "D",
+      "label": "C:D157",
+      "centroid": [
+        -26.678,
+        -40.686,
+        -27.157
+      ],
+      "min_distance_to_binder": 3.548
+    },
+    {
+      "chain": "C",
+      "resseq": 158,
+      "icode": "",
+      "resname": "LYS",
+      "aa": "K",
+      "label": "C:K158",
+      "centroid": [
+        -25.919,
+        -45.03,
+        -24.29
+      ],
+      "min_distance_to_binder": 3.55
+    },
+    {
+      "chain": "C",
+      "resseq": 159,
+      "icode": "",
+      "resname": "VAL",
+      "aa": "V",
+      "label": "C:V159",
+      "centroid": [
+        -25.976,
+        -42.2,
+        -20.154
+      ],
+      "min_distance_to_binder": 3.753
+    },
+    {
+      "chain": "C",
+      "resseq": 160,
+      "icode": "",
+      "resname": "LEU",
+      "aa": "L",
+      "label": "C:L160",
+      "centroid": [
+        -23.035,
+        -43.674,
+        -16.319
+      ],
+      "min_distance_to_binder": 3.54
+    },
+    {
+      "chain": "C",
+      "resseq": 187,
+      "icode": "",
+      "resname": "SER",
+      "aa": "S",
+      "label": "C:S187",
+      "centroid": [
+        -22.643,
+        -39.194,
+        -17.091
+      ],
+      "min_distance_to_binder": 2.647
+    },
+    {
+      "chain": "C",
+      "resseq": 188,
+      "icode": "",
+      "resname": "PRO",
+      "aa": "P",
+      "label": "C:P188",
+      "centroid": [
+        -22.993,
+        -37.366,
+        -20.158
+      ],
+      "min_distance_to_binder": 2.999
+    },
+    {
+      "chain": "C",
+      "resseq": 189,
+      "icode": "",
+      "resname": "THR",
+      "aa": "T",
+      "label": "C:T189",
+      "centroid": [
+        -18.979,
+        -37.915,
+        -20.994
+      ],
+      "min_distance_to_binder": 2.605
+    },
+    {
+      "chain": "C",
+      "resseq": 190,
+      "icode": "",
+      "resname": "LYS",
+      "aa": "K",
+      "label": "C:K190",
+      "centroid": [
+        -15.68,
+        -38.468,
+        -20.322
+      ],
+      "min_distance_to_binder": 2.977
+    },
+    {
+      "chain": "C",
+      "resseq": 192,
+      "icode": "",
+      "resname": "PHE",
+      "aa": "F",
+      "label": "C:F192",
+      "centroid": [
+        -18.407,
+        -33.779,
+        -18.25
+      ],
+      "min_distance_to_binder": 3.442
+    }
+  ],
+  "paratope_sequence": "EFTSSYAIRKFMQLWGRYYGDKYYRDKN",
+  "epitope_sequence": "LTFALEDEYEKKDEKDKVLSPTKF",
+  "descriptors": {
+    "n_residue_contacts": 62,
+    "n_salt_bridges": 6,
+    "n_hydrophobic_contacts": 12,
+    "epitope_radius_of_gyration": 11.056,
+    "n_epitope_residues": 24,
+    "n_paratope_residues": 28
+  },
+  "contacts": [
+    {
+      "target": "C:T189",
+      "binder": "A:Q103",
+      "min_distance": 2.605,
+      "atom_pairs": 5
+    },
+    {
+      "target": "C:S187",
+      "binder": "A:W105",
+      "min_distance": 2.647,
+      "atom_pairs": 12
+    },
+    {
+      "target": "C:D140",
+      "binder": "A:T28",
+      "min_distance": 2.663,
+      "atom_pairs": 12
+    },
+    {
+      "target": "C:L138",
+      "binder": "A:M102",
+      "min_distance": 2.798,
+      "atom_pairs": 16
+    },
+    {
+      "target": "C:E139",
+      "binder": "A:Y32",
+      "min_distance": 2.97,
+      "atom_pairs": 8
+    },
+    {
+      "target": "C:L138",
+      "binder": "A:Y32",
+      "min_distance": 2.971,
+      "atom_pairs": 4
+    },
+    {
+      "target": "C:K190",
+      "binder": "A:Q103",
+      "min_distance": 2.977,
+      "atom_pairs": 7
+    },
+    {
+      "target": "C:P188",
+      "binder": "A:W105",
+      "min_distance": 2.999,
+      "atom_pairs": 10
+    },
+    {
+      "target": "C:P188",
+      "binder": "A:L104",
+      "min_distance": 3.07,
+      "atom_pairs": 9
+    },
+    {
+      "target": "C:D140",
+      "binder": "A:Y32",
+      "min_distance": 3.092,
+      "atom_pairs": 11
+    },
+    {
+      "target": "C:E139",
+      "binder": "A:K100",
+      "min_distance": 3.103,
+      "atom_pairs": 16
+    },
+    {
+      "target": "C:K155",
+      "binder": "A:R110",
+      "min_distance": 3.156,
+      "atom_pairs": 25
+    },
+    {
+      "target": "C:D140",
+      "binder": "A:M102",
+      "min_distance": 3.172,
+      "atom_pairs": 3
+    },
+    {
+      "target": "C:K190",
+      "binder": "A:S31",
+      "min_distance": 3.214,
+      "atom_pairs": 16
+    },
+    {
+      "target": "C:E141",
+      "binder": "A:E1",
+      "min_distance": 3.235,
+      "atom_pairs": 5
+    },
+    {
+      "target": "C:L138",
+      "binder": "A:F101",
+      "min_distance": 3.285,
+      "atom_pairs": 13
+    },
+    {
+      "target": "C:D140",
+      "binder": "A:F27",
+      "min_distance": 3.362,
+      "atom_pairs": 5
+    },
+    {
+      "target": "C:T189",
+      "binder": "A:I54",
+      "min_distance": 3.385,
+      "atom_pairs": 2
+    },
+    {
+      "target": "C:K190",
+      "binder": "A:W105",
+      "min_distance": 3.394,
+      "atom_pairs": 12
+    },
+    {
+      "target": "C:F192",
+      "binder": "A:M102",
+      "min_distance": 3.442,
+      "atom_pairs": 8
+    },
+    {
+      "target": "C:E139",
+      "binder": "A:F101",
+      "min_distance": 3.443,
+      "atom_pairs": 7
+    },
+    {
+      "target": "C:L123",
+      "binder": "A:W105",
+      "min_distance": 3.5,
+      "atom_pairs": 9
+    },
+    {
+      "target": "C:T189",
+      "binder": "A:W105",
+      "min_distance": 3.514,
+      "atom_pairs": 14
+    },
+    {
+      "target": "C:L160",
+      "binder": "A:W105",
+      "min_distance": 3.54,
+      "atom_pairs": 13
+    },
+    {
+      "target": "C:D157",
+      "binder": "A:Y111",
+      "min_distance": 3.548,
+      "atom_pairs": 3
+    },
+    {
+      "target": "C:K158",
+      "binder": "A:W105",
+      "min_distance": 3.55,
+      "atom_pairs": 16
+    },
+    {
+      "target": "C:A137",
+      "binder": "A:F101",
+      "min_distance": 3.56,
+      "atom_pairs": 11
+    },
+    {
+      "target": "C:F192",
+      "binder": "A:S31",
+      "min_distance": 3.588,
+      "atom_pairs": 3
+    },
+    {
+      "target": "C:F136",
+      "binder": "A:Y111",
+      "min_distance": 3.604,
+      "atom_pairs": 3
+    },
+    {
+      "target": "C:T189",
+      "binder": "A:M102",
+      "min_distance": 3.623,
+      "atom_pairs": 2
+    },
+    {
+      "target": "C:K190",
+      "binder": "A:I54",
+      "min_distance": 3.639,
+      "atom_pairs": 8
+    },
+    {
+      "target": "C:F136",
+      "binder": "A:L104",
+      "min_distance": 3.693,
+      "atom_pairs": 5
+    },
+    {
+      "target": "C:E139",
+      "binder": "A:Y115",
+      "min_distance": 3.7,
+      "atom_pairs": 3
+    },
+    {
+      "target": "C:K190",
+      "binder": "A:A53",
+      "min_distance": 3.716,
+      "atom_pairs": 1
+    },
+    {
+      "target": "C:V159",
+      "binder": "A:W105",
+      "min_distance": 3.753,
+      "atom_pairs": 4
+    },
+    {
+      "target": "C:D157",
+      "binder": "A:L104",
+      "min_distance": 3.756,
+      "atom_pairs": 5
+    },
+    {
+      "target": "C:T189",
+      "binder": "A:L104",
+      "min_distance": 3.772,
+      "atom_pairs": 10
+    },
+    {
+      "target": "C:E139",
+      "binder": "A:R98",
+      "min_distance": 3.797,
+      "atom_pairs": 8
+    },
+    {
+      "target": "C:L138",
+      "binder": "A:L104",
+      "min_distance": 3.892,
+      "atom_pairs": 2
+    },
+    {
+      "target": "C:L138",
+      "binder": "A:K100",
+      "min_distance": 3.901,
+      "atom_pairs": 3
+    },
+    {
+      "target": "C:K158",
+      "binder": "A:L104",
+      "min_distance": 3.939,
+      "atom_pairs": 1
+    },
+    {
+      "target": "C:K190",
+      "binder": "A:S30",
+      "min_distance": 3.946,
+      "atom_pairs": 2
+    },
+    {
+      "target": "C:K155",
+      "binder": "A:Y111",
+      "min_distance": 4.03,
+      "atom_pairs": 5
+    },
+    {
+      "target": "C:L123",
+      "binder": "A:G106",
+      "min_distance": 4.4,
+      "atom_pairs": 1
+    },
+    {
+      "target": "C:K190",
+      "binder": "A:M102",
+      "min_distance": 4.473,
+      "atom_pairs": 1
+    },
+    {
+      "target": "C:K151",
+      "binder": "B:D51",
+      "min_distance": 2.679,
+      "atom_pairs": 4
+    },
+    {
+      "target": "C:K152",
+      "binder": "B:D30",
+      "min_distance": 2.726,
+      "atom_pairs": 17
+    },
+    {
+      "target": "C:K151",
+      "binder": "B:K31",
+      "min_distance": 2.843,
+      "atom_pairs": 12
+    },
+    {
+      "target": "C:K151",
+      "binder": "B:G29",
+      "min_distance": 3.123,
+      "atom_pairs": 5
+    },
+    {
+      "target": "C:E154",
+      "binder": "B:Y32",
+      "min_distance": 3.174,
+      "atom_pairs": 8
+    },
+    {
+      "target": "C:D153",
+      "binder": "B:D30",
+      "min_distance": 3.179,
+      "atom_pairs": 11
+    },
+    {
+      "target": "C:K151",
+      "binder": "B:D30",
+      "min_distance": 3.305,
+      "atom_pairs": 7
+    },
+    {
+      "target": "C:T135",
+      "binder": "B:R50",
+      "min_distance": 3.432,
+      "atom_pairs": 8
+    },
+    {
+      "target": "C:K151",
+      "binder": "B:Y32",
+      "min_distance": 3.505,
+      "atom_pairs": 8
+    },
+    {
+      "target": "C:Y146",
+      "binder": "B:R50",
+      "min_distance": 3.507,
+      "atom_pairs": 4
+    },
+    {
+      "target": "C:D153",
+      "binder": "B:K31",
+      "min_distance": 3.526,
+      "atom_pairs": 6
+    },
+    {
+      "target": "C:Y146",
+      "binder": "B:K53",
+      "min_distance": 3.565,
+      "atom_pairs": 7
+    },
+    {
+      "target": "C:Y146",
+      "binder": "B:Y49",
+      "min_distance": 3.698,
+      "atom_pairs": 1
+    },
+    {
+      "target": "C:F136",
+      "binder": "B:R50",
+      "min_distance": 3.902,
+      "atom_pairs": 1
+    },
+    {
+      "target": "C:K151",
+      "binder": "B:N66",
+      "min_distance": 3.951,
+      "atom_pairs": 1
+    },
+    {
+      "target": "C:E148",
+      "binder": "B:Y32",
+      "min_distance": 3.978,
+      "atom_pairs": 3
+    },
+    {
+      "target": "C:A137",
+      "binder": "B:R50",
+      "min_distance": 4.357,
+      "atom_pairs": 1
+    }
+  ],
+  "binder_kind": "antibody",
+  "target_identity": 1.0,
+  "target_coverage": 1.0,
+  "identity_method": "aligned",
+  "warnings": [
+    "this structure holds more than one binder; the interface with antibody chains A,B was used and chains L were set aside so two separate binding sites are not merged into one",
+    "resolution is 3.51 A; contacts are read from side-chain positions, which are not reliably placed beyond about 3.0 A, so this binding site is approximate"
+  ]
+}

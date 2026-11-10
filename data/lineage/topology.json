@@ -1,0 +1,3245 @@
+{
+  "entries": {
+    "ACVR1": {
+      "accession": "Q04771",
+      "entry": "ACVR1_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "ATP-binding",
+        "Disease variant",
+        "Glycoprotein",
+        "Kinase",
+        "Magnesium",
+        "Manganese",
+        "Membrane",
+        "Metal-binding",
+        "Nucleotide-binding",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Receptor",
+        "Reference proteome",
+        "Serine/threonine-protein kinase",
+        "Signal",
+        "Transferase",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Membrane"
+      ],
+      "membrane_spans": 1
+    },
+    "ANGPT2": {
+      "accession": "O15123",
+      "entry": "ANGP2_HUMAN",
+      "features": {
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Angiogenesis",
+        "Calcium",
+        "Coiled coil",
+        "Developmental protein",
+        "Differentiation",
+        "Disease variant",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Metal-binding",
+        "Proteomics identification",
+        "Reference proteome",
+        "Secreted",
+        "Signal"
+      ],
+      "locations": [
+        "Secreted"
+      ],
+      "membrane_spans": 0
+    },
+    "APP": {
+      "accession": "P05067",
+      "entry": "A4_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Alzheimer disease",
+        "Amyloid",
+        "Amyloidosis",
+        "Apoptosis",
+        "Cell adhesion",
+        "Cell membrane",
+        "Cell projection",
+        "Coated pit",
+        "Copper",
+        "Cytoplasm",
+        "Cytoplasmic vesicle",
+        "Direct protein sequencing",
+        "Disease variant",
+        "Disulfide bond",
+        "Endocytosis",
+        "Endoplasmic reticulum",
+        "Endosome",
+        "Glycoprotein",
+        "Golgi apparatus",
+        "Heparin-binding",
+        "Iron",
+        "Isopeptide bond",
+        "Membrane",
+        "Metal-binding",
+        "Neurodegeneration",
+        "Notch signaling pathway",
+        "Nucleus",
+        "Oxidation",
+        "Phosphoprotein",
+        "Protease inhibitor",
+        "Proteoglycan",
+        "Proteomics identification",
+        "Reference proteome",
+        "Secreted",
+        "Serine protease inhibitor",
+        "Signal",
+        "Sulfation",
+        "Transmembrane",
+        "Transmembrane helix",
+        "Ubl conjugation",
+        "Zinc"
+      ],
+      "locations": [
+        "Cell membrane",
+        "Membrane",
+        "Perikaryon",
+        "Cell projection, growth cone",
+        "Membrane, clathrin-coated pit",
+        "Early endosome",
+        "Cytoplasmic vesicle",
+        "Endoplasmic reticulum",
+        "Golgi apparatus",
+        "Secreted",
+        "Cell surface",
+        "Nucleus",
+        "Cytoplasm"
+      ],
+      "membrane_spans": 1
+    },
+    "AQP4": {
+      "accession": "P55087",
+      "entry": "AQP4_HUMAN",
+      "features": {
+        "Lipidation": 2,
+        "Topological domain": 9,
+        "Transmembrane": 6
+      },
+      "has_signal_peptide": false,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Cell membrane",
+        "Cell projection",
+        "Disease variant",
+        "Endosome",
+        "Glycoprotein",
+        "Lipoprotein",
+        "Membrane",
+        "Palmitate",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Reference proteome",
+        "Repeat",
+        "Transmembrane",
+        "Transmembrane helix",
+        "Transport"
+      ],
+      "locations": [
+        "Cell membrane",
+        "Basolateral cell membrane",
+        "Endosome membrane",
+        "Cell membrane, sarcolemma",
+        "Cell projection"
+      ],
+      "membrane_spans": 6
+    },
+    "C1QB": {
+      "accession": "P02746",
+      "entry": "C1QB_HUMAN",
+      "features": {
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Collagen",
+        "Complement pathway",
+        "Direct protein sequencing",
+        "Disease variant",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Hydroxylation",
+        "Immunity",
+        "Innate immunity",
+        "Proteomics identification",
+        "Pyrrolidone carboxylic acid",
+        "Reference proteome",
+        "Repeat",
+        "Secreted",
+        "Signal"
+      ],
+      "locations": [
+        "Secreted",
+        "Cell surface"
+      ],
+      "membrane_spans": 0
+    },
+    "C1S": {
+      "accession": "P09871",
+      "entry": "C1S_HUMAN",
+      "features": {
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Calcium",
+        "Complement pathway",
+        "Direct protein sequencing",
+        "Disease variant",
+        "Disulfide bond",
+        "EGF-like domain",
+        "Ehlers-Danlos syndrome",
+        "Glycoprotein",
+        "Hydrolase",
+        "Hydroxylation",
+        "Immunity",
+        "Innate immunity",
+        "Metal-binding",
+        "Protease",
+        "Proteomics identification",
+        "Reference proteome",
+        "Repeat",
+        "Secreted",
+        "Serine protease",
+        "Signal",
+        "Sushi"
+      ],
+      "locations": [
+        "Secreted",
+        "Cell surface"
+      ],
+      "membrane_spans": 0
+    },
+    "C3": {
+      "accession": "P01024",
+      "entry": "CO3_HUMAN",
+      "features": {
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Age-related macular degeneration",
+        "Cleavage on pair of basic residues",
+        "Complement alternate pathway",
+        "Complement pathway",
+        "Direct protein sequencing",
+        "Disease variant",
+        "Disulfide bond",
+        "Fatty acid metabolism",
+        "Glycoprotein",
+        "Hemolytic uremic syndrome",
+        "Immunity",
+        "Inflammatory response",
+        "Innate immunity",
+        "Lipid metabolism",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Reference proteome",
+        "Secreted",
+        "Signal",
+        "Thioester bond"
+      ],
+      "locations": [
+        "Secreted",
+        "Cell surface"
+      ],
+      "membrane_spans": 0
+    },
+    "C5": {
+      "accession": "P01031",
+      "entry": "CO5_HUMAN",
+      "features": {
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Cleavage on pair of basic residues",
+        "Complement alternate pathway",
+        "Complement pathway",
+        "Cytolysis",
+        "Direct protein sequencing",
+        "Disease variant",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Immunity",
+        "Inflammatory response",
+        "Innate immunity",
+        "Membrane",
+        "Membrane attack complex",
+        "Proteomics identification",
+        "Reference proteome",
+        "Secreted",
+        "Signal",
+        "Target cell membrane",
+        "Target membrane"
+      ],
+      "locations": [
+        "Secreted",
+        "Target cell membrane"
+      ],
+      "membrane_spans": 0
+    },
+    "CALCRL": {
+      "accession": "Q16602",
+      "entry": "CALRL_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 7,
+        "Transmembrane": 7
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Cell membrane",
+        "Direct protein sequencing",
+        "Disease variant",
+        "Disulfide bond",
+        "G protein-coupled receptor",
+        "Glycoprotein",
+        "Membrane",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Receptor",
+        "Reference proteome",
+        "Signal",
+        "Transducer",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane"
+      ],
+      "membrane_spans": 7
+    },
+    "CD19": {
+      "accession": "P15391",
+      "entry": "CD19_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Adaptive immunity",
+        "Alternative splicing",
+        "Cell membrane",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Immunity",
+        "Immunoglobulin domain",
+        "Membrane",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Reference proteome",
+        "Repeat",
+        "Signal",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane",
+        "Membrane raft"
+      ],
+      "membrane_spans": 1
+    },
+    "CD22": {
+      "accession": "P20273",
+      "entry": "CD22_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Cell adhesion",
+        "Cell membrane",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Immunoglobulin domain",
+        "Isopeptide bond",
+        "Lectin",
+        "Membrane",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Reference proteome",
+        "Repeat",
+        "Signal",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane"
+      ],
+      "membrane_spans": 1
+    },
+    "CD274": {
+      "accession": "Q9NZQ7",
+      "entry": "PD1L1_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Adaptive immunity",
+        "Alternative splicing",
+        "Cell membrane",
+        "Diabetes mellitus",
+        "Disulfide bond",
+        "Endosome",
+        "Glycoprotein",
+        "Immunity",
+        "Immunoglobulin domain",
+        "Membrane",
+        "Nucleus",
+        "Proteomics identification",
+        "Receptor",
+        "Reference proteome",
+        "Repeat",
+        "Secreted",
+        "Signal",
+        "Transmembrane",
+        "Transmembrane helix",
+        "Ubl conjugation"
+      ],
+      "locations": [
+        "Cell membrane",
+        "Early endosome membrane",
+        "Recycling endosome membrane",
+        "Nucleus",
+        "Endomembrane system",
+        "Secreted"
+      ],
+      "membrane_spans": 1
+    },
+    "CD33": {
+      "accession": "P20138",
+      "entry": "CD33_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Cell adhesion",
+        "Cell membrane",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Immunoglobulin domain",
+        "Lectin",
+        "Membrane",
+        "Peroxisome",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Reference proteome",
+        "Repeat",
+        "Signal",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane",
+        "Peroxisome"
+      ],
+      "membrane_spans": 1
+    },
+    "CD38": {
+      "accession": "P28907",
+      "entry": "CD38_HUMAN",
+      "features": {
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": false,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Cell membrane",
+        "Diabetes mellitus",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Hydrolase",
+        "Membrane",
+        "NAD",
+        "NADP",
+        "Proteomics identification",
+        "Receptor",
+        "Reference proteome",
+        "Signal-anchor",
+        "Transferase",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell surface",
+        "Cell membrane"
+      ],
+      "membrane_spans": 1
+    },
+    "CD40LG": {
+      "accession": "P29965",
+      "entry": "CD40L_HUMAN",
+      "features": {
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": false,
+      "keywords": [
+        "3D-structure",
+        "Cell membrane",
+        "Cytokine",
+        "Direct protein sequencing",
+        "Disease variant",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Membrane",
+        "Proteomics identification",
+        "Reference proteome",
+        "Secreted",
+        "Signal-anchor",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane",
+        "Cell surface",
+        "Secreted"
+      ],
+      "membrane_spans": 1
+    },
+    "CD47": {
+      "accession": "Q08722",
+      "entry": "CD47_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 6,
+        "Transmembrane": 5
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Angiogenesis",
+        "Apoptosis",
+        "Cell adhesion",
+        "Cell membrane",
+        "Direct protein sequencing",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Immunoglobulin domain",
+        "Inflammatory response",
+        "Membrane",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Pyrrolidone carboxylic acid",
+        "Reference proteome",
+        "Signal",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane"
+      ],
+      "membrane_spans": 5
+    },
+    "CEACAM5": {
+      "accession": "P06731",
+      "entry": "CEAM5_HUMAN",
+      "features": {
+        "Lipidation": 1,
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Apoptosis",
+        "Cell adhesion",
+        "Cell membrane",
+        "Disulfide bond",
+        "GPI-anchor",
+        "Glycoprotein",
+        "Immunoglobulin domain",
+        "Lipoprotein",
+        "Membrane",
+        "Oncogene",
+        "Proteomics identification",
+        "Reference proteome",
+        "Repeat",
+        "Signal"
+      ],
+      "locations": [
+        "Cell membrane",
+        "Apical cell membrane",
+        "Cell surface"
+      ],
+      "membrane_spans": 0
+    },
+    "CFB": {
+      "accession": "P00751",
+      "entry": "CFAB_HUMAN",
+      "features": {
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Age-related macular degeneration",
+        "Alternative splicing",
+        "Cleavage on pair of basic residues",
+        "Complement alternate pathway",
+        "Direct protein sequencing",
+        "Disease variant",
+        "Disulfide bond",
+        "Glycation",
+        "Glycoprotein",
+        "Hemolytic uremic syndrome",
+        "Hydrolase",
+        "Immunity",
+        "Innate immunity",
+        "Protease",
+        "Proteomics identification",
+        "Reference proteome",
+        "Repeat",
+        "Secreted",
+        "Serine protease",
+        "Signal",
+        "Sushi",
+        "Zymogen"
+      ],
+      "locations": [
+        "Secreted",
+        "Cell surface"
+      ],
+      "membrane_spans": 0
+    },
+    "CFD": {
+      "accession": "P00746",
+      "entry": "CFAD_HUMAN",
+      "features": {
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Complement alternate pathway",
+        "Direct protein sequencing",
+        "Disease variant",
+        "Disulfide bond",
+        "Hydrolase",
+        "Immunity",
+        "Innate immunity",
+        "Protease",
+        "Proteomics identification",
+        "Reference proteome",
+        "Secreted",
+        "Serine protease",
+        "Signal",
+        "Zymogen"
+      ],
+      "locations": [
+        "Secreted"
+      ],
+      "membrane_spans": 0
+    },
+    "CHRNA1": {
+      "accession": "P02708",
+      "entry": "ACHA_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 5,
+        "Transmembrane": 4
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Cell membrane",
+        "Congenital myasthenic syndrome",
+        "Direct protein sequencing",
+        "Disease variant",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Ion channel",
+        "Ion transport",
+        "Ligand-gated ion channel",
+        "Membrane",
+        "Postsynaptic cell membrane",
+        "Proteomics identification",
+        "Receptor",
+        "Reference proteome",
+        "Signal",
+        "Synapse",
+        "Transmembrane",
+        "Transmembrane helix",
+        "Transport"
+      ],
+      "locations": [
+        "Postsynaptic cell membrane",
+        "Cell membrane"
+      ],
+      "membrane_spans": 4
+    },
+    "CLDN18": {
+      "accession": "P56856",
+      "entry": "CLD18_HUMAN",
+      "features": {
+        "Topological domain": 5,
+        "Transmembrane": 4
+      },
+      "has_signal_peptide": false,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Cell junction",
+        "Cell membrane",
+        "Membrane",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Reference proteome",
+        "Tight junction",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell junction, tight junction",
+        "Cell membrane",
+        "Lateral cell membrane"
+      ],
+      "membrane_spans": 4
+    },
+    "CLEC12A": {
+      "accession": "Q5QGZ9",
+      "entry": "CL12A_HUMAN",
+      "features": {
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": false,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Cell membrane",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Lectin",
+        "Membrane",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Receptor",
+        "Reference proteome",
+        "Signal-anchor",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane"
+      ],
+      "membrane_spans": 1
+    },
+    "CSP": {
+      "accession": "P19597",
+      "entry": "CSP_PLAFO",
+      "features": {
+        "Lipidation": 1,
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Cell membrane",
+        "Cytoplasm",
+        "Disulfide bond",
+        "GPI-anchor",
+        "Glycoprotein",
+        "Lipoprotein",
+        "Malaria",
+        "Membrane",
+        "Repeat",
+        "Signal",
+        "Sporozoite"
+      ],
+      "locations": [
+        "Cell membrane",
+        "Cytoplasm"
+      ],
+      "membrane_spans": 0
+    },
+    "CTLA4": {
+      "accession": "P16410",
+      "entry": "CTLA4_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Adaptive immunity",
+        "Alternative splicing",
+        "Cell membrane",
+        "Diabetes mellitus",
+        "Disease variant",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Immunity",
+        "Immunoglobulin domain",
+        "Membrane",
+        "Pharmaceutical",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Reference proteome",
+        "Signal",
+        "Systemic lupus erythematosus",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane"
+      ],
+      "membrane_spans": 1
+    },
+    "EGFR": {
+      "accession": "P00533",
+      "entry": "EGFR_HUMAN",
+      "features": {
+        "Lipidation": 2,
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "ATP-binding",
+        "Alternative splicing",
+        "Cell membrane",
+        "Developmental protein",
+        "Direct protein sequencing",
+        "Disease variant",
+        "Disulfide bond",
+        "Endoplasmic reticulum",
+        "Endosome",
+        "Glycoprotein",
+        "Golgi apparatus",
+        "Host cell receptor for virus entry",
+        "Host-virus interaction",
+        "Hydroxylation",
+        "Isopeptide bond",
+        "Kinase",
+        "Lipoprotein",
+        "Membrane",
+        "Methylation",
+        "Nucleotide-binding",
+        "Nucleus",
+        "Palmitate",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Proto-oncogene",
+        "Receptor",
+        "Reference proteome",
+        "Repeat",
+        "Secreted",
+        "Signal",
+        "Transferase",
+        "Transmembrane",
+        "Transmembrane helix",
+        "Tyrosine-protein kinase",
+        "Ubl conjugation"
+      ],
+      "locations": [
+        "Cell membrane",
+        "Endoplasmic reticulum membrane",
+        "Golgi apparatus membrane",
+        "Nucleus membrane",
+        "Endosome",
+        "Endosome membrane",
+        "Nucleus",
+        "Secreted"
+      ],
+      "membrane_spans": 1
+    },
+    "ENV": {
+      "accession": "Q0ED31",
+      "entry": "Q0ED31_HV1",
+      "features": {
+        "Lipidation": 1,
+        "Topological domain": 1,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": false,
+      "keywords": [
+        "3D-structure",
+        "Apoptosis",
+        "Clathrin-mediated endocytosis of virus by host",
+        "Cleavage on pair of basic residues",
+        "Coiled coil",
+        "Disulfide bond",
+        "Fusion of virus membrane with host endosomal membrane",
+        "Fusion of virus membrane with host membrane",
+        "Glycoprotein",
+        "Host cell membrane",
+        "Host endosome",
+        "Host membrane",
+        "Host-virus interaction",
+        "Lipoprotein",
+        "Membrane",
+        "Palmitate",
+        "Signal",
+        "Transmembrane",
+        "Transmembrane helix",
+        "Viral attachment to host cell",
+        "Viral envelope protein",
+        "Viral immunoevasion",
+        "Viral penetration into host cytoplasm",
+        "Virion",
+        "Virus endocytosis by host",
+        "Virus entry into host cell"
+      ],
+      "locations": [
+        "Host cell membrane",
+        "Host endosome membrane",
+        "Virion membrane"
+      ],
+      "membrane_spans": 1
+    },
+    "ERBB2": {
+      "accession": "P04626",
+      "entry": "ERBB2_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "ATP-binding",
+        "Activator",
+        "Alternative initiation",
+        "Alternative splicing",
+        "Cell membrane",
+        "Cell projection",
+        "Chromosomal rearrangement",
+        "Cytoplasm",
+        "Disease variant",
+        "Disulfide bond",
+        "Endosome",
+        "Glycoprotein",
+        "Kinase",
+        "Membrane",
+        "Nucleotide-binding",
+        "Nucleus",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Receptor",
+        "Reference proteome",
+        "Signal",
+        "Transcription",
+        "Transcription regulation",
+        "Transferase",
+        "Transmembrane",
+        "Transmembrane helix",
+        "Tyrosine-protein kinase"
+      ],
+      "locations": [
+        "Cell membrane",
+        "Cell projection, ruffle membrane",
+        "Early endosome",
+        "Cytoplasm, perinuclear region",
+        "Nucleus",
+        "Cytoplasm"
+      ],
+      "membrane_spans": 1
+    },
+    "F": {
+      "accession": "P03420",
+      "entry": "FUS_HRSVA",
+      "features": {
+        "Lipidation": 1,
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Cleavage on pair of basic residues",
+        "Coiled coil",
+        "Direct protein sequencing",
+        "Disulfide bond",
+        "Fusion of virus membrane with host cell membrane",
+        "Fusion of virus membrane with host membrane",
+        "Glycoprotein",
+        "Host Golgi apparatus",
+        "Host cell membrane",
+        "Host membrane",
+        "Host-virus interaction",
+        "Lipoprotein",
+        "Membrane",
+        "Palmitate",
+        "Signal",
+        "Syncytium formation induced by viral infection",
+        "Transmembrane",
+        "Transmembrane helix",
+        "Viral attachment to host cell",
+        "Viral attachment to host entry receptor",
+        "Viral envelope protein",
+        "Viral penetration into host cytoplasm",
+        "Virion",
+        "Virus entry into host cell"
+      ],
+      "locations": [
+        "Host Golgi apparatus membrane",
+        "Virion membrane",
+        "Host cell membrane"
+      ],
+      "membrane_spans": 1
+    },
+    "F11": {
+      "accession": "P03951",
+      "entry": "FA11_HUMAN",
+      "features": {
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Blood coagulation",
+        "Direct protein sequencing",
+        "Disease variant",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Hemostasis",
+        "Heparin-binding",
+        "Hydrolase",
+        "Protease",
+        "Proteomics identification",
+        "Reference proteome",
+        "Repeat",
+        "Secreted",
+        "Serine protease",
+        "Signal",
+        "Zymogen"
+      ],
+      "locations": [
+        "Secreted"
+      ],
+      "membrane_spans": 0
+    },
+    "FCGRT": {
+      "accession": "P55899",
+      "entry": "FCGRN_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Cell membrane",
+        "Direct protein sequencing",
+        "Disulfide bond",
+        "Endosome",
+        "Glycoprotein",
+        "IgG-binding protein",
+        "Immunoglobulin domain",
+        "Membrane",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Receptor",
+        "Reference proteome",
+        "Signal",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane",
+        "Endosome membrane"
+      ],
+      "membrane_spans": 1
+    },
+    "FGF23": {
+      "accession": "Q9GZV9",
+      "entry": "FGF23_HUMAN",
+      "features": {
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Differentiation",
+        "Direct protein sequencing",
+        "Disease variant",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Growth factor",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Reference proteome",
+        "Secreted",
+        "Signal"
+      ],
+      "locations": [
+        "Secreted"
+      ],
+      "membrane_spans": 0
+    },
+    "FOLH1": {
+      "accession": "Q04609",
+      "entry": "FOLH1_HUMAN",
+      "features": {
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": false,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Calcium",
+        "Carboxypeptidase",
+        "Cell membrane",
+        "Cytoplasm",
+        "Dipeptidase",
+        "Direct protein sequencing",
+        "Glycoprotein",
+        "Hydrolase",
+        "Membrane",
+        "Metal-binding",
+        "Metalloprotease",
+        "Multifunctional enzyme",
+        "Phosphoprotein",
+        "Protease",
+        "Proteomics identification",
+        "Reference proteome",
+        "Signal-anchor",
+        "Transmembrane",
+        "Transmembrane helix",
+        "Zinc"
+      ],
+      "locations": [
+        "Cell membrane",
+        "Cytoplasm"
+      ],
+      "membrane_spans": 1
+    },
+    "GCGR": {
+      "accession": "P47871",
+      "entry": "GLR_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 8,
+        "Transmembrane": 7
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Cell membrane",
+        "Diabetes mellitus",
+        "Disease variant",
+        "Disulfide bond",
+        "G protein-coupled receptor",
+        "Glycoprotein",
+        "Membrane",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Receptor",
+        "Reference proteome",
+        "Signal",
+        "Transducer",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane"
+      ],
+      "membrane_spans": 7
+    },
+    "GDF15": {
+      "accession": "Q99988",
+      "entry": "GDF15_HUMAN",
+      "features": {
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Cleavage on pair of basic residues",
+        "Cytokine",
+        "Disease variant",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Hormone",
+        "Proteomics identification",
+        "Reference proteome",
+        "Secreted",
+        "Signal"
+      ],
+      "locations": [
+        "Secreted"
+      ],
+      "membrane_spans": 0
+    },
+    "GLP1R": {
+      "accession": "P43220",
+      "entry": "GLP1R_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 8,
+        "Transmembrane": 7
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "ADP-ribosylation",
+        "Cell membrane",
+        "Disulfide bond",
+        "G protein-coupled receptor",
+        "Glycoprotein",
+        "Membrane",
+        "Proteomics identification",
+        "Receptor",
+        "Reference proteome",
+        "Signal",
+        "Transducer",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane"
+      ],
+      "membrane_spans": 7
+    },
+    "GP": {
+      "accession": "Q05320",
+      "entry": "VGP_EBOZM",
+      "features": {
+        "Lipidation": 2,
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Clathrin-mediated endocytosis of virus by host",
+        "Cleavage on pair of basic residues",
+        "Coiled coil",
+        "Disulfide bond",
+        "Fusion of virus membrane with host endosomal membrane",
+        "Fusion of virus membrane with host membrane",
+        "Glycoprotein",
+        "Host cell membrane",
+        "Host membrane",
+        "Host-virus interaction",
+        "Inhibition of host innate immune response by virus",
+        "Inhibition of host tetherin by virus",
+        "Lipoprotein",
+        "Membrane",
+        "Palmitate",
+        "RNA editing",
+        "Reference proteome",
+        "Secreted",
+        "Signal",
+        "Transmembrane",
+        "Transmembrane helix",
+        "Viral attachment to host cell",
+        "Viral attachment to host entry receptor",
+        "Viral envelope protein",
+        "Viral immunoevasion",
+        "Viral penetration into host cytoplasm",
+        "Virion",
+        "Virus endocytosis by host",
+        "Virus entry into host cell"
+      ],
+      "locations": [
+        "Virion membrane",
+        "Host cell membrane",
+        "Secreted"
+      ],
+      "membrane_spans": 1
+    },
+    "GPRC5D": {
+      "accession": "Q9NZD1",
+      "entry": "GPC5D_HUMAN",
+      "features": {
+        "Topological domain": 8,
+        "Transmembrane": 7
+      },
+      "has_signal_peptide": false,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Cell membrane",
+        "G protein-coupled receptor",
+        "Membrane",
+        "Proteomics identification",
+        "Receptor",
+        "Reference proteome",
+        "Transducer",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane"
+      ],
+      "membrane_spans": 7
+    },
+    "HA": {
+      "accession": "Q6DQ33",
+      "entry": "Q6DQ33_I04A1",
+      "features": {
+        "Signal": 1,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Clathrin- and caveolin-independent endocytosis of virus by host",
+        "Clathrin-mediated endocytosis of virus by host",
+        "Coiled coil",
+        "Disulfide bond",
+        "Fusion of virus membrane with host endosomal membrane",
+        "Fusion of virus membrane with host membrane",
+        "Glycoprotein",
+        "Hemagglutinin",
+        "Host cell membrane",
+        "Host membrane",
+        "Host-virus interaction",
+        "Lipoprotein",
+        "Membrane",
+        "Palmitate",
+        "Signal",
+        "Transmembrane",
+        "Transmembrane helix",
+        "Viral attachment to host cell",
+        "Viral envelope protein",
+        "Viral penetration into host cytoplasm",
+        "Virion",
+        "Virus endocytosis by host",
+        "Virus entry into host cell"
+      ],
+      "locations": [
+        "Host apical cell membrane",
+        "Virion membrane"
+      ],
+      "membrane_spans": 1
+    },
+    "HAVCR2": {
+      "accession": "Q8TDQ0",
+      "entry": "HAVR2_HUMAN",
+      "features": {
+        "Lipidation": 1,
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Adaptive immunity",
+        "Alternative splicing",
+        "Cell junction",
+        "Cell membrane",
+        "Disease variant",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Immunity",
+        "Immunoglobulin domain",
+        "Inflammatory response",
+        "Innate immunity",
+        "Lipoprotein",
+        "Membrane",
+        "Metal-binding",
+        "Palmitate",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Reference proteome",
+        "Signal",
+        "Transmembrane",
+        "Transmembrane helix",
+        "Ubl conjugation"
+      ],
+      "locations": [
+        "Cell membrane",
+        "Cell junction"
+      ],
+      "membrane_spans": 1
+    },
+    "IGF1R": {
+      "accession": "P08069",
+      "entry": "IGF1R_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "ATP-binding",
+        "Cell membrane",
+        "Cleavage on pair of basic residues",
+        "Direct protein sequencing",
+        "Disease variant",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Host-virus interaction",
+        "Isopeptide bond",
+        "Kinase",
+        "Membrane",
+        "Nucleotide-binding",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Receptor",
+        "Reference proteome",
+        "Repeat",
+        "Signal",
+        "Transferase",
+        "Transmembrane",
+        "Transmembrane helix",
+        "Tyrosine-protein kinase",
+        "Ubl conjugation"
+      ],
+      "locations": [
+        "Cell membrane"
+      ],
+      "membrane_spans": 1
+    },
+    "IGHE": {
+      "accession": "P01854",
+      "entry": "IGHE_HUMAN",
+      "features": {
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": false,
+      "keywords": [
+        "3D-structure",
+        "Adaptive immunity",
+        "Alternative splicing",
+        "Cell membrane",
+        "Direct protein sequencing",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Immunity",
+        "Immunoglobulin",
+        "Immunoglobulin domain",
+        "Inflammatory response",
+        "Membrane",
+        "Proteomics identification",
+        "Reference proteome",
+        "Repeat",
+        "Secreted",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Secreted",
+        "Cell membrane"
+      ],
+      "membrane_spans": 1
+    },
+    "IL11": {
+      "accession": "P20809",
+      "entry": "IL11_HUMAN",
+      "features": {
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Cytokine",
+        "Growth factor",
+        "Pharmaceutical",
+        "Proteomics identification",
+        "Reference proteome",
+        "Secreted",
+        "Signal"
+      ],
+      "locations": [
+        "Secreted"
+      ],
+      "membrane_spans": 0
+    },
+    "IL13": {
+      "accession": "P35225",
+      "entry": "IL13_HUMAN",
+      "features": {
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Cytokine",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Proteomics identification",
+        "Reference proteome",
+        "Secreted",
+        "Signal"
+      ],
+      "locations": [
+        "Secreted"
+      ],
+      "membrane_spans": 0
+    },
+    "IL17A": {
+      "accession": "Q16552",
+      "entry": "IL17_HUMAN",
+      "features": {
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Adaptive immunity",
+        "Cytokine",
+        "Direct protein sequencing",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Immunity",
+        "Inflammatory response",
+        "Innate immunity",
+        "Proteomics identification",
+        "Reference proteome",
+        "Secreted",
+        "Signal"
+      ],
+      "locations": [
+        "Secreted"
+      ],
+      "membrane_spans": 0
+    },
+    "IL1B": {
+      "accession": "P01584",
+      "entry": "IL1B_HUMAN",
+      "features": {},
+      "has_signal_peptide": false,
+      "keywords": [
+        "3D-structure",
+        "Cytokine",
+        "Cytoplasm",
+        "Direct protein sequencing",
+        "Inflammatory response",
+        "Lysosome",
+        "Mitogen",
+        "Proteomics identification",
+        "Pyrogen",
+        "Reference proteome",
+        "Secreted"
+      ],
+      "locations": [
+        "Cytoplasm, cytosol",
+        "Secreted",
+        "Lysosome",
+        "Secreted, extracellular exosome"
+      ],
+      "membrane_spans": 0
+    },
+    "IL23A": {
+      "accession": "Q9NPF7",
+      "entry": "IL23A_HUMAN",
+      "features": {
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Antiviral defense",
+        "Cytokine",
+        "Disulfide bond",
+        "Immunity",
+        "Inflammatory response",
+        "Innate immunity",
+        "Proteomics identification",
+        "Reference proteome",
+        "Secreted",
+        "Signal",
+        "Tissue remodeling"
+      ],
+      "locations": [
+        "Secreted"
+      ],
+      "membrane_spans": 0
+    },
+    "IL2RA": {
+      "accession": "P01589",
+      "entry": "IL2RA_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Diabetes mellitus",
+        "Disease variant",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Immunity",
+        "Membrane",
+        "Proteomics identification",
+        "Receptor",
+        "Reference proteome",
+        "Repeat",
+        "Signal",
+        "Sushi",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Membrane"
+      ],
+      "membrane_spans": 1
+    },
+    "IL31RA": {
+      "accession": "Q8NI17",
+      "entry": "IL31R_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Amyloidosis",
+        "Cell membrane",
+        "Cell projection",
+        "Direct protein sequencing",
+        "Disease variant",
+        "Glycoprotein",
+        "Immunity",
+        "Membrane",
+        "Proteomics identification",
+        "Receptor",
+        "Reference proteome",
+        "Repeat",
+        "Signal",
+        "Synapse",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane",
+        "Presynaptic cell membrane",
+        "Cell projection, axon"
+      ],
+      "membrane_spans": 1
+    },
+    "IL33": {
+      "accession": "O95760",
+      "entry": "IL33_HUMAN",
+      "features": {},
+      "has_signal_peptide": false,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Chromosome",
+        "Cytokine",
+        "Cytoplasm",
+        "Cytoplasmic vesicle",
+        "Direct protein sequencing",
+        "Nucleus",
+        "Proteomics identification",
+        "Reference proteome",
+        "Secreted",
+        "Transcription"
+      ],
+      "locations": [
+        "Nucleus",
+        "Chromosome",
+        "Cytoplasm",
+        "Cytoplasmic vesicle, secretory vesicle",
+        "Secreted"
+      ],
+      "membrane_spans": 0
+    },
+    "IL36G": {
+      "accession": "Q9NZH8",
+      "entry": "IL36G_HUMAN",
+      "features": {},
+      "has_signal_peptide": false,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Cytokine",
+        "Cytoplasm",
+        "Immunity",
+        "Inflammatory response",
+        "Innate immunity",
+        "Proteomics identification",
+        "Reference proteome",
+        "Secreted"
+      ],
+      "locations": [
+        "Cytoplasm",
+        "Secreted"
+      ],
+      "membrane_spans": 0
+    },
+    "IL4R": {
+      "accession": "P24394",
+      "entry": "IL4RA_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Cell membrane",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Immunity",
+        "Membrane",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Receptor",
+        "Reference proteome",
+        "Secreted",
+        "Signal",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane",
+        "Secreted"
+      ],
+      "membrane_spans": 1
+    },
+    "IL5": {
+      "accession": "P05113",
+      "entry": "IL5_HUMAN",
+      "features": {
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Cytokine",
+        "Direct protein sequencing",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Growth factor",
+        "Reference proteome",
+        "Secreted",
+        "Signal"
+      ],
+      "locations": [
+        "Secreted"
+      ],
+      "membrane_spans": 0
+    },
+    "IL5RA": {
+      "accession": "Q01344",
+      "entry": "IL5RA_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Membrane",
+        "Proteomics identification",
+        "Receptor",
+        "Reference proteome",
+        "Repeat",
+        "Signal",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Membrane"
+      ],
+      "membrane_spans": 1
+    },
+    "IL6": {
+      "accession": "P05231",
+      "entry": "IL6_HUMAN",
+      "features": {
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Acute phase",
+        "Cytokine",
+        "Direct protein sequencing",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Growth factor",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Reference proteome",
+        "Secreted",
+        "Signal"
+      ],
+      "locations": [
+        "Secreted"
+      ],
+      "membrane_spans": 0
+    },
+    "IL6R": {
+      "accession": "P08887",
+      "entry": "IL6RA_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Cell membrane",
+        "Direct protein sequencing",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Immunoglobulin domain",
+        "Membrane",
+        "Proteomics identification",
+        "Receptor",
+        "Reference proteome",
+        "Repeat",
+        "Secreted",
+        "Signal",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane",
+        "Secreted"
+      ],
+      "membrane_spans": 1
+    },
+    "ITGAV": {
+      "accession": "P06756",
+      "entry": "ITAV_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Calcium",
+        "Cell adhesion",
+        "Cell junction",
+        "Cell membrane",
+        "Cleavage on pair of basic residues",
+        "Direct protein sequencing",
+        "Disease variant",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Host cell receptor for virus entry",
+        "Host-virus interaction",
+        "Integrin",
+        "Membrane",
+        "Metal-binding",
+        "Proteomics identification",
+        "Receptor",
+        "Reference proteome",
+        "Repeat",
+        "Signal",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane",
+        "Cell junction, focal adhesion"
+      ],
+      "membrane_spans": 1
+    },
+    "ITGB7": {
+      "accession": "P26010",
+      "entry": "ITB7_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Calcium",
+        "Cell adhesion",
+        "Cell membrane",
+        "Direct protein sequencing",
+        "Disulfide bond",
+        "EGF-like domain",
+        "Glycoprotein",
+        "Host cell receptor for virus entry",
+        "Integrin",
+        "Magnesium",
+        "Membrane",
+        "Metal-binding",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Receptor",
+        "Reference proteome",
+        "Repeat",
+        "Signal",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane"
+      ],
+      "membrane_spans": 1
+    },
+    "KIT": {
+      "accession": "P10721",
+      "entry": "KIT_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "ATP-binding",
+        "Alternative splicing",
+        "Cell membrane",
+        "Cytoplasm",
+        "Direct protein sequencing",
+        "Disease variant",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Immunoglobulin domain",
+        "Kinase",
+        "Magnesium",
+        "Membrane",
+        "Metal-binding",
+        "Nucleotide-binding",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Proto-oncogene",
+        "Receptor",
+        "Reference proteome",
+        "Repeat",
+        "Signal",
+        "Transferase",
+        "Transmembrane",
+        "Transmembrane helix",
+        "Tyrosine-protein kinase",
+        "Ubl conjugation"
+      ],
+      "locations": [
+        "Cell membrane",
+        "Cytoplasm"
+      ],
+      "membrane_spans": 1
+    },
+    "KLB": {
+      "accession": "Q86Z14",
+      "entry": "KLOTB_HUMAN",
+      "features": {
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": false,
+      "keywords": [
+        "3D-structure",
+        "Cell membrane",
+        "Glycoprotein",
+        "Membrane",
+        "Proteomics identification",
+        "Reference proteome",
+        "Repeat",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane"
+      ],
+      "membrane_spans": 1
+    },
+    "KLKB1": {
+      "accession": "P03952",
+      "entry": "KLKB1_HUMAN",
+      "features": {
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Blood coagulation",
+        "Direct protein sequencing",
+        "Disease variant",
+        "Disulfide bond",
+        "Fibrinolysis",
+        "Glycoprotein",
+        "Hemostasis",
+        "Hydrolase",
+        "Inflammatory response",
+        "Protease",
+        "Proteomics identification",
+        "Reference proteome",
+        "Repeat",
+        "Secreted",
+        "Serine protease",
+        "Signal",
+        "Zymogen"
+      ],
+      "locations": [
+        "Secreted"
+      ],
+      "membrane_spans": 0
+    },
+    "LAG3": {
+      "accession": "P18627",
+      "entry": "LAG3_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Adaptive immunity",
+        "Alternative splicing",
+        "Cell membrane",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Immunity",
+        "Immunoglobulin domain",
+        "Isopeptide bond",
+        "Membrane",
+        "Proteomics identification",
+        "Reference proteome",
+        "Repeat",
+        "Secreted",
+        "Signal",
+        "Transmembrane",
+        "Transmembrane helix",
+        "Ubl conjugation"
+      ],
+      "locations": [
+        "Cell membrane",
+        "Secreted"
+      ],
+      "membrane_spans": 1
+    },
+    "LEPR": {
+      "accession": "P48357",
+      "entry": "LEPR_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Cell membrane",
+        "Direct protein sequencing",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Immunoglobulin domain",
+        "Membrane",
+        "Obesity",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Receptor",
+        "Reference proteome",
+        "Repeat",
+        "Secreted",
+        "Signal",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane",
+        "Basolateral cell membrane",
+        "Secreted"
+      ],
+      "membrane_spans": 1
+    },
+    "MADCAM1": {
+      "accession": "Q13477",
+      "entry": "MADCA_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Cell adhesion",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Immunoglobulin domain",
+        "Membrane",
+        "Proteomics identification",
+        "Reference proteome",
+        "Repeat",
+        "Signal",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Membrane"
+      ],
+      "membrane_spans": 1
+    },
+    "MAPT": {
+      "accession": "P10636",
+      "entry": "TAU_HUMAN",
+      "features": {},
+      "has_signal_peptide": false,
+      "keywords": [
+        "3D-structure",
+        "Acetylation",
+        "Alternative splicing",
+        "Alzheimer disease",
+        "Cell membrane",
+        "Cell projection",
+        "Cytoplasm",
+        "Cytoskeleton",
+        "Direct protein sequencing",
+        "Disease variant",
+        "Disulfide bond",
+        "Glycation",
+        "Glycoprotein",
+        "Isopeptide bond",
+        "Membrane",
+        "Methylation",
+        "Microtubule",
+        "Neurodegeneration",
+        "Parkinsonism",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Reference proteome",
+        "Repeat",
+        "Secreted",
+        "Ubl conjugation"
+      ],
+      "locations": [
+        "Cytoplasm, cytosol",
+        "Cell membrane",
+        "Cytoplasm, cytoskeleton",
+        "Cell projection, axon",
+        "Cell projection, dendrite",
+        "Secreted"
+      ],
+      "membrane_spans": 0
+    },
+    "MASP2": {
+      "accession": "O00187",
+      "entry": "MASP2_HUMAN",
+      "features": {
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Autocatalytic cleavage",
+        "Calcium",
+        "Complement pathway",
+        "Direct protein sequencing",
+        "Disease variant",
+        "Disulfide bond",
+        "EGF-like domain",
+        "Hydrolase",
+        "Hydroxylation",
+        "Immunity",
+        "Innate immunity",
+        "Metal-binding",
+        "Protease",
+        "Proteomics identification",
+        "Reference proteome",
+        "Repeat",
+        "Secreted",
+        "Serine protease",
+        "Signal",
+        "Sushi"
+      ],
+      "locations": [
+        "Secreted",
+        "Cell surface"
+      ],
+      "membrane_spans": 0
+    },
+    "MET": {
+      "accession": "P08581",
+      "entry": "MET_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "ATP-binding",
+        "Alternative splicing",
+        "Chromosomal rearrangement",
+        "Deafness",
+        "Disease variant",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Kinase",
+        "Membrane",
+        "Non-syndromic deafness",
+        "Nucleotide-binding",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Proto-oncogene",
+        "Receptor",
+        "Reference proteome",
+        "Repeat",
+        "Secreted",
+        "Signal",
+        "Transferase",
+        "Transmembrane",
+        "Transmembrane helix",
+        "Tyrosine-protein kinase",
+        "Ubl conjugation"
+      ],
+      "locations": [
+        "Membrane",
+        "Secreted"
+      ],
+      "membrane_spans": 1
+    },
+    "MS4A1": {
+      "accession": "P11836",
+      "entry": "CD20_HUMAN",
+      "features": {
+        "Lipidation": 2,
+        "Topological domain": 5,
+        "Transmembrane": 4
+      },
+      "has_signal_peptide": false,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "B-cell activation",
+        "Cell membrane",
+        "Disulfide bond",
+        "Lipoprotein",
+        "Membrane",
+        "Palmitate",
+        "Pharmaceutical",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Reference proteome",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane"
+      ],
+      "membrane_spans": 4
+    },
+    "MSLN": {
+      "accession": "Q13421",
+      "entry": "MSLN_HUMAN",
+      "features": {
+        "Lipidation": 1,
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Cell adhesion",
+        "Cell membrane",
+        "Cleavage on pair of basic residues",
+        "Direct protein sequencing",
+        "Disulfide bond",
+        "GPI-anchor",
+        "Glycoprotein",
+        "Golgi apparatus",
+        "Lipoprotein",
+        "Membrane",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Reference proteome",
+        "Secreted",
+        "Signal"
+      ],
+      "locations": [
+        "Cell membrane",
+        "Golgi apparatus",
+        "Secreted"
+      ],
+      "membrane_spans": 0
+    },
+    "MSTN": {
+      "accession": "O14793",
+      "entry": "GDF8_HUMAN",
+      "features": {
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Cleavage on pair of basic residues",
+        "Cytokine",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Growth factor",
+        "Heparin-binding",
+        "Proteomics identification",
+        "Reference proteome",
+        "Secreted",
+        "Signal"
+      ],
+      "locations": [
+        "Secreted"
+      ],
+      "membrane_spans": 0
+    },
+    "NECTIN4": {
+      "accession": "Q96NY8",
+      "entry": "NECT4_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Cell adhesion",
+        "Cell junction",
+        "Cell membrane",
+        "Disease variant",
+        "Disulfide bond",
+        "Ectodermal dysplasia",
+        "Glycoprotein",
+        "Host cell receptor for virus entry",
+        "Host-virus interaction",
+        "Immunoglobulin domain",
+        "Membrane",
+        "Proteomics identification",
+        "Receptor",
+        "Reference proteome",
+        "Repeat",
+        "Secreted",
+        "Signal",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane",
+        "Cell junction, adherens junction",
+        "Secreted"
+      ],
+      "membrane_spans": 1
+    },
+    "NGF": {
+      "accession": "P01138",
+      "entry": "NGF_HUMAN",
+      "features": {
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Cleavage on pair of basic residues",
+        "Disease variant",
+        "Disulfide bond",
+        "Endosome",
+        "Glycoprotein",
+        "Growth factor",
+        "Lipid-binding",
+        "Metalloenzyme inhibitor",
+        "Metalloprotease inhibitor",
+        "Neurodegeneration",
+        "Neuropathy",
+        "Protease inhibitor",
+        "Proteomics identification",
+        "Reference proteome",
+        "Secreted",
+        "Signal"
+      ],
+      "locations": [
+        "Secreted",
+        "Endosome lumen"
+      ],
+      "membrane_spans": 0
+    },
+    "NT5E": {
+      "accession": "P21589",
+      "entry": "5NTD_HUMAN",
+      "features": {
+        "Lipidation": 1,
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Cell membrane",
+        "Direct protein sequencing",
+        "Disease variant",
+        "Disulfide bond",
+        "GPI-anchor",
+        "Glycoprotein",
+        "Hydrolase",
+        "Lipoprotein",
+        "Membrane",
+        "Metal-binding",
+        "Nucleotide-binding",
+        "Proteomics identification",
+        "Reference proteome",
+        "Signal",
+        "Zinc"
+      ],
+      "locations": [
+        "Cell membrane"
+      ],
+      "membrane_spans": 0
+    },
+    "PCSK9": {
+      "accession": "Q8NBP7",
+      "entry": "PCSK9_HUMAN",
+      "features": {
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Apoptosis",
+        "Autocatalytic cleavage",
+        "Calcium",
+        "Cholesterol metabolism",
+        "Cytoplasm",
+        "Direct protein sequencing",
+        "Disease variant",
+        "Disulfide bond",
+        "Endoplasmic reticulum",
+        "Endosome",
+        "Glycoprotein",
+        "Golgi apparatus",
+        "Hydrolase",
+        "Lipid metabolism",
+        "Lysosome",
+        "Phosphoprotein",
+        "Protease",
+        "Proteomics identification",
+        "Reference proteome",
+        "Secreted",
+        "Serine protease",
+        "Signal",
+        "Steroid metabolism",
+        "Sterol metabolism",
+        "Sulfation",
+        "Zymogen"
+      ],
+      "locations": [
+        "Cytoplasm",
+        "Secreted",
+        "Endosome",
+        "Lysosome",
+        "Cell surface",
+        "Endoplasmic reticulum",
+        "Golgi apparatus"
+      ],
+      "membrane_spans": 0
+    },
+    "PDCD1": {
+      "accession": "Q15116",
+      "entry": "PDCD1_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Adaptive immunity",
+        "Apoptosis",
+        "Cell membrane",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Immunity",
+        "Immunoglobulin domain",
+        "Isopeptide bond",
+        "Membrane",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Reference proteome",
+        "Signal",
+        "Transmembrane",
+        "Transmembrane helix",
+        "Ubl conjugation"
+      ],
+      "locations": [
+        "Cell membrane"
+      ],
+      "membrane_spans": 1
+    },
+    "S": {
+      "accession": "P0DTC2",
+      "entry": "SPIKE_SARS2",
+      "features": {
+        "Lipidation": 10,
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Coiled coil",
+        "Disulfide bond",
+        "Fusion of virus membrane with host endosomal membrane",
+        "Fusion of virus membrane with host membrane",
+        "Glycoprotein",
+        "Host cell membrane",
+        "Host membrane",
+        "Host-virus interaction",
+        "Inhibition of host innate immune response by virus",
+        "Inhibition of host tetherin by virus",
+        "Lipoprotein",
+        "Membrane",
+        "Palmitate",
+        "Reference proteome",
+        "Signal",
+        "Superantigen",
+        "Transmembrane",
+        "Transmembrane helix",
+        "Viral attachment to host cell",
+        "Viral envelope protein",
+        "Viral immunoevasion",
+        "Viral penetration into host cytoplasm",
+        "Virion",
+        "Virulence",
+        "Virus entry into host cell"
+      ],
+      "locations": [
+        "Virion membrane",
+        "Host endoplasmic reticulum-Golgi intermediate compartment membrane",
+        "Host cell membrane"
+      ],
+      "membrane_spans": 1
+    },
+    "SELP": {
+      "accession": "P16109",
+      "entry": "LYAM3_HUMAN",
+      "features": {
+        "Lipidation": 2,
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Calcium",
+        "Cell adhesion",
+        "Cell membrane",
+        "Disulfide bond",
+        "EGF-like domain",
+        "Glycoprotein",
+        "Lectin",
+        "Lipoprotein",
+        "Membrane",
+        "Metal-binding",
+        "Palmitate",
+        "Proteomics identification",
+        "Reference proteome",
+        "Repeat",
+        "Signal",
+        "Sushi",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane"
+      ],
+      "membrane_spans": 1
+    },
+    "SIGLEC8": {
+      "accession": "Q9NYZ4",
+      "entry": "SIGL8_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Cell adhesion",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Immunoglobulin domain",
+        "Lectin",
+        "Membrane",
+        "Proteomics identification",
+        "Reference proteome",
+        "Repeat",
+        "Signal",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Membrane"
+      ],
+      "membrane_spans": 1
+    },
+    "SNCA": {
+      "accession": "P37840",
+      "entry": "SYUA_HUMAN",
+      "features": {},
+      "has_signal_peptide": false,
+      "keywords": [
+        "3D-structure",
+        "Acetylation",
+        "Alternative splicing",
+        "Alzheimer disease",
+        "Amyloid",
+        "Cell projection",
+        "Copper",
+        "Cytoplasm",
+        "Direct protein sequencing",
+        "Disease variant",
+        "Membrane",
+        "Metal-binding",
+        "Neurodegeneration",
+        "Nucleus",
+        "Parkinson disease",
+        "Parkinsonism",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Reference proteome",
+        "Repeat",
+        "Secreted",
+        "Synapse",
+        "Ubl conjugation"
+      ],
+      "locations": [
+        "Cytoplasm",
+        "Membrane",
+        "Nucleus",
+        "Synapse",
+        "Secreted",
+        "Cell projection, axon"
+      ],
+      "membrane_spans": 0
+    },
+    "SOD1": {
+      "accession": "P00441",
+      "entry": "SODC_HUMAN",
+      "features": {
+        "Lipidation": 1
+      },
+      "has_signal_peptide": false,
+      "keywords": [
+        "3D-structure",
+        "Acetylation",
+        "Amyotrophic lateral sclerosis",
+        "Antioxidant",
+        "Copper",
+        "Cytoplasm",
+        "Direct protein sequencing",
+        "Disease variant",
+        "Disulfide bond",
+        "Lipoprotein",
+        "Metal-binding",
+        "Neurodegeneration",
+        "Nucleus",
+        "Oxidoreductase",
+        "Palmitate",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Reference proteome",
+        "Ubl conjugation",
+        "Zinc"
+      ],
+      "locations": [
+        "Cytoplasm",
+        "Nucleus"
+      ],
+      "membrane_spans": 0
+    },
+    "SOST": {
+      "accession": "Q9BQB4",
+      "entry": "SOST_HUMAN",
+      "features": {
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Direct protein sequencing",
+        "Disease variant",
+        "Disulfide bond",
+        "Extracellular matrix",
+        "Glycoprotein",
+        "Heparin-binding",
+        "Proteomics identification",
+        "Reference proteome",
+        "Secreted",
+        "Signal",
+        "Wnt signaling pathway"
+      ],
+      "locations": [
+        "Secreted, extracellular space, extracellular matrix"
+      ],
+      "membrane_spans": 0
+    },
+    "TACSTD2": {
+      "accession": "P09758",
+      "entry": "TACD2_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Amyloid",
+        "Amyloidosis",
+        "Corneal dystrophy",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Membrane",
+        "Proteomics identification",
+        "Reference proteome",
+        "Sensory transduction",
+        "Signal",
+        "Transmembrane",
+        "Transmembrane helix",
+        "Tumor antigen",
+        "Vision"
+      ],
+      "locations": [
+        "Membrane"
+      ],
+      "membrane_spans": 1
+    },
+    "TCDB": {
+      "accession": "P18177",
+      "entry": "TCDB_CLODI",
+      "features": {},
+      "has_signal_peptide": false,
+      "keywords": [
+        "3D-structure",
+        "Autocatalytic cleavage",
+        "Direct protein sequencing",
+        "Enterotoxin",
+        "Glycosyltransferase",
+        "Host cell membrane",
+        "Host cytoplasm",
+        "Host endosome",
+        "Host membrane",
+        "Hydrolase",
+        "Lipid-binding",
+        "Magnesium",
+        "Manganese",
+        "Membrane",
+        "Metal-binding",
+        "Protease",
+        "Repeat",
+        "Secreted",
+        "Thiol protease",
+        "Toxin",
+        "Transferase",
+        "Virulence",
+        "Zinc"
+      ],
+      "locations": [
+        "Secreted",
+        "Host endosome membrane",
+        "Host cytoplasm, host cytosol",
+        "Host cell membrane"
+      ],
+      "membrane_spans": 0
+    },
+    "TFPI": {
+      "accession": "P10646",
+      "entry": "TFPI1_HUMAN",
+      "features": {
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Blood coagulation",
+        "Direct protein sequencing",
+        "Disulfide bond",
+        "Endoplasmic reticulum",
+        "GPI-anchor",
+        "Glycoprotein",
+        "Hemostasis",
+        "Lipoprotein",
+        "Membrane",
+        "Microsome",
+        "Protease inhibitor",
+        "Proteomics identification",
+        "Reference proteome",
+        "Repeat",
+        "Secreted",
+        "Serine protease inhibitor",
+        "Signal"
+      ],
+      "locations": [
+        "Secreted",
+        "Microsome membrane"
+      ],
+      "membrane_spans": 0
+    },
+    "TGFB1": {
+      "accession": "P01137",
+      "entry": "TGFB1_HUMAN",
+      "features": {
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Cleavage on pair of basic residues",
+        "Direct protein sequencing",
+        "Disease variant",
+        "Disulfide bond",
+        "Extracellular matrix",
+        "Glycoprotein",
+        "Growth factor",
+        "Mitogen",
+        "Proteomics identification",
+        "Reference proteome",
+        "Secreted",
+        "Signal"
+      ],
+      "locations": [
+        "Secreted, extracellular space, extracellular matrix",
+        "Secreted"
+      ],
+      "membrane_spans": 0
+    },
+    "TIGIT": {
+      "accession": "Q495A1",
+      "entry": "TIGIT_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Cell membrane",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Immunoglobulin domain",
+        "Membrane",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Reference proteome",
+        "Signal",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane"
+      ],
+      "membrane_spans": 1
+    },
+    "TNF": {
+      "accession": "P01375",
+      "entry": "TNFA_HUMAN",
+      "features": {
+        "Lipidation": 2,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": false,
+      "keywords": [
+        "3D-structure",
+        "Cell membrane",
+        "Cytokine",
+        "Direct protein sequencing",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Lipoprotein",
+        "Membrane",
+        "Myristate",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Reference proteome",
+        "Secreted",
+        "Signal-anchor",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane",
+        "Membrane",
+        "Secreted"
+      ],
+      "membrane_spans": 1
+    },
+    "TNFRSF17": {
+      "accession": "Q02223",
+      "entry": "TNR17_HUMAN",
+      "features": {
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": false,
+      "keywords": [
+        "3D-structure",
+        "Adaptive immunity",
+        "Alternative splicing",
+        "Cell membrane",
+        "Chromosomal rearrangement",
+        "Disulfide bond",
+        "Immunity",
+        "Membrane",
+        "Proteomics identification",
+        "Proto-oncogene",
+        "Receptor",
+        "Reference proteome",
+        "Signal-anchor",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane",
+        "Endomembrane system"
+      ],
+      "membrane_spans": 1
+    },
+    "TNFRSF4": {
+      "accession": "P43489",
+      "entry": "TNR4_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Disease variant",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Host cell receptor for virus entry",
+        "Host-virus interaction",
+        "Membrane",
+        "Proteomics identification",
+        "Receptor",
+        "Reference proteome",
+        "Repeat",
+        "Signal",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Membrane"
+      ],
+      "membrane_spans": 1
+    },
+    "TNFSF11": {
+      "accession": "O14788",
+      "entry": "TNF11_HUMAN",
+      "features": {
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": false,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Cell membrane",
+        "Cytokine",
+        "Cytoplasm",
+        "Developmental protein",
+        "Differentiation",
+        "Disease variant",
+        "Glycoprotein",
+        "Membrane",
+        "Osteopetrosis",
+        "Proteomics identification",
+        "Receptor",
+        "Reference proteome",
+        "Secreted",
+        "Signal-anchor",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane",
+        "Cytoplasm",
+        "Secreted"
+      ],
+      "membrane_spans": 1
+    },
+    "TNFSF13B": {
+      "accession": "Q9Y275",
+      "entry": "TN13B_HUMAN",
+      "features": {
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": false,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Cell membrane",
+        "Cleavage on pair of basic residues",
+        "Cytokine",
+        "Direct protein sequencing",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Immunity",
+        "Membrane",
+        "Proteomics identification",
+        "Reference proteome",
+        "Secreted",
+        "Signal-anchor",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane",
+        "Secreted"
+      ],
+      "membrane_spans": 1
+    },
+    "TREM2": {
+      "accession": "Q9NZC2",
+      "entry": "TREM2_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Alzheimer disease",
+        "Amyloidosis",
+        "Cell membrane",
+        "Disease variant",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Immunoglobulin domain",
+        "Lipid-binding",
+        "Membrane",
+        "Neurodegeneration",
+        "Proteomics identification",
+        "Receptor",
+        "Reference proteome",
+        "Secreted",
+        "Signal",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane",
+        "Secreted"
+      ],
+      "membrane_spans": 1
+    },
+    "TSLP": {
+      "accession": "Q969D9",
+      "entry": "TSLP_HUMAN",
+      "features": {
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Cytokine",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Proteomics identification",
+        "Reference proteome",
+        "Secreted",
+        "Signal"
+      ],
+      "locations": [
+        "Secreted"
+      ],
+      "membrane_spans": 0
+    },
+    "VEGFA": {
+      "accession": "P15692",
+      "entry": "VEGFA_HUMAN",
+      "features": {},
+      "has_signal_peptide": false,
+      "keywords": [
+        "3D-structure",
+        "Alternative initiation",
+        "Alternative promoter usage",
+        "Alternative splicing",
+        "Angiogenesis",
+        "Cytoplasm",
+        "Developmental protein",
+        "Differentiation",
+        "Direct protein sequencing",
+        "Disulfide bond",
+        "Endoplasmic reticulum",
+        "Extracellular matrix",
+        "Glycoprotein",
+        "Golgi apparatus",
+        "Growth factor",
+        "Heparin-binding",
+        "Mitogen",
+        "Nucleus",
+        "Proteomics identification",
+        "Reference proteome",
+        "Secreted"
+      ],
+      "locations": [
+        "Cytoplasm",
+        "Nucleus",
+        "Secreted",
+        "Endoplasmic reticulum",
+        "Golgi apparatus",
+        "Secreted, extracellular space, extracellular matrix"
+      ],
+      "membrane_spans": 0
+    },
+    "VSIR": {
+      "accession": "Q9H7M9",
+      "entry": "VISTA_HUMAN",
+      "features": {
+        "Signal": 1,
+        "Topological domain": 2,
+        "Transmembrane": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Cell membrane",
+        "Direct protein sequencing",
+        "Disulfide bond",
+        "Glycoprotein",
+        "Immunoglobulin domain",
+        "Membrane",
+        "Phosphoprotein",
+        "Proteomics identification",
+        "Receptor",
+        "Reference proteome",
+        "Signal",
+        "Transmembrane",
+        "Transmembrane helix"
+      ],
+      "locations": [
+        "Cell membrane"
+      ],
+      "membrane_spans": 1
+    },
+    "VWF": {
+      "accession": "P04275",
+      "entry": "VWF_HUMAN",
+      "features": {
+        "Signal": 1
+      },
+      "has_signal_peptide": true,
+      "keywords": [
+        "3D-structure",
+        "Alternative splicing",
+        "Blood coagulation",
+        "Cell adhesion",
+        "Cleavage on pair of basic residues",
+        "Direct protein sequencing",
+        "Disease variant",
+        "Disulfide bond",
+        "Extracellular matrix",
+        "Glycoprotein",
+        "Hemostasis",
+        "Proteomics identification",
+        "Reference proteome",
+        "Repeat",
+        "Secreted",
+        "Signal",
+        "von Willebrand disease"
+      ],
+      "locations": [
+        "Secreted",
+        "Secreted, extracellular space, extracellular matrix"
+      ],
+      "membrane_spans": 0
+    }
+  },
+  "fetched": "2026-11-09",
+  "fields": "accession,id,protein_name,cc_subcellular_location,ft_signal,ft_transmem,ft_topo_dom,ft_lipid,keyword",
+  "note": "Evidence only. The rule that turns this into a topology verdict lives in plab.lineage.classify_topology, so it can be read and tested rather than trusted.",
+  "source": "UniProtKB (uniprot.org), REST entry API",
+  "unresolved": {}
+}

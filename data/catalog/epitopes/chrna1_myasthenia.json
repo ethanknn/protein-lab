@@ -1,0 +1,246 @@
+{
+  "pdb_id": "9DMS",
+  "title": "HUMAN MUSCLE NACHR WITH FAB6-BOUND",
+  "resolution": 1.92,
+  "target_chain": "A",
+  "binder_chains": [
+    "F",
+    "G"
+  ],
+  "chain_roles": {
+    "A": "target",
+    "C": "target",
+    "E": "partner",
+    "D": "partner",
+    "B": "partner",
+    "F": "antibody_heavy",
+    "G": "antibody_light"
+  },
+  "epitope": [
+    {
+      "chain": "A",
+      "resseq": 2,
+      "icode": "",
+      "resname": "GLU",
+      "aa": "E",
+      "label": "A:E2",
+      "centroid": [
+        161.185,
+        180.514,
+        234.126
+      ],
+      "min_distance_to_binder": 3.712
+    },
+    {
+      "chain": "A",
+      "resseq": 5,
+      "icode": "",
+      "resname": "THR",
+      "aa": "T",
+      "label": "A:T5",
+      "centroid": [
+        165.912,
+        180.02,
+        231.708
+      ],
+      "min_distance_to_binder": 3.532
+    },
+    {
+      "chain": "A",
+      "resseq": 6,
+      "icode": "",
+      "resname": "ARG",
+      "aa": "R",
+      "label": "A:R6",
+      "centroid": [
+        164.899,
+        175.737,
+        236.609
+      ],
+      "min_distance_to_binder": 2.82
+    },
+    {
+      "chain": "A",
+      "resseq": 9,
+      "icode": "",
+      "resname": "ALA",
+      "aa": "A",
+      "label": "A:A9",
+      "centroid": [
+        171.196,
+        177.369,
+        233.712
+      ],
+      "min_distance_to_binder": 3.801
+    },
+    {
+      "chain": "A",
+      "resseq": 10,
+      "icode": "",
+      "resname": "LYS",
+      "aa": "K",
+      "label": "A:K10",
+      "centroid": [
+        169.815,
+        173.193,
+        237.026
+      ],
+      "min_distance_to_binder": 2.74
+    },
+    {
+      "chain": "A",
+      "resseq": 13,
+      "icode": "",
+      "resname": "LYS",
+      "aa": "K",
+      "label": "A:K13",
+      "centroid": [
+        177.243,
+        174.2,
+        237.784
+      ],
+      "min_distance_to_binder": 3.419
+    },
+    {
+      "chain": "A",
+      "resseq": 14,
+      "icode": "",
+      "resname": "ASP",
+      "aa": "D",
+      "label": "A:D14",
+      "centroid": [
+        179.908,
+        171.149,
+        236.106
+      ],
+      "min_distance_to_binder": 3.468
+    }
+  ],
+  "paratope_sequence": "LTFNIDSLYDDPS",
+  "epitope_sequence": "ETRAKKD",
+  "descriptors": {
+    "n_residue_contacts": 18,
+    "n_salt_bridges": 3,
+    "n_hydrophobic_contacts": 2,
+    "epitope_radius_of_gyration": 7.44,
+    "n_epitope_residues": 7,
+    "n_paratope_residues": 13
+  },
+  "contacts": [
+    {
+      "target": "A:T5",
+      "binder": "F:F134",
+      "min_distance": 3.532,
+      "atom_pairs": 3
+    },
+    {
+      "target": "A:K13",
+      "binder": "F:L131",
+      "min_distance": 3.705,
+      "atom_pairs": 5
+    },
+    {
+      "target": "A:E2",
+      "binder": "F:N138",
+      "min_distance": 3.712,
+      "atom_pairs": 5
+    },
+    {
+      "target": "A:A9",
+      "binder": "F:T132",
+      "min_distance": 3.801,
+      "atom_pairs": 1
+    },
+    {
+      "target": "A:K10",
+      "binder": "F:I139",
+      "min_distance": 3.807,
+      "atom_pairs": 3
+    },
+    {
+      "target": "A:A9",
+      "binder": "F:L131",
+      "min_distance": 3.856,
+      "atom_pairs": 5
+    },
+    {
+      "target": "A:R6",
+      "binder": "F:I139",
+      "min_distance": 3.907,
+      "atom_pairs": 3
+    },
+    {
+      "target": "A:A9",
+      "binder": "F:I139",
+      "min_distance": 3.969,
+      "atom_pairs": 2
+    },
+    {
+      "target": "A:K13",
+      "binder": "F:D143",
+      "min_distance": 4.235,
+      "atom_pairs": 2
+    },
+    {
+      "target": "A:K10",
+      "binder": "G:D68",
+      "min_distance": 2.74,
+      "atom_pairs": 9
+    },
+    {
+      "target": "A:R6",
+      "binder": "G:D68",
+      "min_distance": 2.82,
+      "atom_pairs": 13
+    },
+    {
+      "target": "A:K10",
+      "binder": "G:D71",
+      "min_distance": 3.175,
+      "atom_pairs": 7
+    },
+    {
+      "target": "A:K13",
+      "binder": "G:Y67",
+      "min_distance": 3.419,
+      "atom_pairs": 11
+    },
+    {
+      "target": "A:D14",
+      "binder": "G:S74",
+      "min_distance": 3.468,
+      "atom_pairs": 9
+    },
+    {
+      "target": "A:K13",
+      "binder": "G:P73",
+      "min_distance": 3.624,
+      "atom_pairs": 5
+    },
+    {
+      "target": "A:K10",
+      "binder": "G:Y67",
+      "min_distance": 3.951,
+      "atom_pairs": 6
+    },
+    {
+      "target": "A:K13",
+      "binder": "G:L64",
+      "min_distance": 3.99,
+      "atom_pairs": 2
+    },
+    {
+      "target": "A:R6",
+      "binder": "G:S50",
+      "min_distance": 4.09,
+      "atom_pairs": 1
+    }
+  ],
+  "binder_kind": "antibody",
+  "target_identity": 1.0,
+  "target_coverage": 1.0,
+  "identity_method": "aligned",
+  "warnings": [
+    "the interface is 7 residues, which is small: a typical antibody epitope covers 15-25. There is little surface here for a designed binder to grip, and the scores have correspondingly less to discriminate on"
+  ]
+}

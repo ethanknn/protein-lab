@@ -1,0 +1,276 @@
+{
+  "pdb_id": "6CO3",
+  "title": "ADUCANUMAB ABETA COMPLEX",
+  "resolution": 2.38,
+  "target_chain": "Q",
+  "binder_chains": [
+    "H",
+    "L"
+  ],
+  "chain_roles": {
+    "L": "antibody_light",
+    "H": "antibody_heavy",
+    "Q": "target"
+  },
+  "epitope": [
+    {
+      "chain": "Q",
+      "resseq": 2,
+      "icode": "",
+      "resname": "ALA",
+      "aa": "A",
+      "label": "Q:A2",
+      "centroid": [
+        3.884,
+        49.387,
+        -18.662
+      ],
+      "min_distance_to_binder": 3.335
+    },
+    {
+      "chain": "Q",
+      "resseq": 3,
+      "icode": "",
+      "resname": "GLU",
+      "aa": "E",
+      "label": "Q:E3",
+      "centroid": [
+        6.792,
+        47.68,
+        -16.869
+      ],
+      "min_distance_to_binder": 2.882
+    },
+    {
+      "chain": "Q",
+      "resseq": 4,
+      "icode": "",
+      "resname": "PHE",
+      "aa": "F",
+      "label": "Q:F4",
+      "centroid": [
+        4.352,
+        45.954,
+        -11.081
+      ],
+      "min_distance_to_binder": 2.811
+    },
+    {
+      "chain": "Q",
+      "resseq": 5,
+      "icode": "",
+      "resname": "ARG",
+      "aa": "R",
+      "label": "Q:R5",
+      "centroid": [
+        8.001,
+        50.565,
+        -9.997
+      ],
+      "min_distance_to_binder": 2.602
+    },
+    {
+      "chain": "Q",
+      "resseq": 6,
+      "icode": "",
+      "resname": "HIS",
+      "aa": "H",
+      "label": "Q:H6",
+      "centroid": [
+        5.962,
+        46.418,
+        -5.673
+      ],
+      "min_distance_to_binder": 2.74
+    },
+    {
+      "chain": "Q",
+      "resseq": 7,
+      "icode": "",
+      "resname": "ASP",
+      "aa": "D",
+      "label": "Q:D7",
+      "centroid": [
+        4.912,
+        50.676,
+        -3.621
+      ],
+      "min_distance_to_binder": 3.674
+    }
+  ],
+  "paratope_sequence": "WKYKIRGPYSYSTP",
+  "epitope_sequence": "AEFRHD",
+  "descriptors": {
+    "n_residue_contacts": 26,
+    "n_salt_bridges": 2,
+    "n_hydrophobic_contacts": 4,
+    "epitope_radius_of_gyration": 5.991,
+    "n_epitope_residues": 6,
+    "n_paratope_residues": 14
+  },
+  "contacts": [
+    {
+      "target": "Q:R5",
+      "binder": "H:R105",
+      "min_distance": 2.602,
+      "atom_pairs": 4
+    },
+    {
+      "target": "Q:H6",
+      "binder": "H:P108",
+      "min_distance": 2.74,
+      "atom_pairs": 8
+    },
+    {
+      "target": "Q:A2",
+      "binder": "H:Y59",
+      "min_distance": 3.335,
+      "atom_pairs": 4
+    },
+    {
+      "target": "Q:H6",
+      "binder": "H:I102",
+      "min_distance": 3.362,
+      "atom_pairs": 6
+    },
+    {
+      "target": "Q:F4",
+      "binder": "H:R105",
+      "min_distance": 3.436,
+      "atom_pairs": 14
+    },
+    {
+      "target": "Q:F4",
+      "binder": "H:Y59",
+      "min_distance": 3.494,
+      "atom_pairs": 16
+    },
+    {
+      "target": "Q:F4",
+      "binder": "H:W52",
+      "min_distance": 3.579,
+      "atom_pairs": 10
+    },
+    {
+      "target": "Q:F4",
+      "binder": "H:G107",
+      "min_distance": 3.669,
+      "atom_pairs": 4
+    },
+    {
+      "target": "Q:E3",
+      "binder": "H:K65",
+      "min_distance": 3.717,
+      "atom_pairs": 2
+    },
+    {
+      "target": "Q:H6",
+      "binder": "H:G107",
+      "min_distance": 3.731,
+      "atom_pairs": 7
+    },
+    {
+      "target": "Q:D7",
+      "binder": "H:R105",
+      "min_distance": 3.94,
+      "atom_pairs": 1
+    },
+    {
+      "target": "Q:E3",
+      "binder": "H:Y59",
+      "min_distance": 4.052,
+      "atom_pairs": 4
+    },
+    {
+      "target": "Q:H6",
+      "binder": "H:R105",
+      "min_distance": 4.087,
+      "atom_pairs": 3
+    },
+    {
+      "target": "Q:F4",
+      "binder": "H:P108",
+      "min_distance": 4.089,
+      "atom_pairs": 2
+    },
+    {
+      "target": "Q:F4",
+      "binder": "H:K57",
+      "min_distance": 4.197,
+      "atom_pairs": 3
+    },
+    {
+      "target": "Q:F4",
+      "binder": "L:T94",
+      "min_distance": 2.811,
+      "atom_pairs": 14
+    },
+    {
+      "target": "Q:E3",
+      "binder": "L:T94",
+      "min_distance": 2.882,
+      "atom_pairs": 17
+    },
+    {
+      "target": "Q:H6",
+      "binder": "L:Y92",
+      "min_distance": 3.008,
+      "atom_pairs": 17
+    },
+    {
+      "target": "Q:H6",
+      "binder": "L:S91",
+      "min_distance": 3.135,
+      "atom_pairs": 4
+    },
+    {
+      "target": "Q:F4",
+      "binder": "L:S93",
+      "min_distance": 3.158,
+      "atom_pairs": 6
+    },
+    {
+      "target": "Q:R5",
+      "binder": "L:Y92",
+      "min_distance": 3.203,
+      "atom_pairs": 14
+    },
+    {
+      "target": "Q:H6",
+      "binder": "L:Y32",
+      "min_distance": 3.535,
+      "atom_pairs": 21
+    },
+    {
+      "target": "Q:D7",
+      "binder": "L:Y32",
+      "min_distance": 3.674,
+      "atom_pairs": 5
+    },
+    {
+      "target": "Q:R5",
+      "binder": "L:S93",
+      "min_distance": 3.89,
+      "atom_pairs": 5
+    },
+    {
+      "target": "Q:E3",
+      "binder": "L:P95",
+      "min_distance": 4.109,
+      "atom_pairs": 2
+    },
+    {
+      "target": "Q:F4",
+      "binder": "L:Y92",
+      "min_distance": 4.265,
+      "atom_pairs": 1
+    }
+  ],
+  "binder_kind": "antibody",
+  "target_identity": 1.0,
+  "target_coverage": 1.0,
+  "identity_method": "aligned",
+  "warnings": [
+    "the interface is 6 residues, which is small: a typical antibody epitope covers 15-25. There is little surface here for a designed binder to grip, and the scores have correspondingly less to discriminate on"
+  ]
+}

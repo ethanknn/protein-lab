@@ -1,0 +1,123 @@
+{
+  "pdb": {
+    "8W8T": {
+      "id": "8W8T",
+      "files": {
+        "pdb": "8W8T.pdb",
+        "cif": "8W8T.cif"
+      },
+      "title": "Human CLEC12A carbohydrate-recognition domain (apo)",
+      "role": "target_apo",
+      "note": "Unliganded CLEC12A CRD. Used as the design target surface."
+    },
+    "8W9J": {
+      "id": "8W9J",
+      "files": {
+        "pdb": "8W9J.pdb",
+        "cif": "8W9J.cif"
+      },
+      "title": "Human CLEC12A ectodomain complexed with 50C1 Fab",
+      "role": "reference_complex",
+      "note": "CLEC12A bound to the validated inhibitory antibody 50C1 at 3.5 A. Used to derive the real epitope and as the benchmark binder."
+    },
+    "8W9H": {
+      "id": "8W9H",
+      "files": {
+        "pdb": "8W9H.pdb",
+        "cif": "8W9H.cif"
+      },
+      "title": "Anti-human CLEC12A antibody 50C1 Fab (unbound)",
+      "role": "reference_binder_apo",
+      "note": "50C1 Fab alone at 2.0 A. Higher-resolution source for CDR geometry."
+    },
+    "1Q2N": {
+      "id": "1Q2N",
+      "files": {
+        "pdb": "1Q2N.pdb",
+        "cif": "1Q2N.cif"
+      },
+      "title": "Z domain of staphylococcal protein A (NMR)",
+      "role": "scaffold_template",
+      "note": "The three-helix bundle used as the binder scaffold. Real coordinates, so designed candidates are displayed on a genuine fold rather than an idealised cartoon."
+    }
+  },
+  "uniprot": {
+    "Q5QGZ9": {
+      "accession": "Q5QGZ9",
+      "header": ">sp|Q5QGZ9|CL12A_HUMAN C-type lectin domain family 12 member A OS=Homo sapiens OX=9606 GN=CLEC12A PE=1 SV=3",
+      "sequence": "MSEEVTYADLQFQNSSEMEKIPEIGKFGEKAPPAPSHVWRPAALFLTLLCLLLLIGLGVLASMFHVTLKIEMKKMNKLQNISEELQRNISLQLMSNMNISNKIRNLSTTLQTIATKLCRELYSKEQEHKCKPCPRRWIWHKDSCYFLSDDVQTWQESKMACAAQNASLLKINNKNALEFIKSQSRSYDYWLGLSPEEDSTRGMRVDNIINSSAWVIRNAPDLNNMYCGYINRLYVQYYHCTYKKRMICEKMANPVQLGSTYFREA",
+      "length": 265,
+      "name": "CLEC12A_HUMAN",
+      "expect_gene": "CLEC12A",
+      "label": "CLEC12A / CLL-1 (human) - the AML target",
+      "role": "target",
+      "verified": true
+    },
+    "Q2HXU8": {
+      "accession": "Q2HXU8",
+      "header": ">sp|Q2HXU8|CL12B_HUMAN C-type lectin domain family 12 member B OS=Homo sapiens OX=9606 GN=CLEC12B PE=1 SV=1",
+      "sequence": "MSEEVTYATLTFQDSAGARNNRDGNNLRKRGHPAPSPIWRHAALGLVTLCLMLLIGLVTLGMMFLQISNDINSDSEKLSQLQKTIQQQQDNLSQQLGNSNNLSMEEEFLKSQISSVLKRQEQMAIKLCQELIIHTSDHRCNPCPKMWQWYQNSCYYFTTNEEKTWANSRKDCIDKNSTLVKIDSLEEKDFLMSQPLLMFSFFWLGLSWDSSGRSWFWEDGSVPSPSLFSTKELDQINGSKGCAYFQKGNIYISRCSAEIFWICEKTAAPVKTEDLD",
+      "length": 276,
+      "name": "CLC12B_HUMAN",
+      "expect_gene": "CLEC12B",
+      "label": "CLEC12B - immediate neighbour paralog, same gene cluster",
+      "role": "off_target_paralog",
+      "verified": true
+    },
+    "Q6UXN8": {
+      "accession": "Q6UXN8",
+      "header": ">sp|Q6UXN8|CLC9A_HUMAN C-type lectin domain family 9 member A OS=Homo sapiens OX=9606 GN=CLEC9A PE=1 SV=1",
+      "sequence": "MHEEEIYTSLQWDSPAPDTYQKCLSSNKCSGACCLVMVISCVFCMGLLTASIFLGVKLLQVSTIAMQQQEKLIQQERALLNFTEWKRSCALQMKYCQAFMQNSLSSAHNSSPCPNNWIQNRESCYYVSEIWSIWHTSQENCLKEGSTLLQIESKEEMDFITGSLRKIKGSYDYWVGLSQDGHSGRWLWQDGSSPSPGLLPAERSQSANQVCGYVKSNSLLSSNCSTWKYFICEKYALRSSV",
+      "length": 241,
+      "name": "CLEC9A_HUMAN",
+      "expect_gene": "CLEC9A",
+      "label": "CLEC9A / DNGR-1 - C-type lectin on dendritic cells",
+      "role": "off_target_paralog",
+      "verified": true
+    },
+    "Q9BXN2": {
+      "accession": "Q9BXN2",
+      "header": ">sp|Q9BXN2|CLC7A_HUMAN C-type lectin domain family 7 member A OS=Homo sapiens OX=9606 GN=CLEC7A PE=1 SV=1",
+      "sequence": "MEYHPDLENLDEDGYTQLHFDSQSNTRIAVVSEKGSCAASPPWRLIAVILGILCLVILVIAVVLGTMAIWRSNSGSNTLENGYFLSRNKENHSQPTQSSLEDSVTPTKAVKTTGVLSSPCPPNWIIYEKSCYLFSMSLNSWDGSKRQCWQLGSNLLKIDSSNELGFIVKQVSSQPDNSFWIGLSRPQTEVPWLWEDGSTFSSNLFQIRTTATQENPSPNCVWIHVSVIYDQLCSVPSYSICEKKFSM",
+      "length": 247,
+      "name": "CLC7A_HUMAN",
+      "expect_gene": "CLEC7A",
+      "label": "CLEC7A / Dectin-1 - myeloid C-type lectin, same family",
+      "role": "off_target_paralog",
+      "verified": true
+    },
+    "Q8NC01": {
+      "accession": "Q8NC01",
+      "header": ">sp|Q8NC01|CLC1A_HUMAN C-type lectin domain family 1 member A OS=Homo sapiens OX=9606 GN=CLEC1A PE=1 SV=2",
+      "sequence": "MQAKYSSTRDMLDDDGDTTMSLHSQGSATTRHPEPRRTEHRAPSSTWRPVALTLLTLCLVLLIGLAALGLLFFQYYQLSNTGQDTISQMEERLGNTSQELQSLQVQNIKLAGSLQHVAEKLCRELYNKAGAHRCSPCTEQWKWHGDNCYQFYKDSKSWEDCKYFCLSENSTMLKINKQEDLEFAASQSYSEFFYSYWTGLLRPDSGKAWLWMDGTPFTSELFHIIIDVTSPRSRDCVAILNGMIFSKDCKELKRCVCERRAGMVKPESLHVPPETLGEGD",
+      "length": 280,
+      "name": "CLC1A_HUMAN",
+      "expect_gene": "CLEC1A",
+      "label": "CLEC1A - C-type lectin, NK gene complex",
+      "role": "off_target_paralog",
+      "verified": true
+    },
+    "Q12918": {
+      "accession": "Q12918",
+      "header": ">sp|Q12918|KLRB1_HUMAN Killer cell lectin-like receptor subfamily B member 1 OS=Homo sapiens OX=9606 GN=KLRB1 PE=1 SV=1",
+      "sequence": "MDQQAIYAELNLPTDSGPESSSPSSLPRDVCQGSPWHQFALKLSCAGIILLVLVVTGLSVSVTSLIQKSSIEKCSVDIQQSRNKTTERPGLLNCPIYWQQLREKCLLFSHTVNPWNNSLADCSTKESSLLLIRDKDELIHTQNLIRDKAILFWIGLNFSLSEKNWKWINGSFLNSNDLEIRGDAKENSCISISQTSVYSEYCSTEIRWICQKELTPVRNKVYPDS",
+      "length": 225,
+      "name": "KLRB1_HUMAN",
+      "expect_gene": "KLRB1",
+      "label": "KLRB1 / CD161 - C-type lectin on NK and T cells",
+      "role": "off_target_paralog",
+      "verified": true
+    },
+    "P20138": {
+      "accession": "P20138",
+      "header": ">sp|P20138|CD33_HUMAN Myeloid cell surface antigen CD33 OS=Homo sapiens OX=9606 GN=CD33 PE=1 SV=2",
+      "sequence": "MPLLLLLPLLWAGALAMDPNFWLQVQESVTVQEGLCVLVPCTFFHPIPYYDKNSPVHGYWFREGAIISRDSPVATNKLDQEVQEETQGRFRLLGDPSRNNCSLSIVDARRRDNGSYFFRMERGSTKYSYKSPQLSVHVTDLTHRPKILIPGTLEPGHSKNLTCSVSWACEQGTPPIFSWLSAAPTSLGPRTTHSSVLIITPRPQDHGTNLTCQVKFAGAGVTTERTIQLNVTYVPQNPTTGIFPGDGSGKQETRAGVVHGAIGGAGVTALLALCLCLIFFIVKTHRRKAARTAVGRNDTHPTTGSASPKHQKKSKLHGPTETSSCSGAAPTVEMDEELHYASLNFHGMNPSKDTSTEYSEVRTQ",
+      "length": 364,
+      "name": "CD33_HUMAN",
+      "expect_gene": "CD33",
+      "label": "CD33 - myeloid antigen with known HSC toxicity",
+      "role": "off_target_reference",
+      "verified": true
+    }
+  }
+}

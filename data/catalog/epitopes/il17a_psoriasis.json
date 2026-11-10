@@ -1,0 +1,374 @@
+{
+  "pdb_id": "5HI3",
+  "title": "BINDING SITE ELUCIDATION AND STRUCTURE GUIDED DESIGN OF MACROCYCLIC IL-17A ANTAGONISTS",
+  "resolution": 2.15,
+  "target_chain": "B",
+  "binder_chains": [
+    "H",
+    "L"
+  ],
+  "chain_roles": {
+    "A": "target",
+    "B": "target",
+    "C": "antibody_heavy",
+    "D": "antibody_light",
+    "H": "antibody_heavy",
+    "I": "partner",
+    "L": "antibody_light"
+  },
+  "epitope": [
+    {
+      "chain": "B",
+      "resseq": 74,
+      "icode": "",
+      "resname": "LEU",
+      "aa": "L",
+      "label": "B:L74",
+      "centroid": [
+        67.182,
+        -19.715,
+        -36.246
+      ],
+      "min_distance_to_binder": 3.338
+    },
+    {
+      "chain": "B",
+      "resseq": 85,
+      "icode": "",
+      "resname": "TYR",
+      "aa": "Y",
+      "label": "B:Y85",
+      "centroid": [
+        64.275,
+        -14.934,
+        -37.307
+      ],
+      "min_distance_to_binder": 2.723
+    },
+    {
+      "chain": "B",
+      "resseq": 86,
+      "icode": "",
+      "resname": "HIS",
+      "aa": "H",
+      "label": "B:H86",
+      "centroid": [
+        58.048,
+        -15.287,
+        -39.748
+      ],
+      "min_distance_to_binder": 2.833
+    },
+    {
+      "chain": "B",
+      "resseq": 87,
+      "icode": "",
+      "resname": "MET",
+      "aa": "M",
+      "label": "B:M87",
+      "centroid": [
+        60.873,
+        -19.0,
+        -41.585
+      ],
+      "min_distance_to_binder": 3.913
+    },
+    {
+      "chain": "B",
+      "resseq": 88,
+      "icode": "",
+      "resname": "ASN",
+      "aa": "N",
+      "label": "B:N88",
+      "centroid": [
+        63.281,
+        -22.256,
+        -38.44
+      ],
+      "min_distance_to_binder": 2.881
+    },
+    {
+      "chain": "B",
+      "resseq": 91,
+      "icode": "",
+      "resname": "PRO",
+      "aa": "P",
+      "label": "B:P91",
+      "centroid": [
+        68.985,
+        -30.118,
+        -39.49
+      ],
+      "min_distance_to_binder": 4.197
+    },
+    {
+      "chain": "B",
+      "resseq": 93,
+      "icode": "",
+      "resname": "GLN",
+      "aa": "Q",
+      "label": "B:Q93",
+      "centroid": [
+        69.643,
+        -35.609,
+        -38.913
+      ],
+      "min_distance_to_binder": 3.974
+    },
+    {
+      "chain": "B",
+      "resseq": 124,
+      "icode": "",
+      "resname": "VAL",
+      "aa": "V",
+      "label": "B:V124",
+      "centroid": [
+        60.721,
+        -25.265,
+        -41.445
+      ],
+      "min_distance_to_binder": 3.799
+    },
+    {
+      "chain": "B",
+      "resseq": 125,
+      "icode": "",
+      "resname": "THR",
+      "aa": "T",
+      "label": "B:T125",
+      "centroid": [
+        56.95,
+        -23.158,
+        -41.918
+      ],
+      "min_distance_to_binder": 4.182
+    },
+    {
+      "chain": "B",
+      "resseq": 126,
+      "icode": "",
+      "resname": "PRO",
+      "aa": "P",
+      "label": "B:P126",
+      "centroid": [
+        54.576,
+        -22.575,
+        -38.753
+      ],
+      "min_distance_to_binder": 3.394
+    },
+    {
+      "chain": "B",
+      "resseq": 127,
+      "icode": "",
+      "resname": "ILE",
+      "aa": "I",
+      "label": "B:I127",
+      "centroid": [
+        51.75,
+        -22.114,
+        -41.724
+      ],
+      "min_distance_to_binder": 3.649
+    }
+  ],
+  "paratope_sequence": "SYLIHVANYYFAQYP",
+  "epitope_sequence": "LYHMNPQVTPI",
+  "descriptors": {
+    "n_residue_contacts": 30,
+    "n_salt_bridges": 0,
+    "n_hydrophobic_contacts": 8,
+    "epitope_radius_of_gyration": 8.661,
+    "n_epitope_residues": 11,
+    "n_paratope_residues": 15
+  },
+  "contacts": [
+    {
+      "target": "B:N88",
+      "binder": "H:H98",
+      "min_distance": 2.881,
+      "atom_pairs": 7
+    },
+    {
+      "target": "B:P126",
+      "binder": "H:L96",
+      "min_distance": 3.394,
+      "atom_pairs": 8
+    },
+    {
+      "target": "B:N88",
+      "binder": "H:I97",
+      "min_distance": 3.425,
+      "atom_pairs": 14
+    },
+    {
+      "target": "B:Y85",
+      "binder": "H:I97",
+      "min_distance": 3.495,
+      "atom_pairs": 2
+    },
+    {
+      "target": "B:H86",
+      "binder": "H:I97",
+      "min_distance": 3.511,
+      "atom_pairs": 3
+    },
+    {
+      "target": "B:L74",
+      "binder": "H:Y58",
+      "min_distance": 3.518,
+      "atom_pairs": 3
+    },
+    {
+      "target": "B:L74",
+      "binder": "H:H98",
+      "min_distance": 3.728,
+      "atom_pairs": 5
+    },
+    {
+      "target": "B:V124",
+      "binder": "H:I97",
+      "min_distance": 3.799,
+      "atom_pairs": 3
+    },
+    {
+      "target": "B:M87",
+      "binder": "H:I97",
+      "min_distance": 3.913,
+      "atom_pairs": 4
+    },
+    {
+      "target": "B:Q93",
+      "binder": "H:S53",
+      "min_distance": 3.974,
+      "atom_pairs": 4
+    },
+    {
+      "target": "B:P126",
+      "binder": "H:I97",
+      "min_distance": 3.995,
+      "atom_pairs": 7
+    },
+    {
+      "target": "B:P126",
+      "binder": "H:V100",
+      "min_distance": 4.112,
+      "atom_pairs": 1
+    },
+    {
+      "target": "B:T125",
+      "binder": "H:I97",
+      "min_distance": 4.182,
+      "atom_pairs": 2
+    },
+    {
+      "target": "B:P91",
+      "binder": "H:S53",
+      "min_distance": 4.197,
+      "atom_pairs": 2
+    },
+    {
+      "target": "B:Y85",
+      "binder": "L:Y91",
+      "min_distance": 2.723,
+      "atom_pairs": 6
+    },
+    {
+      "target": "B:H86",
+      "binder": "L:A29",
+      "min_distance": 2.833,
+      "atom_pairs": 5
+    },
+    {
+      "target": "B:L74",
+      "binder": "L:P93",
+      "min_distance": 3.338,
+      "atom_pairs": 3
+    },
+    {
+      "target": "B:H86",
+      "binder": "L:N30",
+      "min_distance": 3.343,
+      "atom_pairs": 12
+    },
+    {
+      "target": "B:H86",
+      "binder": "L:Y32",
+      "min_distance": 3.372,
+      "atom_pairs": 29
+    },
+    {
+      "target": "B:P126",
+      "binder": "L:Y32",
+      "min_distance": 3.5,
+      "atom_pairs": 5
+    },
+    {
+      "target": "B:Y85",
+      "binder": "L:P93",
+      "min_distance": 3.525,
+      "atom_pairs": 13
+    },
+    {
+      "target": "B:P126",
+      "binder": "L:F49",
+      "min_distance": 3.605,
+      "atom_pairs": 3
+    },
+    {
+      "target": "B:I127",
+      "binder": "L:Y32",
+      "min_distance": 3.649,
+      "atom_pairs": 2
+    },
+    {
+      "target": "B:H86",
+      "binder": "L:Y31",
+      "min_distance": 3.784,
+      "atom_pairs": 6
+    },
+    {
+      "target": "B:Y85",
+      "binder": "L:Y31",
+      "min_distance": 3.786,
+      "atom_pairs": 5
+    },
+    {
+      "target": "B:I127",
+      "binder": "L:Q53",
+      "min_distance": 3.824,
+      "atom_pairs": 8
+    },
+    {
+      "target": "B:I127",
+      "binder": "L:A50",
+      "min_distance": 3.909,
+      "atom_pairs": 2
+    },
+    {
+      "target": "B:H86",
+      "binder": "L:Y91",
+      "min_distance": 4.079,
+      "atom_pairs": 2
+    },
+    {
+      "target": "B:Y85",
+      "binder": "L:N30",
+      "min_distance": 4.177,
+      "atom_pairs": 4
+    },
+    {
+      "target": "B:P126",
+      "binder": "L:A50",
+      "min_distance": 4.316,
+      "atom_pairs": 1
+    }
+  ],
+  "binder_kind": "antibody",
+  "target_identity": 1.0,
+  "target_coverage": 1.0,
+  "identity_method": "aligned",
+  "warnings": [
+    "this structure holds more than one binder; the interface with antibody chains H,L was used and chains C were set aside so two separate binding sites are not merged into one"
+  ]
+}

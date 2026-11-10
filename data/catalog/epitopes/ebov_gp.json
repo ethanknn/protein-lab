@@ -1,0 +1,373 @@
+{
+  "pdb_id": "9TGC",
+  "title": "STRUCTURE OF B10 ANTI-STEM ANTIBODY IN COMPLEX WITH ZEBOV SPIKE COMPLEX",
+  "resolution": 2.5,
+  "target_chain": "Y",
+  "binder_chains": [
+    "C"
+  ],
+  "chain_roles": {
+    "H": "partner",
+    "L": "antibody_light",
+    "X": "target",
+    "Y": "target",
+    "Z": "target",
+    "B": "antibody_light",
+    "D": "antibody_light",
+    "A": "partner",
+    "C": "partner"
+  },
+  "epitope": [
+    {
+      "chain": "Y",
+      "resseq": 620,
+      "icode": "",
+      "resname": "THR",
+      "aa": "T",
+      "label": "Y:T620",
+      "centroid": [
+        97.081,
+        104.082,
+        121.035
+      ],
+      "min_distance_to_binder": 3.632
+    },
+    {
+      "chain": "Y",
+      "resseq": 621,
+      "icode": "",
+      "resname": "ASP",
+      "aa": "D",
+      "label": "Y:D621",
+      "centroid": [
+        93.985,
+        106.815,
+        120.558
+      ],
+      "min_distance_to_binder": 2.748
+    },
+    {
+      "chain": "Y",
+      "resseq": 623,
+      "icode": "",
+      "resname": "ILE",
+      "aa": "I",
+      "label": "Y:I623",
+      "centroid": [
+        99.951,
+        106.556,
+        117.451
+      ],
+      "min_distance_to_binder": 3.727
+    },
+    {
+      "chain": "Y",
+      "resseq": 624,
+      "icode": "",
+      "resname": "ASP",
+      "aa": "D",
+      "label": "Y:D624",
+      "centroid": [
+        95.98,
+        105.305,
+        115.674
+      ],
+      "min_distance_to_binder": 2.804
+    },
+    {
+      "chain": "Y",
+      "resseq": 625,
+      "icode": "",
+      "resname": "GLN",
+      "aa": "Q",
+      "label": "Y:Q625",
+      "centroid": [
+        94.799,
+        110.543,
+        115.708
+      ],
+      "min_distance_to_binder": 3.189
+    },
+    {
+      "chain": "Y",
+      "resseq": 627,
+      "icode": "",
+      "resname": "ILE",
+      "aa": "I",
+      "label": "Y:I627",
+      "centroid": [
+        98.933,
+        106.373,
+        111.193
+      ],
+      "min_distance_to_binder": 3.871
+    },
+    {
+      "chain": "Y",
+      "resseq": 628,
+      "icode": "",
+      "resname": "HIS",
+      "aa": "H",
+      "label": "Y:H628",
+      "centroid": [
+        94.459,
+        107.11,
+        110.623
+      ],
+      "min_distance_to_binder": 2.701
+    },
+    {
+      "chain": "Y",
+      "resseq": 629,
+      "icode": "",
+      "resname": "ASP",
+      "aa": "D",
+      "label": "Y:D629",
+      "centroid": [
+        96.153,
+        112.207,
+        109.439
+      ],
+      "min_distance_to_binder": 2.699
+    },
+    {
+      "chain": "Y",
+      "resseq": 631,
+      "icode": "",
+      "resname": "VAL",
+      "aa": "V",
+      "label": "Y:V631",
+      "centroid": [
+        98.151,
+        107.223,
+        104.928
+      ],
+      "min_distance_to_binder": 4.242
+    },
+    {
+      "chain": "Y",
+      "resseq": 632,
+      "icode": "",
+      "resname": "ASP",
+      "aa": "D",
+      "label": "Y:D632",
+      "centroid": [
+        94.75,
+        109.991,
+        104.219
+      ],
+      "min_distance_to_binder": 2.847
+    }
+  ],
+  "paratope_sequence": "TASYYRNSGARKGETVG",
+  "epitope_sequence": "TDIDQIHDVD",
+  "descriptors": {
+    "n_residue_contacts": 32,
+    "n_salt_bridges": 3,
+    "n_hydrophobic_contacts": 2,
+    "epitope_radius_of_gyration": 6.632,
+    "n_epitope_residues": 10,
+    "n_paratope_residues": 17
+  },
+  "contacts": [
+    {
+      "target": "Y:D629",
+      "binder": "C:S54",
+      "min_distance": 2.699,
+      "atom_pairs": 10
+    },
+    {
+      "target": "Y:H628",
+      "binder": "C:E102",
+      "min_distance": 2.701,
+      "atom_pairs": 14
+    },
+    {
+      "target": "Y:D621",
+      "binder": "C:T28",
+      "min_distance": 2.748,
+      "atom_pairs": 9
+    },
+    {
+      "target": "Y:D624",
+      "binder": "C:T103",
+      "min_distance": 2.804,
+      "atom_pairs": 13
+    },
+    {
+      "target": "Y:D632",
+      "binder": "C:R50",
+      "min_distance": 2.847,
+      "atom_pairs": 9
+    },
+    {
+      "target": "Y:D629",
+      "binder": "C:G55",
+      "min_distance": 2.901,
+      "atom_pairs": 6
+    },
+    {
+      "target": "Y:D632",
+      "binder": "C:N52",
+      "min_distance": 2.956,
+      "atom_pairs": 6
+    },
+    {
+      "target": "Y:H628",
+      "binder": "C:S31",
+      "min_distance": 3.04,
+      "atom_pairs": 6
+    },
+    {
+      "target": "Y:D624",
+      "binder": "C:V104",
+      "min_distance": 3.062,
+      "atom_pairs": 7
+    },
+    {
+      "target": "Y:H628",
+      "binder": "C:K100",
+      "min_distance": 3.139,
+      "atom_pairs": 8
+    },
+    {
+      "target": "Y:H628",
+      "binder": "C:N52",
+      "min_distance": 3.186,
+      "atom_pairs": 8
+    },
+    {
+      "target": "Y:Q625",
+      "binder": "C:A30",
+      "min_distance": 3.189,
+      "atom_pairs": 14
+    },
+    {
+      "target": "Y:D629",
+      "binder": "C:N52",
+      "min_distance": 3.232,
+      "atom_pairs": 6
+    },
+    {
+      "target": "Y:D624",
+      "binder": "C:K100",
+      "min_distance": 3.307,
+      "atom_pairs": 5
+    },
+    {
+      "target": "Y:H628",
+      "binder": "C:Y33",
+      "min_distance": 3.365,
+      "atom_pairs": 21
+    },
+    {
+      "target": "Y:D632",
+      "binder": "C:Y33",
+      "min_distance": 3.474,
+      "atom_pairs": 6
+    },
+    {
+      "target": "Y:D632",
+      "binder": "C:R59",
+      "min_distance": 3.563,
+      "atom_pairs": 8
+    },
+    {
+      "target": "Y:Q625",
+      "binder": "C:S31",
+      "min_distance": 3.593,
+      "atom_pairs": 8
+    },
+    {
+      "target": "Y:T620",
+      "binder": "C:G105",
+      "min_distance": 3.632,
+      "atom_pairs": 5
+    },
+    {
+      "target": "Y:D632",
+      "binder": "C:A57",
+      "min_distance": 3.703,
+      "atom_pairs": 3
+    },
+    {
+      "target": "Y:I623",
+      "binder": "C:V104",
+      "min_distance": 3.727,
+      "atom_pairs": 4
+    },
+    {
+      "target": "Y:D621",
+      "binder": "C:S31",
+      "min_distance": 3.738,
+      "atom_pairs": 9
+    },
+    {
+      "target": "Y:Q625",
+      "binder": "C:T28",
+      "min_distance": 3.74,
+      "atom_pairs": 1
+    },
+    {
+      "target": "Y:I627",
+      "binder": "C:E102",
+      "min_distance": 3.871,
+      "atom_pairs": 2
+    },
+    {
+      "target": "Y:D624",
+      "binder": "C:E102",
+      "min_distance": 3.938,
+      "atom_pairs": 4
+    },
+    {
+      "target": "Y:T620",
+      "binder": "C:V104",
+      "min_distance": 4.102,
+      "atom_pairs": 7
+    },
+    {
+      "target": "Y:Q625",
+      "binder": "C:S54",
+      "min_distance": 4.142,
+      "atom_pairs": 5
+    },
+    {
+      "target": "Y:V631",
+      "binder": "C:E102",
+      "min_distance": 4.242,
+      "atom_pairs": 1
+    },
+    {
+      "target": "Y:I627",
+      "binder": "C:V104",
+      "min_distance": 4.247,
+      "atom_pairs": 1
+    },
+    {
+      "target": "Y:H628",
+      "binder": "C:Y32",
+      "min_distance": 4.328,
+      "atom_pairs": 2
+    },
+    {
+      "target": "Y:D624",
+      "binder": "C:S31",
+      "min_distance": 4.423,
+      "atom_pairs": 2
+    },
+    {
+      "target": "Y:H628",
+      "binder": "C:G101",
+      "min_distance": 4.481,
+      "atom_pairs": 1
+    }
+  ],
+  "binder_kind": "protein",
+  "target_identity": 1.0,
+  "target_coverage": 1.0,
+  "identity_method": "aligned",
+  "warnings": [
+    "this structure holds more than one binder; the interface with protein chains C was used and chains A were set aside so two separate binding sites are not merged into one"
+  ]
+}

@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Generated run output: scored candidates, run JSON and the dashboards built
+# from them. All reproducible with `python run.py`, and the dashboards are
+# ~650K each, so they would dominate the diff of every run.
+out/
+
+# Downloaded PDB and mmCIF files: 116 MB across 108 structures, which is
+# ~95% of everything on disk and none of it authored here. They are public
+# data fetched by accession from files.rcsb.org, and the accessions ARE
+# tracked -- data/catalog/ and data/targets/manifest.json record every id.
+#
+# To restore them after a fresh clone:
+#     python scripts/fetch_data.py
+#
+# Everything else under data/ is deliberately committed, including the
+# caches. data/lineage/expression.json and data/lineage/topology.json each
+# carry a `fetched` date and a source string, and the whole discipline of
+# this project is being able to say when a number was true and where it came
+# from. Those files are small, and losing the record of what the Human
+# Protein Atlas said on a given day would cost more than they take up.
+data/structures/
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini

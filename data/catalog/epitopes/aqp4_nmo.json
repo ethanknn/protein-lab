@@ -1,0 +1,277 @@
+{
+  "pdb_id": "8V91",
+  "title": "STRUCTURE OF HUMAN AQP4 WITH A PATHOGENIC AUTOANTIBODY- RAB 58",
+  "resolution": 2.6,
+  "target_chain": "B",
+  "binder_chains": [
+    "I",
+    "J"
+  ],
+  "chain_roles": {
+    "A": "target",
+    "B": "target",
+    "C": "target",
+    "D": "target",
+    "I": "antibody_light",
+    "J": "antibody_heavy"
+  },
+  "epitope": [
+    {
+      "chain": "B",
+      "resseq": 59,
+      "icode": "",
+      "resname": "TRP",
+      "aa": "W",
+      "label": "B:W59",
+      "centroid": [
+        161.1,
+        163.192,
+        167.274
+      ],
+      "min_distance_to_binder": 4.181
+    },
+    {
+      "chain": "B",
+      "resseq": 60,
+      "icode": "",
+      "resname": "GLY",
+      "aa": "G",
+      "label": "B:G60",
+      "centroid": [
+        163.398,
+        167.17,
+        171.619
+      ],
+      "min_distance_to_binder": 3.561
+    },
+    {
+      "chain": "B",
+      "resseq": 62,
+      "icode": "",
+      "resname": "THR",
+      "aa": "T",
+      "label": "B:T62",
+      "centroid": [
+        160.023,
+        172.226,
+        174.705
+      ],
+      "min_distance_to_binder": 3.654
+    },
+    {
+      "chain": "B",
+      "resseq": 63,
+      "icode": "",
+      "resname": "GLU",
+      "aa": "E",
+      "label": "B:E63",
+      "centroid": [
+        161.957,
+        169.384,
+        177.62
+      ],
+      "min_distance_to_binder": 3.108
+    },
+    {
+      "chain": "B",
+      "resseq": 64,
+      "icode": "",
+      "resname": "LYS",
+      "aa": "K",
+      "label": "B:K64",
+      "centroid": [
+        166.583,
+        168.161,
+        175.178
+      ],
+      "min_distance_to_binder": 3.076
+    },
+    {
+      "chain": "B",
+      "resseq": 65,
+      "icode": "",
+      "resname": "PRO",
+      "aa": "P",
+      "label": "B:P65",
+      "centroid": [
+        165.416,
+        172.021,
+        172.177
+      ],
+      "min_distance_to_binder": 3.618
+    },
+    {
+      "chain": "B",
+      "resseq": 139,
+      "icode": "",
+      "resname": "PRO",
+      "aa": "P",
+      "label": "B:P139",
+      "centroid": [
+        152.77,
+        163.103,
+        173.159
+      ],
+      "min_distance_to_binder": 3.479
+    },
+    {
+      "chain": "B",
+      "resseq": 140,
+      "icode": "",
+      "resname": "SER",
+      "aa": "S",
+      "label": "B:S140",
+      "centroid": [
+        156.52,
+        164.796,
+        173.932
+      ],
+      "min_distance_to_binder": 3.695
+    }
+  ],
+  "paratope_sequence": "WYKYNGYDYV",
+  "epitope_sequence": "WGTEKPPS",
+  "descriptors": {
+    "n_residue_contacts": 21,
+    "n_salt_bridges": 1,
+    "n_hydrophobic_contacts": 1,
+    "epitope_radius_of_gyration": 6.718,
+    "n_epitope_residues": 8,
+    "n_paratope_residues": 10
+  },
+  "contacts": [
+    {
+      "target": "B:K64",
+      "binder": "I:N92",
+      "min_distance": 3.076,
+      "atom_pairs": 4
+    },
+    {
+      "target": "B:E63",
+      "binder": "I:Y91",
+      "min_distance": 3.252,
+      "atom_pairs": 4
+    },
+    {
+      "target": "B:K64",
+      "binder": "I:Y91",
+      "min_distance": 3.472,
+      "atom_pairs": 7
+    },
+    {
+      "target": "B:E63",
+      "binder": "I:K50",
+      "min_distance": 3.515,
+      "atom_pairs": 3
+    },
+    {
+      "target": "B:P65",
+      "binder": "I:K50",
+      "min_distance": 3.618,
+      "atom_pairs": 5
+    },
+    {
+      "target": "B:T62",
+      "binder": "I:Y49",
+      "min_distance": 3.654,
+      "atom_pairs": 5
+    },
+    {
+      "target": "B:K64",
+      "binder": "I:W32",
+      "min_distance": 3.726,
+      "atom_pairs": 20
+    },
+    {
+      "target": "B:E63",
+      "binder": "I:W32",
+      "min_distance": 3.85,
+      "atom_pairs": 2
+    },
+    {
+      "target": "B:E63",
+      "binder": "I:Y49",
+      "min_distance": 3.856,
+      "atom_pairs": 3
+    },
+    {
+      "target": "B:P65",
+      "binder": "I:W32",
+      "min_distance": 3.87,
+      "atom_pairs": 6
+    },
+    {
+      "target": "B:T62",
+      "binder": "I:K50",
+      "min_distance": 4.276,
+      "atom_pairs": 1
+    },
+    {
+      "target": "B:E63",
+      "binder": "J:V102",
+      "min_distance": 3.108,
+      "atom_pairs": 5
+    },
+    {
+      "target": "B:E63",
+      "binder": "J:Y101",
+      "min_distance": 3.398,
+      "atom_pairs": 9
+    },
+    {
+      "target": "B:K64",
+      "binder": "J:Y101",
+      "min_distance": 3.457,
+      "atom_pairs": 15
+    },
+    {
+      "target": "B:P139",
+      "binder": "J:Y32",
+      "min_distance": 3.479,
+      "atom_pairs": 8
+    },
+    {
+      "target": "B:G60",
+      "binder": "J:Y101",
+      "min_distance": 3.561,
+      "atom_pairs": 5
+    },
+    {
+      "target": "B:P139",
+      "binder": "J:G31",
+      "min_distance": 3.616,
+      "atom_pairs": 6
+    },
+    {
+      "target": "B:S140",
+      "binder": "J:D100",
+      "min_distance": 3.695,
+      "atom_pairs": 2
+    },
+    {
+      "target": "B:S140",
+      "binder": "J:Y32",
+      "min_distance": 4.139,
+      "atom_pairs": 4
+    },
+    {
+      "target": "B:W59",
+      "binder": "J:Y101",
+      "min_distance": 4.181,
+      "atom_pairs": 1
+    },
+    {
+      "target": "B:S140",
+      "binder": "J:G31",
+      "min_distance": 4.186,
+      "atom_pairs": 1
+    }
+  ],
+  "binder_kind": "antibody",
+  "target_identity": 1.0,
+  "target_coverage": 1.0,
+  "identity_method": "aligned",
+  "warnings": [
+    "the interface is 8 residues, which is small: a typical antibody epitope covers 15-25. There is little surface here for a designed binder to grip, and the scores have correspondingly less to discriminate on"
+  ]
+}

@@ -1,0 +1,14 @@
+# Keep line endings deterministic rather than dependent on whatever
+# core.autocrlf each machine happens to have. Everything textual is stored
+# and checked out as LF, so a clone on Windows and a clone on Linux produce
+# identical files and a diff never shows a whole file changed because it
+# moved between the two.
+* text=auto eol=lf
+
+# Data files are left byte-for-byte as downloaded. These are fetched from
+# RCSB, UniProt and the Human Protein Atlas and compared against what those
+# services served; normalising their line endings would mean the bytes on
+# disk are no longer the bytes that were fetched.
+*.pdb   -text
+*.cif   -text
+*.fasta -text

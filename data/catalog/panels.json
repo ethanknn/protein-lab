@@ -1,0 +1,4984 @@
+{
+  "built_at": "2026-10-27T21:28:46+00:00",
+  "max_panel": 8,
+  "panels": {
+    "abeta_alzheimers": {
+      "key": "abeta_alzheimers",
+      "gene": "APP",
+      "uniprot": "P05067",
+      "members": [],
+      "families": [
+        "PF10515",
+        "PF12924",
+        "PF12925",
+        "PF02177",
+        "PF03494",
+        "PF00014"
+      ],
+      "state": "no_close_relatives",
+      "note": "18 human proteins share a domain family with this target, but none is more than 25% identical to it at the binding site itself. They share a fold, not this surface. Mapping the epitope onto them would produce a surrogate surface too unreliable to score against, so no number is reported.",
+      "n_considered": 18,
+      "duplicates_excluded": []
+    },
+    "baff_lupus": {
+      "key": "baff_lupus",
+      "gene": "TNFSF13B",
+      "uniprot": "Q9Y275",
+      "members": [],
+      "families": [
+        "PF00229"
+      ],
+      "state": "panel_too_weak",
+      "note": "The only relative found, TNFSF13, is just 34% identical to this target at the binding site. A single distant relative is not a panel: tested against controls, the margin against one such protein does not reliably separate a real binder from a face designed for the wrong protein. No number is reported.",
+      "n_considered": 15,
+      "duplicates_excluded": [],
+      "rejected_members": [
+        {
+          "surface_identity": 0.1818,
+          "uniprot": "O75888",
+          "gene": "TNFSF13",
+          "window_identity": 0.3446,
+          "window_coverage": 0.9487,
+          "window_align_score": 449.2,
+          "surrogate_surface": "DSDVTFTMGQEGGRQRCIPRA",
+          "n_mapped": 21
+        }
+      ]
+    },
+    "bcma_myeloma": {
+      "key": "bcma_myeloma",
+      "gene": "TNFRSF17",
+      "uniprot": "Q02223",
+      "members": [],
+      "families": [
+        "PF09257"
+      ],
+      "state": "no_human_relatives",
+      "note": "No other reviewed human protein shares this protein's domain family (PF09257). Cross-reactivity with a close human relative is therefore not the risk here. Off-target binding to unrelated human proteins remains a real risk that this method cannot assess."
+    },
+    "c5_pnh": {
+      "key": "c5_pnh",
+      "gene": "C5",
+      "uniprot": "P01031",
+      "members": [],
+      "families": [
+        "PF00207",
+        "PF07703",
+        "PF07677",
+        "PF01821",
+        "PF21309",
+        "PF17790",
+        "PF01835",
+        "PF17791",
+        "PF17789",
+        "PF01759",
+        "PF07678"
+      ],
+      "state": "no_close_relatives",
+      "note": "25 human proteins share a domain family with this target, but none is more than 25% identical to it at the binding site itself. They share a fold, not this surface. Mapping the epitope onto them would produce a surrogate surface too unreliable to score against, so no number is reported.",
+      "n_considered": 25,
+      "duplicates_excluded": []
+    },
+    "cd19_ball": {
+      "key": "cd19_ball",
+      "gene": "CD19",
+      "uniprot": "P15391",
+      "members": [],
+      "families": [
+        "PF28825"
+      ],
+      "state": "no_human_relatives",
+      "note": "No other reviewed human protein shares this protein's domain family (PF28825). Cross-reactivity with a close human relative is therefore not the risk here. Off-target binding to unrelated human proteins remains a real risk that this method cannot assess."
+    },
+    "cd20_lymphoma": {
+      "key": "cd20_lymphoma",
+      "gene": "MS4A1",
+      "uniprot": "P11836",
+      "members": [],
+      "families": [
+        "PF04103"
+      ],
+      "state": "panel_too_weak",
+      "note": "The only relative found, MS4A15, is just 25% identical to this target at the binding site. A single distant relative is not a panel: tested against controls, the margin against one such protein does not reliably separate a real binder from a face designed for the wrong protein. No number is reported.",
+      "n_considered": 20,
+      "duplicates_excluded": [],
+      "rejected_members": [
+        {
+          "surface_identity": 0.1,
+          "uniprot": "Q8N5U1",
+          "gene": "MS4A15",
+          "window_identity": 0.2535,
+          "window_coverage": 1.0,
+          "window_align_score": 180.7,
+          "surrogate_surface": "CIIGSLSVAA",
+          "n_mapped": 10
+        }
+      ]
+    },
+    "cd22_ball": {
+      "key": "cd22_ball",
+      "gene": "CD22",
+      "uniprot": "P20273",
+      "members": [
+        {
+          "surface_identity": 0.1935,
+          "uniprot": "Q9BZZ2",
+          "gene": "SIGLEC1",
+          "window_identity": 0.3366,
+          "window_coverage": 0.9809,
+          "window_align_score": 594.0,
+          "surrogate_surface": "TISGQDQDHGRIREIHLQKLQVNSSYPAVG",
+          "n_mapped": 30
+        },
+        {
+          "surface_identity": 0.1613,
+          "uniprot": "Q15109",
+          "gene": "AGER",
+          "window_identity": 0.2621,
+          "window_coverage": 0.9856,
+          "window_align_score": 478.3,
+          "surrogate_surface": "QIGGKPGGDPRPSAPIQPREVEVPAQPSP",
+          "n_mapped": 29
+        },
+        {
+          "surface_identity": 0.3871,
+          "uniprot": "O15389",
+          "gene": "SIGLEC5",
+          "window_identity": 0.256,
+          "window_coverage": 0.9904,
+          "window_align_score": 500.2,
+          "surrogate_surface": "NLVCEAEDHGTNTRTVQLNELDAPSNPPAHG",
+          "n_mapped": 31
+        },
+        {
+          "surface_identity": 0.0323,
+          "uniprot": "P31997",
+          "gene": "CEACAM8",
+          "window_identity": 0.2551,
+          "window_coverage": 0.9378,
+          "window_align_score": 478.6,
+          "surrogate_surface": "QFVWWNDVGPEDPVTLNPHAASNPPQ",
+          "n_mapped": 26
+        },
+        {
+          "surface_identity": 0.129,
+          "uniprot": "Q8NFZ8",
+          "gene": "CADM4",
+          "window_identity": 0.2549,
+          "window_coverage": 0.9761,
+          "window_align_score": 495.4,
+          "surrogate_surface": "VVVRDRKDDGGIIKQTQYVTRAVTGNPRPG",
+          "n_mapped": 30
+        },
+        {
+          "surface_identity": 0.0968,
+          "uniprot": "Q8N3J6",
+          "gene": "CADM2",
+          "window_identity": 0.2525,
+          "window_coverage": 0.9665,
+          "window_align_score": 485.0,
+          "surrogate_surface": "GFKNDSDDGVAIVAMQVLSKESKGKPLPM",
+          "n_mapped": 29
+        },
+        {
+          "surface_identity": 0.2258,
+          "uniprot": "P19320",
+          "gene": "VCAM1",
+          "window_identity": 0.25,
+          "window_coverage": 0.9952,
+          "window_align_score": 507.8,
+          "surrogate_surface": "EIMLKGEDTGKAVSTQTLYTVLSQGFPAPKA",
+          "n_mapped": 31
+        },
+        {
+          "surface_identity": 0.129,
+          "uniprot": "P20916",
+          "gene": "MAG",
+          "window_identity": 0.25,
+          "window_coverage": 0.9761,
+          "window_align_score": 523.3,
+          "surrogate_surface": "NIVGHEEANGHRGGYASMDVMGADSNPPL",
+          "n_mapped": 29
+        }
+      ],
+      "families": [
+        "PF08205",
+        "PF13895",
+        "PF13927",
+        "PF24518"
+      ],
+      "state": "derived",
+      "note": "the closest 8 of 190 reviewed human proteins sharing a domain family (PF08205, PF13895, PF13927, PF24518), ranked by identity at the epitope window rather than across the whole protein. The nearest is 34% identical at this surface, which makes this a distant comparison.",
+      "n_considered": 190,
+      "duplicates_excluded": [],
+      "closest_identity": 0.3366,
+      "strength": "distant",
+      "ceiling": {
+        "10": 0.07439,
+        "13": 0.23684
+      },
+      "ceiling_noise": {
+        "10": 0.0156,
+        "13": 0.03207
+      },
+      "target_epitope": "HILLEGSHHGKITDTVQLNEKEVSSSNPEYF"
+    },
+    "cd33_aml": {
+      "key": "cd33_aml",
+      "gene": "CD33",
+      "uniprot": "P20138",
+      "members": [
+        {
+          "surface_identity": 0.1538,
+          "uniprot": "Q9NYZ4",
+          "gene": "SIGLEC8",
+          "window_identity": 0.6623,
+          "window_coverage": 1.0,
+          "window_align_score": 655.6,
+          "surrogate_surface": "RDYSYPQDGWDSS",
+          "n_mapped": 13
+        },
+        {
+          "surface_identity": 0.1538,
+          "uniprot": "O43699",
+          "gene": "SIGLEC6",
+          "window_identity": 0.6463,
+          "window_coverage": 0.9545,
+          "window_align_score": 616.4,
+          "surrogate_surface": "ERFPTTLPASW",
+          "n_mapped": 11
+        },
+        {
+          "surface_identity": 0.1538,
+          "uniprot": "Q9Y336",
+          "gene": "SIGLEC9",
+          "window_identity": 0.6209,
+          "window_coverage": 0.9935,
+          "window_align_score": 625.6,
+          "surrogate_surface": "QSKSYPSHGWYPS",
+          "n_mapped": 13
+        },
+        {
+          "surface_identity": 0.0769,
+          "uniprot": "Q9Y286",
+          "gene": "SIGLEC7",
+          "window_identity": 0.6039,
+          "window_coverage": 1.0,
+          "window_align_score": 617.4,
+          "surrogate_surface": "RDYSYPVDSQDSN",
+          "n_mapped": 13
+        },
+        {
+          "surface_identity": 0.0769,
+          "uniprot": "O15389",
+          "gene": "SIGLEC5",
+          "window_identity": 0.5649,
+          "window_coverage": 1.0,
+          "window_align_score": 618.9,
+          "surrogate_surface": "KVYSYPWRSWSSD",
+          "n_mapped": 13
+        },
+        {
+          "surface_identity": 0.1538,
+          "uniprot": "Q96PQ1",
+          "gene": "SIGLEC12",
+          "window_identity": 0.5325,
+          "window_coverage": 1.0,
+          "window_align_score": 596.1,
+          "surrogate_surface": "LRYLYPHYNWASS",
+          "n_mapped": 13
+        },
+        {
+          "surface_identity": 0.3077,
+          "uniprot": "Q96LC7",
+          "gene": "SIGLEC10",
+          "window_identity": 0.4805,
+          "window_coverage": 1.0,
+          "window_align_score": 572.7,
+          "surrogate_surface": "DRFSYPRQDWGSS",
+          "n_mapped": 13
+        }
+      ],
+      "families": [
+        "PF00047",
+        "PF27822",
+        "PF07686"
+      ],
+      "state": "derived",
+      "note": "the closest 7 of 69 reviewed human proteins sharing a domain family (PF00047, PF27822, PF07686), ranked by identity at the epitope window rather than across the whole protein. The nearest is 66% identical at this surface, which makes this a close comparison.",
+      "n_considered": 69,
+      "duplicates_excluded": [],
+      "closest_identity": 0.6623,
+      "strength": "close",
+      "ceiling": {
+        "10": -0.01162,
+        "13": 0.09167
+      },
+      "ceiling_noise": {
+        "10": 0.01184,
+        "13": 0.00781
+      },
+      "target_epitope": "DNFFHPIPYYKNS"
+    },
+    "cd38_myeloma": {
+      "key": "cd38_myeloma",
+      "gene": "CD38",
+      "uniprot": "P28907",
+      "members": [
+        {
+          "surface_identity": 0.2941,
+          "uniprot": "Q10588",
+          "gene": "BST1",
+          "window_identity": 0.3704,
+          "window_coverage": 0.9818,
+          "window_align_score": 654.2,
+          "surrogate_surface": "PERNPSDLINLSRHSIPRDLVYRAIQYKDSNQEK",
+          "n_mapped": 34
+        }
+      ],
+      "families": [
+        "PF02267"
+      ],
+      "state": "derived",
+      "note": "the closest 1 of 1 reviewed human proteins sharing a domain family (PF02267), ranked by identity at the epitope window rather than across the whole protein. The nearest is 37% identical at this surface, which makes this a moderate comparison.",
+      "n_considered": 1,
+      "duplicates_excluded": [],
+      "closest_identity": 0.3704,
+      "strength": "moderate",
+      "ceiling": {
+        "10": 0.143,
+        "13": 0.13808
+      },
+      "ceiling_noise": {
+        "10": 0.05606,
+        "13": 0.0576
+      },
+      "target_epitope": "PERHEEQPMKLGTQTVPCNLTLTVRRFEACNQEK"
+    },
+    "cd47_macrophage": {
+      "key": "cd47_macrophage",
+      "gene": "CD47",
+      "uniprot": "Q08722",
+      "members": [],
+      "families": [
+        "PF04549",
+        "PF08204"
+      ],
+      "state": "no_human_relatives",
+      "note": "No other reviewed human protein shares this protein's domain family (PF04549, PF08204). Cross-reactivity with a close human relative is therefore not the risk here. Off-target binding to unrelated human proteins remains a real risk that this method cannot assess."
+    },
+    "clec12a_aml": {
+      "key": "clec12a_aml",
+      "gene": "CLEC12A",
+      "uniprot": "Q5QGZ9",
+      "members": [
+        {
+          "surface_identity": 0.2308,
+          "uniprot": "Q6UXN8",
+          "gene": "CLEC9A",
+          "window_identity": 0.3333,
+          "window_coverage": 0.9184,
+          "window_align_score": 272.1,
+          "surrogate_surface": "HSGRWLWQDSNSL",
+          "n_mapped": 13
+        },
+        {
+          "surface_identity": 0.2308,
+          "uniprot": "P78380",
+          "gene": "OLR1",
+          "window_identity": 0.3111,
+          "window_coverage": 0.9184,
+          "window_align_score": 229.6,
+          "surrogate_surface": "PSYPWLWEDRGAY",
+          "n_mapped": 13
+        },
+        {
+          "surface_identity": 0.0769,
+          "uniprot": "Q8NC01",
+          "gene": "CLEC1A",
+          "window_identity": 0.3053,
+          "window_coverage": 0.9694,
+          "window_align_score": 240.9,
+          "surrogate_surface": "SGKAWLWMDNGMF",
+          "n_mapped": 13
+        },
+        {
+          "surface_identity": 0.0,
+          "uniprot": "Q9BXN2",
+          "gene": "CLEC7A",
+          "window_identity": 0.2989,
+          "window_coverage": 0.8878,
+          "window_align_score": 220.3,
+          "surrogate_surface": "EVPWLWEDGVSVY",
+          "n_mapped": 13
+        },
+        {
+          "surface_identity": 0.0769,
+          "uniprot": "Q13241",
+          "gene": "KLRD1",
+          "window_identity": 0.2892,
+          "window_coverage": 0.8469,
+          "window_align_score": 211.0,
+          "surrogate_surface": "EHTAWLWENGNL",
+          "n_mapped": 12
+        },
+        {
+          "surface_identity": 0.0,
+          "uniprot": "Q9UHP7",
+          "gene": "CLEC2D",
+          "window_identity": 0.2805,
+          "window_coverage": 0.8367,
+          "window_align_score": 201.7,
+          "surrogate_surface": "QGQPWDKGS",
+          "n_mapped": 9
+        },
+        {
+          "surface_identity": 0.0769,
+          "uniprot": "Q12918",
+          "gene": "KLRB1",
+          "window_identity": 0.2637,
+          "window_coverage": 0.9286,
+          "window_align_score": 218.4,
+          "surrogate_surface": "KNWKWINGQTSY",
+          "n_mapped": 12
+        },
+        {
+          "surface_identity": 0.1538,
+          "uniprot": "Q9UMR7",
+          "gene": "CLEC4A",
+          "window_identity": 0.2614,
+          "window_coverage": 0.898,
+          "window_align_score": 211.2,
+          "surrogate_surface": "GQRHWQWVQRWGN",
+          "n_mapped": 13
+        }
+      ],
+      "families": [
+        "PF00059"
+      ],
+      "state": "derived",
+      "note": "the closest 8 of 82 reviewed human proteins sharing a domain family (PF00059), ranked by identity at the epitope window rather than across the whole protein. The nearest is 33% identical at this surface, which makes this a distant comparison.",
+      "n_considered": 82,
+      "duplicates_excluded": [],
+      "closest_identity": 0.3333,
+      "strength": "distant",
+      "ceiling": {
+        "10": 0.325,
+        "13": 0.35
+      },
+      "ceiling_noise": {
+        "10": 0.01862,
+        "13": 0.01965
+      },
+      "target_epitope": "DSTRGMRVDRLYQ"
+    },
+    "csp_malaria": {
+      "key": "csp_malaria",
+      "gene": "CSP",
+      "uniprot": "P19597",
+      "members": [],
+      "families": [
+        "PF00090"
+      ],
+      "state": "panel_too_weak",
+      "note": "The only relative found, C7, is just 26% identical to this target at the binding site. A single distant relative is not a panel: tested against controls, the margin against one such protein does not reliably separate a real binder from a face designed for the wrong protein. No number is reported.",
+      "n_considered": 52,
+      "duplicates_excluded": [],
+      "rejected_members": [
+        {
+          "surface_identity": 0.375,
+          "uniprot": "P10643",
+          "gene": "C7",
+          "window_identity": 0.2647,
+          "window_coverage": 1.0,
+          "window_align_score": 162.8,
+          "surrogate_surface": "SPPADGFV",
+          "n_mapped": 8
+        }
+      ]
+    },
+    "ctla4_checkpoint": {
+      "key": "ctla4_checkpoint",
+      "gene": "CTLA4",
+      "uniprot": "P16410",
+      "members": [],
+      "families": [
+        "PF07686"
+      ],
+      "state": "family_too_generic",
+      "note": "The only domain family on record for this protein is shared by too many human proteins to identify close relatives: PF07686 (419 human proteins). A panel drawn from it would be arbitrary rather than informative, so none was built. This is a limit of the method, not a finding about the target."
+    },
+    "ebov_gp": {
+      "key": "ebov_gp",
+      "gene": "GP",
+      "uniprot": "Q05320",
+      "members": [],
+      "families": [
+        "PF22307",
+        "PF01611"
+      ],
+      "state": "no_human_relatives",
+      "note": "No other reviewed human protein shares this protein's domain family (PF22307, PF01611). Cross-reactivity with a close human relative is therefore not the risk here. Off-target binding to unrelated human proteins remains a real risk that this method cannot assess."
+    },
+    "egfr_crc": {
+      "key": "egfr_crc",
+      "gene": "EGFR",
+      "uniprot": "P00533",
+      "members": [
+        {
+          "surface_identity": 0.1364,
+          "uniprot": "Q15303",
+          "gene": "ERBB4",
+          "window_identity": 0.4595,
+          "window_coverage": 1.0,
+          "window_align_score": 680.2,
+          "surrogate_surface": "VHNQYSLSIKQYTDSVIRDNKE",
+          "n_mapped": 22
+        },
+        {
+          "surface_identity": 0.2273,
+          "uniprot": "P21860",
+          "gene": "ERBB3",
+          "window_identity": 0.4486,
+          "window_coverage": 1.0,
+          "window_align_score": 656.7,
+          "surrogate_surface": "INNQYNGFLMNYSARDIKHNPR",
+          "n_mapped": 22
+        },
+        {
+          "surface_identity": 0.0909,
+          "uniprot": "P04626",
+          "gene": "ERBB2",
+          "window_identity": 0.4098,
+          "window_coverage": 0.9892,
+          "window_align_score": 653.0,
+          "surrogate_surface": "PDYSHNAYTQGLHHTLHTANPD",
+          "n_mapped": 22
+        },
+        {
+          "surface_identity": 0.0455,
+          "uniprot": "P06213",
+          "gene": "INSR",
+          "window_identity": 0.2816,
+          "window_coverage": 0.9405,
+          "window_align_score": 433.6,
+          "surrogate_surface": "LFFFYAIEMREKNYIVLNDN",
+          "n_mapped": 20
+        }
+      ],
+      "families": [
+        "PF00757",
+        "PF14843",
+        "PF07714",
+        "PF01030",
+        "PF21314"
+      ],
+      "state": "derived",
+      "note": "the closest 4 of 131 reviewed human proteins sharing a domain family (PF00757, PF14843, PF07714, PF01030, PF21314), ranked by identity at the epitope window rather than across the whole protein. The nearest is 46% identical at this surface, which makes this a moderate comparison.",
+      "n_considered": 131,
+      "duplicates_excluded": [],
+      "closest_identity": 0.4595,
+      "strength": "moderate",
+      "ceiling": {
+        "10": 0.16179,
+        "13": 0.16209
+      },
+      "ceiling_noise": {
+        "10": 0.01944,
+        "13": 0.01929
+      },
+      "target_epitope": "PRLQQHQFAVSISGKKIISNGN"
+    },
+    "flu_ha": {
+      "key": "flu_ha",
+      "gene": "HA",
+      "uniprot": "Q6DQ33",
+      "members": [],
+      "families": [
+        "PF00509"
+      ],
+      "state": "no_human_relatives",
+      "note": "No other reviewed human protein shares this protein's domain family (PF00509). Cross-reactivity with a close human relative is therefore not the risk here. Off-target binding to unrelated human proteins remains a real risk that this method cannot assess."
+    },
+    "her2_breast": {
+      "key": "her2_breast",
+      "gene": "ERBB2",
+      "uniprot": "P04626",
+      "members": [
+        {
+          "surface_identity": 0.3684,
+          "uniprot": "P00533",
+          "gene": "EGFR",
+          "window_identity": 0.4167,
+          "window_coverage": 0.9908,
+          "window_align_score": 359.9,
+          "surrogate_surface": "RGDNIDGPHPVKDGVHLCH",
+          "n_mapped": 19
+        },
+        {
+          "surface_identity": 0.4737,
+          "uniprot": "P21860",
+          "gene": "ERBB3",
+          "window_identity": 0.3925,
+          "window_coverage": 0.9817,
+          "window_align_score": 356.6,
+          "surrogate_surface": "SGDTRDGPHPIKDQERPCH",
+          "n_mapped": 19
+        },
+        {
+          "surface_identity": 0.5789,
+          "uniprot": "Q15303",
+          "gene": "ERBB4",
+          "window_identity": 0.3645,
+          "window_coverage": 0.9817,
+          "window_align_score": 330.6,
+          "surrogate_surface": "PGDNKDGPNPIKDDEHPCH",
+          "n_mapped": 19
+        }
+      ],
+      "families": [
+        "PF00757",
+        "PF14843",
+        "PF07714",
+        "PF01030",
+        "PF21314"
+      ],
+      "state": "derived",
+      "note": "the closest 3 of 131 reviewed human proteins sharing a domain family (PF00757, PF14843, PF07714, PF01030, PF21314), ranked by identity at the epitope window rather than across the whole protein. The nearest is 42% identical at this surface, which makes this a moderate comparison.",
+      "n_considered": 131,
+      "duplicates_excluded": [],
+      "closest_identity": 0.4167,
+      "strength": "moderate",
+      "ceiling": {
+        "10": 0.05938,
+        "13": 0.06106
+      },
+      "ceiling_noise": {
+        "10": 0.00948,
+        "13": 0.00807
+      },
+      "target_epitope": "PEDQKDPPFPIKDEAQPCP"
+    },
+    "hiv_gp120": {
+      "key": "hiv_gp120",
+      "gene": "env",
+      "uniprot": "Q0ED31",
+      "members": [],
+      "families": [],
+      "state": "unmappable",
+      "note": "The structure's residue numbering could not be reconciled with the reference sequence, so epitope positions cannot be located in any relative. No panel can be built without inventing the correspondence."
+    },
+    "ige_allergy": {
+      "key": "ige_allergy",
+      "gene": "IGHE",
+      "uniprot": "P01854",
+      "members": [
+        {
+          "surface_identity": 0.0667,
+          "uniprot": "P01871",
+          "gene": "IGHM",
+          "window_identity": 0.2941,
+          "window_coverage": 0.9871,
+          "window_align_score": 432.4,
+          "surrogate_surface": "ESLGQMTTESHPNA",
+          "n_mapped": 14
+        },
+        {
+          "surface_identity": 0.0,
+          "uniprot": "P0CF74",
+          "gene": "IGLC6",
+          "window_identity": 0.2935,
+          "window_coverage": 0.5935,
+          "window_align_score": 244.4,
+          "surrogate_surface": "YPSKQSNN",
+          "n_mapped": 8
+        },
+        {
+          "surface_identity": 0.0667,
+          "uniprot": "P01861",
+          "gene": "IGHG4",
+          "window_identity": 0.2922,
+          "window_coverage": 0.9935,
+          "window_align_score": 423.8,
+          "surrogate_surface": "SLGTCSQDEEQFNS",
+          "n_mapped": 14
+        },
+        {
+          "surface_identity": 0.2,
+          "uniprot": "P01876",
+          "gene": "IGHA1",
+          "window_identity": 0.2895,
+          "window_coverage": 0.9806,
+          "window_align_score": 423.6,
+          "surrogate_surface": "ATLAGTRDSERDLCG",
+          "n_mapped": 15
+        },
+        {
+          "surface_identity": 0.1333,
+          "uniprot": "P01877",
+          "gene": "IGHA2",
+          "window_identity": 0.2895,
+          "window_coverage": 0.9806,
+          "window_align_score": 438.5,
+          "surrogate_surface": "ATPDGRRDSERDLCG",
+          "n_mapped": 15
+        },
+        {
+          "surface_identity": 0.1333,
+          "uniprot": "P0DOX2",
+          "gene": "P0DOX2",
+          "window_identity": 0.2895,
+          "window_coverage": 0.9806,
+          "window_align_score": 437.1,
+          "surrogate_surface": "ATPDGRRDSERDLCG",
+          "n_mapped": 15
+        },
+        {
+          "surface_identity": 0.0667,
+          "uniprot": "P0DOX6",
+          "gene": "P0DOX6",
+          "window_identity": 0.281,
+          "window_coverage": 0.9871,
+          "window_align_score": 419.9,
+          "surrogate_surface": "ESLGEMTTESHPNA",
+          "n_mapped": 14
+        },
+        {
+          "surface_identity": 0.2,
+          "uniprot": "P01859",
+          "gene": "IGHG2",
+          "window_identity": 0.2792,
+          "window_coverage": 0.9935,
+          "window_align_score": 427.9,
+          "surrogate_surface": "SSGTQCSHDEEQFNS",
+          "n_mapped": 15
+        }
+      ],
+      "families": [
+        "PF07654"
+      ],
+      "state": "derived",
+      "note": "the closest 8 of 72 reviewed human proteins sharing a domain family (PF07654), ranked by identity at the epitope window rather than across the whole protein. The nearest is 29% identical at this surface, which makes this a distant comparison.",
+      "n_considered": 72,
+      "duplicates_excluded": [
+        {
+          "uniprot": "P0DOX4",
+          "gene": "P0DOX4",
+          "surface_identity": 1.0
+        }
+      ],
+      "closest_identity": 0.2941,
+      "strength": "distant",
+      "ceiling": {
+        "10": 0.45125,
+        "13": 0.44615
+      },
+      "ceiling_noise": {
+        "10": 0.03663,
+        "13": 0.03626
+      },
+      "target_epitope": "QKLSDKAPKEKQRNG"
+    },
+    "il17a_psoriasis": {
+      "key": "il17a_psoriasis",
+      "gene": "IL17A",
+      "uniprot": "Q16552",
+      "members": [
+        {
+          "surface_identity": 0.7273,
+          "uniprot": "Q96PD4",
+          "gene": "IL17F",
+          "window_identity": 0.6292,
+          "window_coverage": 1.0,
+          "window_align_score": 399.1,
+          "surrogate_surface": "LISMNPQVTPV",
+          "n_mapped": 11
+        },
+        {
+          "surface_identity": 0.2727,
+          "uniprot": "Q9P0M4",
+          "gene": "IL17C",
+          "window_identity": 0.4302,
+          "window_coverage": 0.9663,
+          "window_align_score": 259.6,
+          "surrogate_surface": "RAALNRLVLPR",
+          "n_mapped": 11
+        },
+        {
+          "surface_identity": 0.1818,
+          "uniprot": "Q8TAD2",
+          "gene": "IL17D",
+          "window_identity": 0.3596,
+          "window_coverage": 1.0,
+          "window_align_score": 251.3,
+          "surrogate_surface": "RVRFRPYVPEP",
+          "n_mapped": 11
+        },
+        {
+          "surface_identity": 0.4545,
+          "uniprot": "Q9UHF5",
+          "gene": "IL17B",
+          "window_identity": 0.3412,
+          "window_coverage": 0.9551,
+          "window_align_score": 258.3,
+          "surrogate_surface": "LRSMVPFCTCI",
+          "n_mapped": 11
+        }
+      ],
+      "families": [
+        "PF06083"
+      ],
+      "state": "derived",
+      "note": "the closest 4 of 5 reviewed human proteins sharing a domain family (PF06083), ranked by identity at the epitope window rather than across the whole protein. The nearest is 63% identical at this surface, which makes this a close comparison.",
+      "n_considered": 5,
+      "duplicates_excluded": [],
+      "closest_identity": 0.6292,
+      "strength": "close",
+      "ceiling": {
+        "10": 0.0,
+        "13": 0.0
+      },
+      "ceiling_noise": {
+        "10": 0.00337,
+        "13": 0.00329
+      },
+      "target_epitope": "LYHMNPQVTPI"
+    },
+    "il1b_inflammation": {
+      "key": "il1b_inflammation",
+      "gene": "IL1B",
+      "uniprot": "P01584",
+      "members": [
+        {
+          "surface_identity": 0.0909,
+          "uniprot": "Q9UBH0",
+          "gene": "IL36RN",
+          "window_identity": 0.2819,
+          "window_coverage": 0.903,
+          "window_align_score": 367.4,
+          "surrogate_surface": "YLHNNGLHGKIKGEGGSNIMQ",
+          "n_mapped": 21
+        },
+        {
+          "surface_identity": 0.1818,
+          "uniprot": "P01583",
+          "gene": "IL1A",
+          "window_identity": 0.2548,
+          "window_coverage": 0.9515,
+          "window_align_score": 371.4,
+          "surrogate_surface": "IRANDTALHLDEAKKTQEIPD",
+          "n_mapped": 21
+        }
+      ],
+      "families": [
+        "PF00340",
+        "PF02394"
+      ],
+      "state": "derived",
+      "note": "the closest 2 of 8 reviewed human proteins sharing a domain family (PF00340, PF02394), ranked by identity at the epitope window rather than across the whole protein. The nearest is 28% identical at this surface, which makes this a distant comparison.",
+      "n_considered": 8,
+      "duplicates_excluded": [],
+      "closest_identity": 0.2819,
+      "strength": "distant",
+      "ceiling": {
+        "10": 0.0645,
+        "13": 0.07577
+      },
+      "ceiling_noise": {
+        "10": 0.04178,
+        "13": 0.03717
+      },
+      "target_epitope": "VMSGPKLLQQDEQQVEKNDPKN"
+    },
+    "il23_psoriasis": {
+      "key": "il23_psoriasis",
+      "gene": "IL23A",
+      "uniprot": "Q9NPF7",
+      "members": [],
+      "families": [
+        "PF16649"
+      ],
+      "state": "no_human_relatives",
+      "note": "No other reviewed human protein shares this protein's domain family (PF16649). Cross-reactivity with a close human relative is therefore not the risk here. Off-target binding to unrelated human proteins remains a real risk that this method cannot assess."
+    },
+    "il4r_eczema": {
+      "key": "il4r_eczema",
+      "gene": "IL4R",
+      "uniprot": "P24394",
+      "members": [],
+      "families": [
+        "PF09238"
+      ],
+      "state": "no_human_relatives",
+      "note": "No other reviewed human protein shares this protein's domain family (PF09238). Cross-reactivity with a close human relative is therefore not the risk here. Off-target binding to unrelated human proteins remains a real risk that this method cannot assess."
+    },
+    "il5_asthma": {
+      "key": "il5_asthma",
+      "gene": "IL5",
+      "uniprot": "P05113",
+      "members": [],
+      "families": [
+        "PF02025"
+      ],
+      "state": "no_human_relatives",
+      "note": "No other reviewed human protein shares this protein's domain family (PF02025). Cross-reactivity with a close human relative is therefore not the risk here. Off-target binding to unrelated human proteins remains a real risk that this method cannot assess."
+    },
+    "il6_cytokine": {
+      "key": "il6_cytokine",
+      "gene": "IL6",
+      "uniprot": "P05231",
+      "members": [],
+      "families": [
+        "PF00489"
+      ],
+      "state": "no_human_relatives",
+      "note": "No other reviewed human protein shares this protein's domain family (PF00489). Cross-reactivity with a close human relative is therefore not the risk here. Off-target binding to unrelated human proteins remains a real risk that this method cannot assess."
+    },
+    "il6r_ra": {
+      "key": "il6r_ra",
+      "gene": "IL6R",
+      "uniprot": "P08887",
+      "members": [],
+      "families": [
+        "PF00047",
+        "PF09240"
+      ],
+      "state": "no_close_relatives",
+      "note": "70 human proteins share a domain family with this target, but none is more than 25% identical to it at the binding site itself. They share a fold, not this surface. Mapping the epitope onto them would produce a surrogate surface too unreliable to score against, so no number is reported.",
+      "n_considered": 70,
+      "duplicates_excluded": []
+    },
+    "lag3_checkpoint": {
+      "key": "lag3_checkpoint",
+      "gene": "LAG3",
+      "uniprot": "P18627",
+      "members": [],
+      "families": [],
+      "state": "no_family",
+      "note": "UniProt lists no Pfam domain family for this protein, so there is no principled set of relatives to compare against."
+    },
+    "msln_mesothelioma": {
+      "key": "msln_mesothelioma",
+      "gene": "MSLN",
+      "uniprot": "Q13421",
+      "members": [],
+      "families": [
+        "PF06060"
+      ],
+      "state": "no_close_relatives",
+      "note": "1 human proteins share a domain family with this target, but none is more than 25% identical to it at the binding site itself. They share a fold, not this surface. Mapping the epitope onto them would produce a surrogate surface too unreliable to score against, so no number is reported.",
+      "n_considered": 1,
+      "duplicates_excluded": []
+    },
+    "nectin4_urothelial": {
+      "key": "nectin4_urothelial",
+      "gene": "NECTIN4",
+      "uniprot": "Q96NY8",
+      "members": [
+        {
+          "surface_identity": 0.4762,
+          "uniprot": "Q9NQS3",
+          "gene": "NECTIN3",
+          "window_identity": 0.3417,
+          "window_coverage": 0.96,
+          "window_align_score": 356.6,
+          "surrogate_surface": "QESQTVAVHYSVQGEYQGRNK",
+          "n_mapped": 21
+        },
+        {
+          "surface_identity": 0.1429,
+          "uniprot": "O60500",
+          "gene": "NPHS1",
+          "window_identity": 0.3008,
+          "window_coverage": 0.984,
+          "window_align_score": 316.3,
+          "surrogate_surface": "VATPGSAVWDLLGPDPRAQ",
+          "n_mapped": 19
+        },
+        {
+          "surface_identity": 0.2857,
+          "uniprot": "Q15223",
+          "gene": "NECTIN1",
+          "window_identity": 0.2951,
+          "window_coverage": 0.976,
+          "window_align_score": 334.6,
+          "surrogate_surface": "QQKQNVAINMSVLAPYRERRE",
+          "n_mapped": 21
+        },
+        {
+          "surface_identity": 0.0476,
+          "uniprot": "P98160",
+          "gene": "HSPG2",
+          "window_identity": 0.2893,
+          "window_coverage": 0.968,
+          "window_align_score": 319.6,
+          "surrogate_surface": "RSQTLDLCPSHAQVTWHKQR",
+          "n_mapped": 20
+        },
+        {
+          "surface_identity": 0.2381,
+          "uniprot": "Q92692",
+          "gene": "NECTIN2",
+          "window_identity": 0.288,
+          "window_coverage": 1.0,
+          "window_align_score": 336.3,
+          "surrogate_surface": "LQHQNVAAHMPSPPGSERKGE",
+          "n_mapped": 21
+        },
+        {
+          "surface_identity": 0.0952,
+          "uniprot": "Q9BZZ2",
+          "gene": "SIGLEC1",
+          "window_identity": 0.281,
+          "window_coverage": 0.968,
+          "window_align_score": 304.7,
+          "surrogate_surface": "ACALLALHHATSLGPQVPEE",
+          "n_mapped": 20
+        },
+        {
+          "surface_identity": 0.0952,
+          "uniprot": "P15151",
+          "gene": "PVR",
+          "window_identity": 0.2787,
+          "window_coverage": 0.976,
+          "window_align_score": 317.7,
+          "surrogate_surface": "QAGSMAVHQSYSESKRLEGL",
+          "n_mapped": 20
+        },
+        {
+          "surface_identity": 0.1905,
+          "uniprot": "Q9Y279",
+          "gene": "VSIG4",
+          "window_identity": 0.2787,
+          "window_coverage": 0.976,
+          "window_align_score": 306.3,
+          "surrogate_surface": "LLPVTIFLDGIQQAKYQGRTE",
+          "n_mapped": 21
+        }
+      ],
+      "families": [
+        "PF08205",
+        "PF13927",
+        "PF07686"
+      ],
+      "state": "derived",
+      "note": "the closest 8 of 154 reviewed human proteins sharing a domain family (PF08205, PF13927, PF07686), ranked by identity at the epitope window rather than across the whole protein. The nearest is 34% identical at this surface, which makes this a distant comparison.",
+      "n_considered": 154,
+      "duplicates_excluded": [],
+      "closest_identity": 0.3417,
+      "strength": "distant",
+      "ceiling": {
+        "10": 0.0,
+        "13": 0.0
+      },
+      "ceiling_noise": {
+        "10": 0.00213,
+        "13": 0.00867
+      },
+      "target_epitope": "QAAQELALHYHVSPAYEGRNR"
+    },
+    "pcsk9_cholesterol": {
+      "key": "pcsk9_cholesterol",
+      "gene": "PCSK9",
+      "uniprot": "Q8NBP7",
+      "members": [],
+      "families": [
+        "PF05922",
+        "PF18459",
+        "PF18464",
+        "PF18463",
+        "PF00082"
+      ],
+      "state": "no_close_relatives",
+      "note": "10 human proteins share a domain family with this target, but none is more than 25% identical to it at the binding site itself. They share a fold, not this surface. Mapping the epitope onto them would produce a surrogate surface too unreliable to score against, so no number is reported.",
+      "n_considered": 10,
+      "duplicates_excluded": []
+    },
+    "pd1_checkpoint": {
+      "key": "pd1_checkpoint",
+      "gene": "PDCD1",
+      "uniprot": "Q15116",
+      "members": [],
+      "families": [
+        "PF07686"
+      ],
+      "state": "family_too_generic",
+      "note": "The only domain family on record for this protein is shared by too many human proteins to identify close relatives: PF07686 (419 human proteins). A panel drawn from it would be arbitrary rather than informative, so none was built. This is a limit of the method, not a finding about the target."
+    },
+    "pdl1_checkpoint": {
+      "key": "pdl1_checkpoint",
+      "gene": "CD274",
+      "uniprot": "Q9NZQ7",
+      "members": [],
+      "families": [
+        "PF08205",
+        "PF07686"
+      ],
+      "state": "no_close_relatives",
+      "note": "26 human proteins share a domain family with this target, but none is more than 25% identical to it at the binding site itself. They share a fold, not this surface. Mapping the epitope onto them would produce a surrogate surface too unreliable to score against, so no number is reported.",
+      "n_considered": 26,
+      "duplicates_excluded": []
+    },
+    "rankl_osteoporosis": {
+      "key": "rankl_osteoporosis",
+      "gene": "TNFSF11",
+      "uniprot": "O14788",
+      "members": [
+        {
+          "surface_identity": 0.3571,
+          "uniprot": "P50591",
+          "gene": "TNFSF10",
+          "window_identity": 0.3171,
+          "window_coverage": 0.9704,
+          "window_align_score": 485.4,
+          "surrogate_surface": "NEKQVYYIKNEKT",
+          "n_mapped": 13
+        },
+        {
+          "surface_identity": 0.0,
+          "uniprot": "O95150",
+          "gene": "TNFSF15",
+          "window_identity": 0.2883,
+          "window_coverage": 0.9645,
+          "window_align_score": 421.0,
+          "surrogate_surface": "KNQSTVSYTTSQS",
+          "n_mapped": 13
+        },
+        {
+          "surface_identity": 0.1429,
+          "uniprot": "O43557",
+          "gene": "TNFSF14",
+          "window_identity": 0.2875,
+          "window_coverage": 0.9467,
+          "window_align_score": 399.1,
+          "surrogate_surface": "SGTGYYPESPHEL",
+          "n_mapped": 13
+        },
+        {
+          "surface_identity": 0.1429,
+          "uniprot": "P29965",
+          "gene": "CD40LG",
+          "window_identity": 0.2658,
+          "window_coverage": 0.9349,
+          "window_align_score": 417.5,
+          "surrogate_surface": "SSKALRFRRTEQT",
+          "n_mapped": 13
+        }
+      ],
+      "families": [
+        "PF00229"
+      ],
+      "state": "derived",
+      "note": "the closest 4 of 15 reviewed human proteins sharing a domain family (PF00229), ranked by identity at the epitope window rather than across the whole protein. The nearest is 32% identical at this surface, which makes this a distant comparison.",
+      "n_considered": 15,
+      "duplicates_excluded": [],
+      "closest_identity": 0.3171,
+      "strength": "distant",
+      "ceiling": {
+        "10": 0.21417,
+        "13": 0.21429
+      },
+      "ceiling_noise": {
+        "10": 0.0404,
+        "13": 0.041
+      },
+      "target_epitope": "SHKQMYKIHKTKRS"
+    },
+    "rsv_f": {
+      "key": "rsv_f",
+      "gene": "F",
+      "uniprot": "P03420",
+      "members": [],
+      "families": [
+        "PF00523"
+      ],
+      "state": "no_human_relatives",
+      "note": "No other reviewed human protein shares this protein's domain family (PF00523). Cross-reactivity with a close human relative is therefore not the risk here. Off-target binding to unrelated human proteins remains a real risk that this method cannot assess."
+    },
+    "sars2_rbd": {
+      "key": "sars2_rbd",
+      "gene": "S",
+      "uniprot": "P0DTC2",
+      "members": [],
+      "families": [
+        "PF16451",
+        "PF09408",
+        "PF19209",
+        "PF01601"
+      ],
+      "state": "no_human_relatives",
+      "note": "No other reviewed human protein shares this protein's domain family (PF16451, PF09408, PF19209, PF01601). Cross-reactivity with a close human relative is therefore not the risk here. Off-target binding to unrelated human proteins remains a real risk that this method cannot assess."
+    },
+    "synuclein_parkinsons": {
+      "key": "synuclein_parkinsons",
+      "gene": "SNCA",
+      "uniprot": "P37840",
+      "members": [
+        {
+          "surface_identity": 0.8182,
+          "uniprot": "Q16143",
+          "gene": "SNCB",
+          "window_identity": 0.7101,
+          "window_coverage": 0.9718,
+          "window_align_score": 340.4,
+          "surrogate_surface": "EGVVQGVASVA",
+          "n_mapped": 11
+        },
+        {
+          "surface_identity": 0.5455,
+          "uniprot": "O76070",
+          "gene": "SNCG",
+          "window_identity": 0.6857,
+          "window_coverage": 0.9859,
+          "window_align_score": 342.8,
+          "surrogate_surface": "ENVVQSVTSVA",
+          "n_mapped": 11
+        }
+      ],
+      "families": [
+        "PF01387"
+      ],
+      "state": "derived",
+      "note": "the closest 2 of 2 reviewed human proteins sharing a domain family (PF01387), ranked by identity at the epitope window rather than across the whole protein. The nearest is 71% identical at this surface, which makes this a close comparison.",
+      "n_considered": 2,
+      "duplicates_excluded": [],
+      "closest_identity": 0.7101,
+      "strength": "close",
+      "ceiling": {
+        "10": 0.0,
+        "13": 0.0
+      },
+      "ceiling_noise": {
+        "10": 0.00235,
+        "13": 0.00411
+      },
+      "target_epitope": "EGVVHGVATVA"
+    },
+    "tcdb_cdiff": {
+      "key": "tcdb_cdiff",
+      "gene": "tcdB",
+      "uniprot": "P18177",
+      "members": [],
+      "families": [
+        "PF01473",
+        "PF19127",
+        "PF30720",
+        "PF11713",
+        "PF12919",
+        "PF12920",
+        "PF12918"
+      ],
+      "state": "no_human_relatives",
+      "note": "No other reviewed human protein shares this protein's domain family (PF01473, PF19127, PF30720, PF11713, PF12919, PF12920, PF12918). Cross-reactivity with a close human relative is therefore not the risk here. Off-target binding to unrelated human proteins remains a real risk that this method cannot assess."
+    },
+    "tigit_checkpoint": {
+      "key": "tigit_checkpoint",
+      "gene": "TIGIT",
+      "uniprot": "Q495A1",
+      "members": [],
+      "families": [
+        "PF07686"
+      ],
+      "state": "family_too_generic",
+      "note": "The only domain family on record for this protein is shared by too many human proteins to identify close relatives: PF07686 (419 human proteins). A panel drawn from it would be arbitrary rather than informative, so none was built. This is a limit of the method, not a finding about the target."
+    },
+    "tnf_ra": {
+      "key": "tnf_ra",
+      "gene": "TNF",
+      "uniprot": "P01375",
+      "members": [
+        {
+          "surface_identity": 0.2353,
+          "uniprot": "O95150",
+          "gene": "TNFSF15",
+          "window_identity": 0.3375,
+          "window_coverage": 0.9524,
+          "window_align_score": 453.3,
+          "surrogate_surface": "TQFRGQVGNFSLDYTKE",
+          "n_mapped": 17
+        },
+        {
+          "surface_identity": 0.2353,
+          "uniprot": "P01374",
+          "gene": "LTA",
+          "window_identity": 0.2848,
+          "window_coverage": 0.9821,
+          "window_align_score": 492.9,
+          "surrogate_surface": "PSQSGKLQPLPHVLSPS",
+          "n_mapped": 17
+        },
+        {
+          "surface_identity": 0.0588,
+          "uniprot": "O75888",
+          "gene": "TNFSF13",
+          "window_identity": 0.2847,
+          "window_coverage": 0.8571,
+          "window_align_score": 371.6,
+          "surrogate_surface": "DVEPDAYRALNLSP",
+          "n_mapped": 14
+        },
+        {
+          "surface_identity": 0.2941,
+          "uniprot": "P48023",
+          "gene": "FASLG",
+          "window_identity": 0.283,
+          "window_coverage": 0.9464,
+          "window_align_score": 427.0,
+          "surrogate_surface": "SNRRGQTGMASLNFEES",
+          "n_mapped": 17
+        },
+        {
+          "surface_identity": 0.0588,
+          "uniprot": "O43557",
+          "gene": "TNFSF14",
+          "window_identity": 0.2805,
+          "window_coverage": 0.9762,
+          "window_align_score": 447.3,
+          "surrogate_surface": "TGGGGVSSVWRLRLRDG",
+          "n_mapped": 17
+        }
+      ],
+      "families": [
+        "PF00229"
+      ],
+      "state": "derived",
+      "note": "the closest 5 of 15 reviewed human proteins sharing a domain family (PF00229), ranked by identity at the epitope window rather than across the whole protein. The nearest is 34% identical at this surface, which makes this a distant comparison.",
+      "n_considered": 15,
+      "duplicates_excluded": [],
+      "closest_identity": 0.3375,
+      "strength": "distant",
+      "ceiling": {
+        "10": 0.0865,
+        "13": 0.08551
+      },
+      "ceiling_noise": {
+        "10": 0.01193,
+        "13": 0.02338
+      },
+      "target_epitope": "PQEKGQEAPYDYDFAES"
+    },
+    "trop2_tnbc": {
+      "key": "trop2_tnbc",
+      "gene": "TACSTD2",
+      "uniprot": "P09758",
+      "members": [
+        {
+          "surface_identity": 0.0833,
+          "uniprot": "P16422",
+          "gene": "EPCAM",
+          "window_identity": 0.4907,
+          "window_coverage": 0.9642,
+          "window_align_score": 991.3,
+          "surrogate_surface": "EENCTAKETTRQHSKKMDLTGEQ",
+          "n_mapped": 23
+        }
+      ],
+      "families": [
+        "PF21283",
+        "PF18635",
+        "PF00086"
+      ],
+      "state": "derived",
+      "note": "the closest 1 of 16 reviewed human proteins sharing a domain family (PF21283, PF18635, PF00086), ranked by identity at the epitope window rather than across the whole protein. The nearest is 49% identical at this surface, which makes this a moderate comparison.",
+      "n_considered": 16,
+      "duplicates_excluded": [],
+      "closest_identity": 0.4907,
+      "strength": "moderate",
+      "ceiling": {
+        "10": 0.42438,
+        "13": 0.41087
+      },
+      "ceiling_noise": {
+        "10": 0.08298,
+        "13": 0.07691
+      },
+      "target_epitope": "DPTCAERLRERRQGRGGLDLRGEP"
+    },
+    "tslp_asthma": {
+      "key": "tslp_asthma",
+      "gene": "TSLP",
+      "uniprot": "Q969D9",
+      "members": [],
+      "families": [
+        "PF15216"
+      ],
+      "state": "no_human_relatives",
+      "note": "No other reviewed human protein shares this protein's domain family (PF15216). Cross-reactivity with a close human relative is therefore not the risk here. Off-target binding to unrelated human proteins remains a real risk that this method cannot assess."
+    },
+    "vegfa_angio": {
+      "key": "vegfa_angio",
+      "gene": "VEGFA",
+      "uniprot": "P15692",
+      "members": [
+        {
+          "surface_identity": 0.2353,
+          "uniprot": "P49765",
+          "gene": "VEGFB",
+          "window_identity": 0.4771,
+          "window_coverage": 0.9909,
+          "window_align_score": 375.7,
+          "surrogate_surface": "KVQILMIRPSSQLGEM",
+          "n_mapped": 16
+        },
+        {
+          "surface_identity": 0.1765,
+          "uniprot": "P49763",
+          "gene": "PGF",
+          "window_identity": 0.4455,
+          "window_coverage": 1.0,
+          "window_align_score": 402.5,
+          "surrogate_surface": "HSQLLKIRGDRPSYVEL",
+          "n_mapped": 17
+        },
+        {
+          "surface_identity": 0.2353,
+          "uniprot": "P49767",
+          "gene": "VEGFC",
+          "window_identity": 0.3636,
+          "window_coverage": 1.0,
+          "window_align_score": 331.5,
+          "surrogate_surface": "TKTLFEITLQGPKPVTI",
+          "n_mapped": 17
+        },
+        {
+          "surface_identity": 0.1765,
+          "uniprot": "O43915",
+          "gene": "VEGFD",
+          "window_identity": 0.3091,
+          "window_coverage": 1.0,
+          "window_align_score": 327.9,
+          "surrogate_surface": "TKQLFEISPLTSVPELV",
+          "n_mapped": 17
+        },
+        {
+          "surface_identity": 0.1765,
+          "uniprot": "P01127",
+          "gene": "PDGFB",
+          "window_identity": 0.2727,
+          "window_coverage": 1.0,
+          "window_align_score": 250.2,
+          "surrogate_surface": "FWRIVRKKIFKKATVTL",
+          "n_mapped": 17
+        }
+      ],
+      "families": [
+        "PF00341",
+        "PF14554",
+        "PF27240"
+      ],
+      "state": "derived",
+      "note": "the closest 5 of 8 reviewed human proteins sharing a domain family (PF00341, PF14554, PF27240), ranked by identity at the epitope window rather than across the whole protein. The nearest is 48% identical at this surface, which makes this a moderate comparison.",
+      "n_considered": 8,
+      "duplicates_excluded": [],
+      "closest_identity": 0.4771,
+      "strength": "moderate",
+      "ceiling": {
+        "10": 0.0,
+        "13": 0.02885
+      },
+      "ceiling_noise": {
+        "10": 0.02764,
+        "13": 0.02711
+      },
+      "target_epitope": "YKQIMRIKHQGQHIGEM"
+    },
+    "angpt2_dme": {
+      "key": "angpt2_dme",
+      "gene": "ANGPT2",
+      "uniprot": "O15123",
+      "members": [
+        {
+          "surface_identity": 0.6667,
+          "uniprot": "Q15389",
+          "gene": "ANGPT1",
+          "window_identity": 0.7158,
+          "window_coverage": 1.0,
+          "window_align_score": 469.6,
+          "surrogate_surface": "NCMCMLDACGPLHYP",
+          "n_mapped": 15
+        },
+        {
+          "surface_identity": 0.4667,
+          "uniprot": "Q9Y264",
+          "gene": "ANGPT4",
+          "window_identity": 0.5474,
+          "window_coverage": 1.0,
+          "window_align_score": 408.4,
+          "surrogate_surface": "HCLCVMDACGLMHYP",
+          "n_mapped": 15
+        },
+        {
+          "surface_identity": 0.2667,
+          "uniprot": "O43827",
+          "gene": "ANGPTL7",
+          "window_identity": 0.4632,
+          "window_coverage": 1.0,
+          "window_align_score": 341.0,
+          "surrogate_surface": "NCLDLRNCCTDLYGS",
+          "n_mapped": 15
+        },
+        {
+          "surface_identity": 0.2,
+          "uniprot": "Q14314",
+          "gene": "FGL2",
+          "window_identity": 0.4149,
+          "window_coverage": 0.9895,
+          "window_align_score": 284.1,
+          "surrogate_surface": "RPSGYYDACLSGTG",
+          "n_mapped": 14
+        },
+        {
+          "surface_identity": 0.1333,
+          "uniprot": "Q9BY76",
+          "gene": "ANGPTL4",
+          "window_identity": 0.4149,
+          "window_coverage": 0.9895,
+          "window_align_score": 288.6,
+          "surrogate_surface": "LRRDSLGTCSHKKTR",
+          "n_mapped": 15
+        },
+        {
+          "surface_identity": 0.1333,
+          "uniprot": "O95841",
+          "gene": "ANGPTL1",
+          "window_identity": 0.413,
+          "window_coverage": 0.9684,
+          "window_align_score": 302.0,
+          "surrogate_surface": "MYAGFHNACAHHAEG",
+          "n_mapped": 15
+        },
+        {
+          "surface_identity": 0.0667,
+          "uniprot": "Q92752",
+          "gene": "TNR",
+          "window_identity": 0.4045,
+          "window_coverage": 0.9368,
+          "window_align_score": 279.1,
+          "surrogate_surface": "VAVTSYKNCHRYHH",
+          "n_mapped": 14
+        },
+        {
+          "surface_identity": 0.1333,
+          "uniprot": "P22105",
+          "gene": "TNXB",
+          "window_identity": 0.4,
+          "window_coverage": 0.9474,
+          "window_align_score": 281.4,
+          "surrogate_surface": "SLLISYRNCHYHYHF",
+          "n_mapped": 15
+        }
+      ],
+      "families": [
+        "PF25443",
+        "PF00147"
+      ],
+      "state": "derived",
+      "note": "the closest 8 of 23 reviewed human proteins sharing a domain family (PF25443, PF00147), ranked by identity at the epitope window rather than across the whole protein. The nearest is 72% identical at this surface, which makes this a close comparison.",
+      "n_considered": 23,
+      "duplicates_excluded": [],
+      "closest_identity": 0.7158,
+      "strength": "close",
+      "ceiling": {
+        "10": 0.0035,
+        "13": 0.01019
+      },
+      "ceiling_noise": {
+        "10": 0.00707,
+        "13": 0.00907
+      },
+      "target_epitope": "KCICMLDACGPFYYS"
+    },
+    "c1q_geographic": {
+      "key": "c1q_geographic",
+      "gene": "C1QB",
+      "uniprot": "P02746",
+      "members": [
+        {
+          "surface_identity": 0.3333,
+          "uniprot": "P02747",
+          "gene": "C1QC",
+          "window_identity": 0.4967,
+          "window_coverage": 0.9618,
+          "window_align_score": 588.9,
+          "surrogate_surface": "TRQTHRNAVLNGTSGIQD",
+          "n_mapped": 18
+        },
+        {
+          "surface_identity": 0.1667,
+          "uniprot": "P02745",
+          "gene": "C1QA",
+          "window_identity": 0.4118,
+          "window_coverage": 0.9745,
+          "window_align_score": 505.5,
+          "surrogate_surface": "IRRNIDTVINENHQGSD",
+          "n_mapped": 17
+        },
+        {
+          "surface_identity": 0.0556,
+          "uniprot": "Q9BXJ2",
+          "gene": "C1QTNF7",
+          "window_identity": 0.3701,
+          "window_coverage": 0.9809,
+          "window_align_score": 442.5,
+          "surrogate_surface": "GITTSNKVLNEPASDPD",
+          "n_mapped": 17
+        },
+        {
+          "surface_identity": 0.2222,
+          "uniprot": "Q9BXJ0",
+          "gene": "C1QTNF5",
+          "window_identity": 0.3526,
+          "window_coverage": 0.9936,
+          "window_align_score": 481.3,
+          "surrogate_surface": "KRSESPDRVLNGAVASID",
+          "n_mapped": 18
+        },
+        {
+          "surface_identity": 0.1667,
+          "uniprot": "P27658",
+          "gene": "COL8A1",
+          "window_identity": 0.3467,
+          "window_coverage": 0.9554,
+          "window_align_score": 443.0,
+          "surrogate_surface": "ELTAPKNKLLNQPQAGQH",
+          "n_mapped": 18
+        },
+        {
+          "surface_identity": 0.1667,
+          "uniprot": "Q9BXJ5",
+          "gene": "C1QTNF2",
+          "window_identity": 0.3464,
+          "window_coverage": 0.9745,
+          "window_align_score": 442.0,
+          "surrogate_surface": "AVTKSKDKILNGASYPYD",
+          "n_mapped": 18
+        },
+        {
+          "surface_identity": 0.3889,
+          "uniprot": "Q86Z23",
+          "gene": "C1QL4",
+          "window_identity": 0.3442,
+          "window_coverage": 0.9809,
+          "window_align_score": 468.4,
+          "surrogate_surface": "PRAFYRDDVVNNAAGNTY",
+          "n_mapped": 18
+        },
+        {
+          "surface_identity": 0.2778,
+          "uniprot": "P0C862",
+          "gene": "C1QTNF9",
+          "window_identity": 0.3399,
+          "window_coverage": 0.9745,
+          "window_align_score": 460.4,
+          "surrogate_surface": "GLTVLKDKILNNTAADED",
+          "n_mapped": 18
+        }
+      ],
+      "families": [
+        "PF00386",
+        "PF01391"
+      ],
+      "state": "derived",
+      "note": "the closest 8 of 87 reviewed human proteins sharing a domain family (PF00386, PF01391), ranked by identity at the epitope window rather than across the whole protein. The nearest is 50% identical at this surface, which makes this a moderate comparison.",
+      "n_considered": 87,
+      "duplicates_excluded": [],
+      "closest_identity": 0.4967,
+      "strength": "moderate",
+      "ceiling": {
+        "10": 0.03857,
+        "13": 0.0397
+      },
+      "ceiling_noise": {
+        "10": 0.01648,
+        "13": 0.01679
+      },
+      "target_epitope": "TRTINRDHVINNPRGMEN"
+    },
+    "c3_complement": {
+      "key": "c3_complement",
+      "gene": "C3",
+      "uniprot": "P01024",
+      "members": [
+        {
+          "surface_identity": 0.0667,
+          "uniprot": "P0C0L5",
+          "gene": "C4B",
+          "window_identity": 0.3668,
+          "window_coverage": 0.9938,
+          "window_align_score": 954.7,
+          "surrogate_surface": "LRGQWSRPVIHRSF",
+          "n_mapped": 14
+        },
+        {
+          "surface_identity": 0.0667,
+          "uniprot": "P0C0L4",
+          "gene": "C4A",
+          "window_identity": 0.3511,
+          "window_coverage": 0.9938,
+          "window_align_score": 941.1,
+          "surrogate_surface": "LRGQWSRPVLDRSF",
+          "n_mapped": 14
+        },
+        {
+          "surface_identity": 0.1333,
+          "uniprot": "Q8IZJ3",
+          "gene": "CPAMD8",
+          "window_identity": 0.3141,
+          "window_coverage": 0.972,
+          "window_align_score": 879.8,
+          "surrogate_surface": "LFGQFERRVLNKDF",
+          "n_mapped": 14
+        },
+        {
+          "surface_identity": 0.1333,
+          "uniprot": "P01031",
+          "gene": "C5",
+          "window_identity": 0.3009,
+          "window_coverage": 0.9938,
+          "window_align_score": 891.2,
+          "surrogate_surface": "LKGAWGGQYQPIKF",
+          "n_mapped": 14
+        },
+        {
+          "surface_identity": 0.1333,
+          "uniprot": "A8K2U0",
+          "gene": "A2ML1",
+          "window_identity": 0.2997,
+          "window_coverage": 0.9875,
+          "window_align_score": 861.3,
+          "surrogate_surface": "MSGQFERNLLHTAF",
+          "n_mapped": 14
+        },
+        {
+          "surface_identity": 0.0667,
+          "uniprot": "P01023",
+          "gene": "A2M",
+          "window_identity": 0.2698,
+          "window_coverage": 0.9813,
+          "window_align_score": 834.1,
+          "surrogate_surface": "MYGQFERSLLNNAF",
+          "n_mapped": 14
+        },
+        {
+          "surface_identity": 0.0667,
+          "uniprot": "Q6ZMU1",
+          "gene": "C3P1",
+          "window_identity": 0.2659,
+          "window_coverage": 0.8318,
+          "window_align_score": 716.5,
+          "surrogate_surface": "SGAQSGNPVVMTS",
+          "n_mapped": 13
+        },
+        {
+          "surface_identity": 0.0667,
+          "uniprot": "P20742",
+          "gene": "PZP",
+          "window_identity": 0.2555,
+          "window_coverage": 0.9875,
+          "window_align_score": 850.3,
+          "surrogate_surface": "MYGQFERSLLNNAF",
+          "n_mapped": 14
+        }
+      ],
+      "families": [
+        "PF00207",
+        "PF07703",
+        "PF07677",
+        "PF01821",
+        "PF21406",
+        "PF21308",
+        "PF17790",
+        "PF01835",
+        "PF17791",
+        "PF17789",
+        "PF01759",
+        "PF07678"
+      ],
+      "state": "derived",
+      "note": "the closest 8 of 25 reviewed human proteins sharing a domain family (PF00207, PF07703, PF07677, PF01821, PF21406, PF21308, PF17790, PF01835, PF17791, PF17789, PF01759, PF07678), ranked by identity at the epitope window rather than across the whole protein. The nearest is 37% identical at this surface, which makes this a moderate comparison.",
+      "n_considered": 25,
+      "duplicates_excluded": [],
+      "closest_identity": 0.3668,
+      "strength": "moderate",
+      "ceiling": {
+        "10": 0.06583,
+        "13": 0.08397
+      },
+      "ceiling_noise": {
+        "10": 0.0101,
+        "13": 0.01515
+      },
+      "target_epitope": "TSGAQFKRPVIHQEY"
+    },
+    "calcrl_migraine": {
+      "key": "calcrl_migraine",
+      "gene": "CALCRL",
+      "uniprot": "Q16602",
+      "members": [
+        {
+          "surface_identity": 0.0385,
+          "uniprot": "P30988",
+          "gene": "CALCR",
+          "window_identity": 0.5337,
+          "window_coverage": 1.0,
+          "window_align_score": 682.8,
+          "surrogate_surface": "NQTYRMDGWFDFHENRTWSYNTPE",
+          "n_mapped": 24
+        },
+        {
+          "surface_identity": 0.1154,
+          "uniprot": "Q03431",
+          "gene": "PTH1R",
+          "window_identity": 0.2577,
+          "window_coverage": 1.0,
+          "window_align_score": 421.5,
+          "surrogate_surface": "EVLQSTDHIIDFVGHRTWAYVNET",
+          "n_mapped": 24
+        }
+      ],
+      "families": [
+        "PF00002",
+        "PF02793"
+      ],
+      "state": "derived",
+      "note": "the closest 2 of 48 reviewed human proteins sharing a domain family (PF00002, PF02793), ranked by identity at the epitope window rather than across the whole protein. The nearest is 53% identical at this surface, which makes this a close comparison.",
+      "n_considered": 48,
+      "duplicates_excluded": [],
+      "closest_identity": 0.5337,
+      "strength": "close",
+      "ceiling": {
+        "10": 0.0625,
+        "13": 0.10591
+      },
+      "ceiling_noise": {
+        "10": 0.05894,
+        "13": 0.04938
+      },
+      "target_epitope": "GSELEERIDGWFDFHASRTWTYNTHE"
+    },
+    "cd40lg_lupus": {
+      "key": "cd40lg_lupus",
+      "gene": "CD40LG",
+      "uniprot": "P29965",
+      "members": [
+        {
+          "surface_identity": 0.15,
+          "uniprot": "O14788",
+          "gene": "TNFSF11",
+          "window_identity": 0.2658,
+          "window_coverage": 0.9693,
+          "window_align_score": 417.5,
+          "surrogate_surface": "SGSHHDRGAREFFSLLDPDA",
+          "n_mapped": 20
+        },
+        {
+          "surface_identity": 0.15,
+          "uniprot": "O43557",
+          "gene": "TNFSF14",
+          "window_identity": 0.2515,
+          "window_coverage": 1.0,
+          "window_align_score": 402.6,
+          "surrogate_surface": "ANSSLWETLGSSRRLVRLRT",
+          "n_mapped": 20
+        }
+      ],
+      "families": [
+        "PF00229"
+      ],
+      "state": "derived",
+      "note": "the closest 2 of 15 reviewed human proteins sharing a domain family (PF00229), ranked by identity at the epitope window rather than across the whole protein. The nearest is 27% identical at this surface, which makes this a distant comparison.",
+      "n_considered": 15,
+      "duplicates_excluded": [],
+      "closest_identity": 0.2658,
+      "strength": "distant",
+      "ceiling": {
+        "10": 0.08571,
+        "13": 0.06868
+      },
+      "ceiling_noise": {
+        "10": 0.00932,
+        "13": 0.00807
+      },
+      "target_epitope": "EASSAEKGYCPCQSQVSHGF"
+    },
+    "ceacam5_nsclc": {
+      "key": "ceacam5_nsclc",
+      "gene": "CEACAM5",
+      "uniprot": "P06731",
+      "members": [
+        {
+          "surface_identity": 0.625,
+          "uniprot": "P31997",
+          "gene": "CEACAM8",
+          "window_identity": 0.6825,
+          "window_coverage": 1.0,
+          "window_align_score": 980.0,
+          "surrogate_surface": "NLPPSQYQYTKLFNSA",
+          "n_mapped": 16
+        },
+        {
+          "surface_identity": 0.625,
+          "uniprot": "P40199",
+          "gene": "CEACAM6",
+          "window_identity": 0.6794,
+          "window_coverage": 0.9905,
+          "window_align_score": 954.4,
+          "surrogate_surface": "NLPPAQYQSTELFNSA",
+          "n_mapped": 16
+        },
+        {
+          "surface_identity": 0.5,
+          "uniprot": "P13688",
+          "gene": "CEACAM1",
+          "window_identity": 0.6303,
+          "window_coverage": 1.0,
+          "window_align_score": 930.7,
+          "surrogate_surface": "NTPPAQYQSTELFNSV",
+          "n_mapped": 16
+        },
+        {
+          "surface_identity": 0.4375,
+          "uniprot": "Q00888",
+          "gene": "PSG4",
+          "window_identity": 0.5075,
+          "window_coverage": 0.9431,
+          "window_align_score": 755.8,
+          "surrogate_surface": "NLPRAQYLSGKLSNSA",
+          "n_mapped": 16
+        },
+        {
+          "surface_identity": 0.4375,
+          "uniprot": "Q13046",
+          "gene": "PSG7",
+          "window_identity": 0.5025,
+          "window_coverage": 0.9431,
+          "window_align_score": 755.0,
+          "surrogate_surface": "NLPPAQYLSGKLSNSA",
+          "n_mapped": 16
+        },
+        {
+          "surface_identity": 0.5,
+          "uniprot": "Q9UQ72",
+          "gene": "PSG11",
+          "window_identity": 0.4952,
+          "window_coverage": 0.9858,
+          "window_align_score": 807.6,
+          "surrogate_surface": "NLPPAQYLSGKLFNSA",
+          "n_mapped": 16
+        },
+        {
+          "surface_identity": 0.5625,
+          "uniprot": "P11465",
+          "gene": "PSG2",
+          "window_identity": 0.4952,
+          "window_coverage": 0.9858,
+          "window_align_score": 806.6,
+          "surrogate_surface": "NLPPAQYQSGNLFNSA",
+          "n_mapped": 16
+        },
+        {
+          "surface_identity": 0.5625,
+          "uniprot": "Q9UQ74",
+          "gene": "PSG8",
+          "window_identity": 0.4951,
+          "window_coverage": 0.9763,
+          "window_align_score": 783.9,
+          "surrogate_surface": "KLPPAQYLSGKLFNSA",
+          "n_mapped": 16
+        }
+      ],
+      "families": [
+        "PF13895",
+        "PF13927",
+        "PF07686"
+      ],
+      "state": "derived",
+      "note": "the closest 8 of 181 reviewed human proteins sharing a domain family (PF13895, PF13927, PF07686), ranked by identity at the epitope window rather than across the whole protein. The nearest is 68% identical at this surface, which makes this a close comparison.",
+      "n_considered": 181,
+      "duplicates_excluded": [],
+      "closest_identity": 0.6825,
+      "strength": "close",
+      "ceiling": {
+        "10": 0.0,
+        "13": 0.0
+      },
+      "ceiling_noise": {
+        "10": 0.00061,
+        "13": 0.00078
+      },
+      "target_epitope": "KLPSPQYQHTVLFNLA"
+    },
+    "cfd_pnh": {
+      "key": "cfd_pnh",
+      "gene": "CFD",
+      "uniprot": "P00746",
+      "members": [],
+      "families": [],
+      "state": "unmappable",
+      "note": "The structure's residue numbering could not be reconciled with the reference sequence, so epitope positions cannot be located in any relative. No panel can be built without inventing the correspondence."
+    },
+    "cldn18_gastric": {
+      "key": "cldn18_gastric",
+      "gene": "CLDN18",
+      "uniprot": "P56856",
+      "members": [
+        {
+          "surface_identity": 0.25,
+          "uniprot": "O95832",
+          "gene": "CLDN1",
+          "window_identity": 0.4699,
+          "window_coverage": 1.0,
+          "window_align_score": 323.1,
+          "surrogate_surface": "VTQSVSTQQ",
+          "n_mapped": 9
+        },
+        {
+          "surface_identity": 0.25,
+          "uniprot": "O95471",
+          "gene": "CLDN7",
+          "window_identity": 0.4217,
+          "window_coverage": 1.0,
+          "window_align_score": 311.8,
+          "surrogate_surface": "ITQDVSTMS",
+          "n_mapped": 9
+        },
+        {
+          "surface_identity": 0.1667,
+          "uniprot": "O15551",
+          "gene": "CLDN3",
+          "window_identity": 0.4096,
+          "window_coverage": 1.0,
+          "window_align_score": 304.2,
+          "surrogate_surface": "ITQNVSTQQ",
+          "n_mapped": 9
+        },
+        {
+          "surface_identity": 0.1667,
+          "uniprot": "O95500",
+          "gene": "CLDN14",
+          "window_identity": 0.4096,
+          "window_coverage": 1.0,
+          "window_align_score": 296.2,
+          "surrogate_surface": "LTVEVSTIQ",
+          "n_mapped": 9
+        },
+        {
+          "surface_identity": 0.25,
+          "uniprot": "O14493",
+          "gene": "CLDN4",
+          "window_identity": 0.3976,
+          "window_coverage": 1.0,
+          "window_align_score": 302.5,
+          "surrogate_surface": "VTQNVSTQQ",
+          "n_mapped": 9
+        },
+        {
+          "surface_identity": 0.1667,
+          "uniprot": "Q8N6F1",
+          "gene": "CLDN19",
+          "window_identity": 0.3855,
+          "window_coverage": 1.0,
+          "window_align_score": 303.4,
+          "surrogate_surface": "ITVSASTQQ",
+          "n_mapped": 9
+        },
+        {
+          "surface_identity": 0.0,
+          "uniprot": "O75508",
+          "gene": "CLDN11",
+          "window_identity": 0.378,
+          "window_coverage": 0.988,
+          "window_align_score": 274.7,
+          "surrogate_surface": "TCEDVATLH",
+          "n_mapped": 9
+        },
+        {
+          "surface_identity": 0.25,
+          "uniprot": "O00501",
+          "gene": "CLDN5",
+          "window_identity": 0.3735,
+          "window_coverage": 1.0,
+          "window_align_score": 301.9,
+          "surrogate_surface": "VTQSVSTHQ",
+          "n_mapped": 9
+        }
+      ],
+      "families": [
+        "PF00822"
+      ],
+      "state": "derived",
+      "note": "the closest 8 of 34 reviewed human proteins sharing a domain family (PF00822), ranked by identity at the epitope window rather than across the whole protein. The nearest is 47% identical at this surface, which makes this a moderate comparison.",
+      "n_considered": 34,
+      "duplicates_excluded": [],
+      "closest_identity": 0.4699,
+      "strength": "moderate",
+      "ceiling": {
+        "10": 0.006,
+        "13": 0.01731
+      },
+      "ceiling_noise": {
+        "10": 0.0105,
+        "13": 0.00788
+      },
+      "target_epitope": "VTAVNSVESSFE"
+    },
+    "f11_thrombosis": {
+      "key": "f11_thrombosis",
+      "gene": "F11",
+      "uniprot": "P03951",
+      "members": [
+        {
+          "surface_identity": 0.6364,
+          "uniprot": "P03952",
+          "gene": "KLKB1",
+          "window_identity": 0.6748,
+          "window_coverage": 1.0,
+          "window_align_score": 1150.1,
+          "surrogate_surface": "TRHHDYVSEGDFSKEKGEIYDACKGTSWGEGCG",
+          "n_mapped": 33
+        },
+        {
+          "surface_identity": 0.0606,
+          "uniprot": "P05981",
+          "gene": "HPN",
+          "window_identity": 0.4232,
+          "window_coverage": 0.9797,
+          "window_align_score": 732.8,
+          "surrogate_surface": "AHHPYDSENDNTQYYGQQNDACQGVSWGTGCG",
+          "n_mapped": 32
+        },
+        {
+          "surface_identity": 0.0303,
+          "uniprot": "Q6UWB4",
+          "gene": "PRSS55",
+          "window_identity": 0.4219,
+          "window_coverage": 0.9634,
+          "window_align_score": 740.0,
+          "surrogate_surface": "EHYFRANMDQTNAADKVPDACKGISWGKSCG",
+          "n_mapped": 31
+        },
+        {
+          "surface_identity": 0.0606,
+          "uniprot": "Q9Y6M0",
+          "gene": "PRSS21",
+          "window_identity": 0.4215,
+          "window_coverage": 0.9837,
+          "window_align_score": 735.3,
+          "surrogate_surface": "HHYRLGNSDYIKEDEALRDACFGVSWGVGCG",
+          "n_mapped": 31
+        },
+        {
+          "surface_identity": 0.0606,
+          "uniprot": "O15393",
+          "gene": "TMPRSS2",
+          "window_identity": 0.4191,
+          "window_coverage": 0.9797,
+          "window_align_score": 787.5,
+          "surrogate_surface": "VHHEYSKTKDATEEKGKTNDSCQGTSWGSGCG",
+          "n_mapped": 32
+        },
+        {
+          "surface_identity": 0.1515,
+          "uniprot": "P56730",
+          "gene": "PRSS12",
+          "window_identity": 0.4174,
+          "window_coverage": 0.9837,
+          "window_align_score": 736.6,
+          "surrogate_surface": "GRLHKYPDRSDDTGRAYDSCQGTSWGYGCG",
+          "n_mapped": 30
+        },
+        {
+          "surface_identity": 0.0606,
+          "uniprot": "Q16651",
+          "gene": "PRSS8",
+          "window_identity": 0.4115,
+          "window_coverage": 0.9878,
+          "window_align_score": 796.7,
+          "surrogate_surface": "EHHPYQEGSDPSLLTPKPHDACQGVSWGDACG",
+          "n_mapped": 32
+        },
+        {
+          "surface_identity": 0.0909,
+          "uniprot": "Q7RTY8",
+          "gene": "TMPRSS7",
+          "window_identity": 0.41,
+          "window_coverage": 0.9715,
+          "window_align_score": 737.3,
+          "surrogate_surface": "SHHYSQTFDRRHEADKGGDACKGVSWGHGSG",
+          "n_mapped": 31
+        }
+      ],
+      "families": [
+        "PF00024",
+        "PF00089"
+      ],
+      "state": "derived",
+      "note": "the closest 8 of 120 reviewed human proteins sharing a domain family (PF00024, PF00089), ranked by identity at the epitope window rather than across the whole protein. The nearest is 67% identical at this surface, which makes this a close comparison.",
+      "n_considered": 120,
+      "duplicates_excluded": [],
+      "closest_identity": 0.6748,
+      "strength": "close",
+      "ceiling": {
+        "10": 0.32808,
+        "13": 0.32856
+      },
+      "ceiling_noise": {
+        "10": 0.01148,
+        "13": 0.01345
+      },
+      "target_epitope": "PRHHYYMAESDYRKLRDKIHDACKGTSWGEGCG"
+    },
+    "gcgr_diabetes": {
+      "key": "gcgr_diabetes",
+      "gene": "GCGR",
+      "uniprot": "P47871",
+      "members": [
+        {
+          "surface_identity": 0.4375,
+          "uniprot": "P48546",
+          "gene": "GIPR",
+          "window_identity": 0.4444,
+          "window_coverage": 0.9536,
+          "window_align_score": 466.1,
+          "surrogate_surface": "LWMYYLPWGRHE",
+          "n_mapped": 12
+        },
+        {
+          "surface_identity": 0.4375,
+          "uniprot": "P43220",
+          "gene": "GLP1R",
+          "window_identity": 0.3667,
+          "window_coverage": 0.9934,
+          "window_align_score": 462.8,
+          "surrogate_surface": "TWEYYLPWKNSSLRLE",
+          "n_mapped": 16
+        },
+        {
+          "surface_identity": 0.25,
+          "uniprot": "P30988",
+          "gene": "CALCR",
+          "window_identity": 0.3077,
+          "window_coverage": 0.947,
+          "window_align_score": 369.8,
+          "surrogate_surface": "LGGWYFPKPERWT",
+          "n_mapped": 13
+        },
+        {
+          "surface_identity": 0.375,
+          "uniprot": "O95838",
+          "gene": "GLP2R",
+          "window_identity": 0.3014,
+          "window_coverage": 0.9669,
+          "window_align_score": 403.0,
+          "surrogate_surface": "TWQYYLPWTENATWDC",
+          "n_mapped": 16
+        },
+        {
+          "surface_identity": 0.0625,
+          "uniprot": "P32241",
+          "gene": "VIPR1",
+          "window_identity": 0.2585,
+          "window_coverage": 0.9735,
+          "window_align_score": 397.3,
+          "surrogate_surface": "QVNLIFKLHEPGPIG",
+          "n_mapped": 15
+        },
+        {
+          "surface_identity": 0.125,
+          "uniprot": "P34998",
+          "gene": "CRHR1",
+          "window_identity": 0.2519,
+          "window_coverage": 0.894,
+          "window_align_score": 339.3,
+          "surrogate_surface": "LIFFYGARVNCL",
+          "n_mapped": 12
+        }
+      ],
+      "families": [
+        "PF00002",
+        "PF02793"
+      ],
+      "state": "derived",
+      "note": "the closest 6 of 48 reviewed human proteins sharing a domain family (PF00002, PF02793), ranked by identity at the epitope window rather than across the whole protein. The nearest is 44% identical at this surface, which makes this a moderate comparison.",
+      "n_considered": 48,
+      "duplicates_excluded": [],
+      "closest_identity": 0.4444,
+      "strength": "moderate",
+      "ceiling": {
+        "10": 0.44976,
+        "13": 0.4433
+      },
+      "ceiling_noise": {
+        "10": 0.03053,
+        "13": 0.02888
+      },
+      "target_epitope": "LWKYYLPWRPRGQRAQ"
+    },
+    "gdf15_cachexia": {
+      "key": "gdf15_cachexia",
+      "gene": "GDF15",
+      "uniprot": "Q99988",
+      "members": [
+        {
+          "surface_identity": 0.2667,
+          "uniprot": "Q7Z4P5",
+          "gene": "GDF7",
+          "window_identity": 0.3426,
+          "window_coverage": 0.9908,
+          "window_align_score": 320.3,
+          "surrogate_surface": "IAPEPIILYNNVYQE",
+          "n_mapped": 15
+        },
+        {
+          "surface_identity": 0.2,
+          "uniprot": "P22003",
+          "gene": "BMP5",
+          "window_identity": 0.3303,
+          "window_coverage": 1.0,
+          "window_align_score": 317.2,
+          "surrogate_surface": "IAPAAISVLSSVLKR",
+          "n_mapped": 15
+        },
+        {
+          "surface_identity": 0.3333,
+          "uniprot": "P22004",
+          "gene": "BMP6",
+          "window_identity": 0.3303,
+          "window_coverage": 1.0,
+          "window_align_score": 322.8,
+          "surrogate_surface": "IAPAAIVLYSNVLKR",
+          "n_mapped": 15
+        },
+        {
+          "surface_identity": 0.3333,
+          "uniprot": "Q7Z5Y6",
+          "gene": "BMP8A",
+          "window_identity": 0.3303,
+          "window_coverage": 1.0,
+          "window_align_score": 314.0,
+          "surrogate_surface": "IAPSTSVLYNNVLKR",
+          "n_mapped": 15
+        },
+        {
+          "surface_identity": 0.3333,
+          "uniprot": "P34820",
+          "gene": "BMP8B",
+          "window_identity": 0.3303,
+          "window_coverage": 1.0,
+          "window_align_score": 315.7,
+          "surrogate_surface": "IAPSTSVLYNNVLKR",
+          "n_mapped": 15
+        },
+        {
+          "surface_identity": 0.2667,
+          "uniprot": "O60383",
+          "gene": "GDF9",
+          "window_identity": 0.3241,
+          "window_coverage": 0.9908,
+          "window_align_score": 297.5,
+          "surrogate_surface": "VAPNPLVLTGSIYEE",
+          "n_mapped": 15
+        },
+        {
+          "surface_identity": 0.4667,
+          "uniprot": "P27539",
+          "gene": "GDF1",
+          "window_identity": 0.3178,
+          "window_coverage": 0.9817,
+          "window_align_score": 312.1,
+          "surrogate_surface": "IAPQPIVLFDNVLQE",
+          "n_mapped": 15
+        },
+        {
+          "surface_identity": 0.3333,
+          "uniprot": "Q9UK05",
+          "gene": "GDF2",
+          "window_identity": 0.3173,
+          "window_coverage": 0.9541,
+          "window_align_score": 306.7,
+          "surrogate_surface": "IAPEPISVLMGVLHE",
+          "n_mapped": 15
+        }
+      ],
+      "families": [
+        "PF00019"
+      ],
+      "state": "derived",
+      "note": "the closest 8 of 36 reviewed human proteins sharing a domain family (PF00019), ranked by identity at the epitope window rather than across the whole protein. The nearest is 34% identical at this surface, which makes this a distant comparison.",
+      "n_considered": 36,
+      "duplicates_excluded": [],
+      "closest_identity": 0.3426,
+      "strength": "distant",
+      "ceiling": {
+        "10": 0.0,
+        "13": 0.05192
+      },
+      "ceiling_noise": {
+        "10": 0.00258,
+        "13": 0.01094
+      },
+      "target_epitope": "LSPQPMVLITGVLTD"
+    },
+    "glp1r_diabetes": {
+      "key": "glp1r_diabetes",
+      "gene": "GLP1R",
+      "uniprot": "P43220",
+      "members": [
+        {
+          "surface_identity": 0.3889,
+          "uniprot": "O95838",
+          "gene": "GLP2R",
+          "window_identity": 0.4157,
+          "window_coverage": 0.9486,
+          "window_align_score": 536.9,
+          "surrogate_surface": "GSLLETTWAKQPDRLLLQ",
+          "n_mapped": 18
+        },
+        {
+          "surface_identity": 0.1111,
+          "uniprot": "P47871",
+          "gene": "GCGR",
+          "window_identity": 0.4083,
+          "window_coverage": 0.9657,
+          "window_align_score": 545.2,
+          "surrogate_surface": "SAQVMLFWKGKPEVMYSF",
+          "n_mapped": 18
+        },
+        {
+          "surface_identity": 0.2778,
+          "uniprot": "P48546",
+          "gene": "GIPR",
+          "window_identity": 0.4061,
+          "window_coverage": 0.9429,
+          "window_align_score": 528.0,
+          "surrogate_surface": "KQTAGLYWERMPDQILLQ",
+          "n_mapped": 18
+        },
+        {
+          "surface_identity": 0.1667,
+          "uniprot": "P47872",
+          "gene": "SCTR",
+          "window_identity": 0.3274,
+          "window_coverage": 0.96,
+          "window_align_score": 460.8,
+          "surrogate_surface": "LPRLCVLLWQNRYLLLK",
+          "n_mapped": 17
+        },
+        {
+          "surface_identity": 0.1111,
+          "uniprot": "Q03431",
+          "gene": "PTH1R",
+          "window_identity": 0.3099,
+          "window_coverage": 0.9771,
+          "window_align_score": 433.7,
+          "surrogate_surface": "SASTSKPDKGHERFDLG",
+          "n_mapped": 17
+        },
+        {
+          "surface_identity": 0.0,
+          "uniprot": "P41587",
+          "gene": "VIPR2",
+          "window_identity": 0.3057,
+          "window_coverage": 0.8971,
+          "window_align_score": 413.7,
+          "surrogate_surface": "HLEIQEECANSKIYIVK",
+          "n_mapped": 17
+        },
+        {
+          "surface_identity": 0.1111,
+          "uniprot": "Q02643",
+          "gene": "GHRHR",
+          "window_identity": 0.2938,
+          "window_coverage": 0.9143,
+          "window_align_score": 445.1,
+          "surrogate_surface": "MHPECFILREGSEEFSVK",
+          "n_mapped": 18
+        },
+        {
+          "surface_identity": 0.1111,
+          "uniprot": "P49190",
+          "gene": "PTH2R",
+          "window_identity": 0.2924,
+          "window_coverage": 0.9771,
+          "window_align_score": 463.6,
+          "surrogate_surface": "TITIEQIVLKGGKFFLY",
+          "n_mapped": 17
+        }
+      ],
+      "families": [
+        "PF00002",
+        "PF02793"
+      ],
+      "state": "derived",
+      "note": "the closest 8 of 48 reviewed human proteins sharing a domain family (PF00002, PF02793), ranked by identity at the epitope window rather than across the whole protein. The nearest is 42% identical at this surface, which makes this a moderate comparison.",
+      "n_considered": 48,
+      "duplicates_excluded": [],
+      "closest_identity": 0.4157,
+      "strength": "moderate",
+      "ceiling": {
+        "10": 0.005,
+        "13": 0.00385
+      },
+      "ceiling_noise": {
+        "10": 0.00214,
+        "13": 0.00367
+      },
+      "target_epitope": "TVSLWTVWRREPPELLLY"
+    },
+    "gprc5d_myeloma": {
+      "key": "gprc5d_myeloma",
+      "gene": "GPRC5D",
+      "uniprot": "Q9NZD1",
+      "members": [
+        {
+          "surface_identity": 0.0952,
+          "uniprot": "Q8NFJ5",
+          "gene": "GPRC5A",
+          "window_identity": 0.5425,
+          "window_coverage": 0.977,
+          "window_align_score": 873.9,
+          "surrogate_surface": "GLDGSGNVFSELSAPRRDD",
+          "n_mapped": 19
+        },
+        {
+          "surface_identity": 0.1905,
+          "uniprot": "Q9NQ84",
+          "gene": "GPRC5C",
+          "window_identity": 0.4028,
+          "window_coverage": 0.9954,
+          "window_align_score": 784.4,
+          "surrogate_surface": "KPDFSCGWAVASPCAIASPDD",
+          "n_mapped": 21
+        },
+        {
+          "surface_identity": 0.0,
+          "uniprot": "Q9NZH0",
+          "gene": "GPRC5B",
+          "window_identity": 0.3692,
+          "window_coverage": 0.9862,
+          "window_align_score": 770.9,
+          "surrogate_surface": "QEDETCTRPACAYEGDND",
+          "n_mapped": 18
+        }
+      ],
+      "families": [
+        "PF00003"
+      ],
+      "state": "derived",
+      "note": "the closest 3 of 21 reviewed human proteins sharing a domain family (PF00003), ranked by identity at the epitope window rather than across the whole protein. The nearest is 54% identical at this surface, which makes this a close comparison.",
+      "n_considered": 21,
+      "duplicates_excluded": [],
+      "closest_identity": 0.5425,
+      "strength": "close",
+      "ceiling": {
+        "10": 0.60933,
+        "13": 0.60897
+      },
+      "ceiling_noise": {
+        "10": 0.10204,
+        "13": 0.10136
+      },
+      "target_epitope": "ELNQQAMMFVNMTPCQLQPDD"
+    },
+    "igf1r_ted": {
+      "key": "igf1r_ted",
+      "gene": "IGF1R",
+      "uniprot": "P08069",
+      "members": [
+        {
+          "surface_identity": 0.0,
+          "uniprot": "P06213",
+          "gene": "INSR",
+          "window_identity": 0.5945,
+          "window_coverage": 0.9909,
+          "window_align_score": 1783.8,
+          "surrogate_surface": "PEFQRSFQDLHCKNSCHQMSNLNE",
+          "n_mapped": 24
+        },
+        {
+          "surface_identity": 0.0385,
+          "uniprot": "P14616",
+          "gene": "INSRR",
+          "window_identity": 0.5231,
+          "window_coverage": 0.9863,
+          "window_align_score": 1706.3,
+          "surrogate_surface": "PEYERERASLHSVPGSTRSSIED",
+          "n_mapped": 23
+        },
+        {
+          "surface_identity": 0.0,
+          "uniprot": "P21860",
+          "gene": "ERBB3",
+          "window_identity": 0.282,
+          "window_coverage": 0.9635,
+          "window_align_score": 1059.7,
+          "surrogate_surface": "SVMKLQPHKQYGVCVAPHNEKNGLIR",
+          "n_mapped": 26
+        },
+        {
+          "surface_identity": 0.1154,
+          "uniprot": "Q15303",
+          "gene": "ERBB4",
+          "window_identity": 0.2547,
+          "window_coverage": 0.968,
+          "window_align_score": 1032.4,
+          "surrogate_surface": "SSMNPFNFAYTYGAFCPHNEENGILG",
+          "n_mapped": 26
+        }
+      ],
+      "families": [
+        "PF00757",
+        "PF07714",
+        "PF01030"
+      ],
+      "state": "derived",
+      "note": "the closest 4 of 129 reviewed human proteins sharing a domain family (PF00757, PF07714, PF01030), ranked by identity at the epitope window rather than across the whole protein. The nearest is 59% identical at this surface, which makes this a close comparison.",
+      "n_considered": 129,
+      "duplicates_excluded": [],
+      "closest_identity": 0.5945,
+      "strength": "close",
+      "ceiling": {
+        "10": 0.07286,
+        "13": 0.02033
+      },
+      "ceiling_noise": {
+        "10": 0.01424,
+        "13": 0.02386
+      },
+      "target_epitope": "GPEFERDFANILSAESSEGRSQSMKE"
+    },
+    "il13_dermatitis": {
+      "key": "il13_dermatitis",
+      "gene": "IL13",
+      "uniprot": "P35225",
+      "members": [],
+      "families": [
+        "PF03487"
+      ],
+      "state": "no_human_relatives",
+      "note": "No other reviewed human protein shares this protein's domain family (PF03487). Cross-reactivity with a close human relative is therefore not the risk here. Off-target binding to unrelated human proteins remains a real risk that this method cannot assess."
+    },
+    "il2ra_transplant": {
+      "key": "il2ra_transplant",
+      "gene": "IL2RA",
+      "uniprot": "P01589",
+      "members": [],
+      "families": [
+        "PF00084"
+      ],
+      "state": "no_close_relatives",
+      "note": "50 human proteins share a domain family with this target, but none is more than 25% identical to it at the binding site itself. They share a fold, not this surface. Mapping the epitope onto them would produce a surrogate surface too unreliable to score against, so no number is reported.",
+      "n_considered": 50,
+      "duplicates_excluded": []
+    },
+    "il31ra_pruritus": {
+      "key": "il31ra_pruritus",
+      "gene": "IL31RA",
+      "uniprot": "Q8NI17",
+      "members": [],
+      "families": [
+        "PF00041",
+        "PF09240"
+      ],
+      "state": "no_close_relatives",
+      "note": "143 human proteins share a domain family with this target, but none is more than 25% identical to it at the binding site itself. They share a fold, not this surface. Mapping the epitope onto them would produce a surrogate surface too unreliable to score against, so no number is reported.",
+      "n_considered": 143,
+      "duplicates_excluded": []
+    },
+    "il33_copd": {
+      "key": "il33_copd",
+      "gene": "IL33",
+      "uniprot": "O95760",
+      "members": [],
+      "families": [
+        "PF15095"
+      ],
+      "state": "no_human_relatives",
+      "note": "No other reviewed human protein shares this protein's domain family (PF15095). Cross-reactivity with a close human relative is therefore not the risk here. Off-target binding to unrelated human proteins remains a real risk that this method cannot assess."
+    },
+    "il36g_gpp": {
+      "key": "il36g_gpp",
+      "gene": "IL36G",
+      "uniprot": "Q9NZH8",
+      "members": [
+        {
+          "surface_identity": 0.375,
+          "uniprot": "Q9UHA7",
+          "gene": "IL36A",
+          "window_identity": 0.5752,
+          "window_coverage": 0.9053,
+          "window_align_score": 645.2,
+          "surrogate_surface": "NHRQTPRKDRSCRHVERNIHSQSGRNEGGLGKANTDGLTM",
+          "n_mapped": 40
+        },
+        {
+          "surface_identity": 0.175,
+          "uniprot": "Q9NZH6",
+          "gene": "IL37",
+          "window_identity": 0.3452,
+          "window_coverage": 0.9941,
+          "window_align_score": 480.6,
+          "surrogate_surface": "DHKDNPDKNYASSLSSKSIRAQVGSWCNNNRKHIESQPVC",
+          "n_mapped": 40
+        },
+        {
+          "surface_identity": 0.075,
+          "uniprot": "Q8WWZ1",
+          "gene": "IL1F10",
+          "window_identity": 0.3,
+          "window_coverage": 0.8876,
+          "window_align_score": 400.8,
+          "surrogate_surface": "QKADLPVADNPNRKIQSSSGSAEPQSEPSARKYFEQ",
+          "n_mapped": 36
+        },
+        {
+          "surface_identity": 0.025,
+          "uniprot": "Q9UBH0",
+          "gene": "IL36RN",
+          "window_identity": 0.3,
+          "window_coverage": 0.8876,
+          "window_align_score": 409.8,
+          "surrogate_surface": "ALKHQGLHASVVPNRSVRRDMGLTEADNGGWNAIDFYF",
+          "n_mapped": 38
+        },
+        {
+          "surface_identity": 0.05,
+          "uniprot": "P18510",
+          "gene": "IL1RN",
+          "window_identity": 0.2716,
+          "window_coverage": 0.9586,
+          "window_align_score": 434.7,
+          "surrogate_surface": "NQKRQGLEEKIDHLRSDSGPTMEDPDEGVMTFYFQ",
+          "n_mapped": 35
+        }
+      ],
+      "families": [
+        "PF00340"
+      ],
+      "state": "derived",
+      "note": "the closest 5 of 8 reviewed human proteins sharing a domain family (PF00340), ranked by identity at the epitope window rather than across the whole protein. The nearest is 58% identical at this surface, which makes this a close comparison.",
+      "n_considered": 8,
+      "duplicates_excluded": [],
+      "closest_identity": 0.5752,
+      "strength": "close",
+      "ceiling": {
+        "10": 0.11603,
+        "13": 0.11581
+      },
+      "ceiling_noise": {
+        "10": 0.0159,
+        "13": 0.01643
+      },
+      "target_epitope": "NQQQNPRSDSTCKYPERDIRAKTGRTKRDLGKSYNAELNI"
+    },
+    "itgb7_ibd": {
+      "key": "itgb7_ibd",
+      "gene": "ITGB7",
+      "uniprot": "P26010",
+      "members": [
+        {
+          "surface_identity": 0.3846,
+          "uniprot": "P05107",
+          "gene": "ITGB2",
+          "window_identity": 0.6429,
+          "window_coverage": 1.0,
+          "window_align_score": 451.2,
+          "surrogate_surface": "RNPNKEKECQKQL",
+          "n_mapped": 13
+        },
+        {
+          "surface_identity": 0.0769,
+          "uniprot": "P05556",
+          "gene": "ITGB1",
+          "window_identity": 0.6105,
+          "window_coverage": 0.9694,
+          "window_align_score": 415.5,
+          "surrogate_surface": "RNTSEQNCTKQR",
+          "n_mapped": 12
+        },
+        {
+          "surface_identity": 0.2308,
+          "uniprot": "P05106",
+          "gene": "ITGB3",
+          "window_identity": 0.5158,
+          "window_coverage": 0.9694,
+          "window_align_score": 358.5,
+          "surrogate_surface": "ENYDMKTTCLKQS",
+          "n_mapped": 13
+        },
+        {
+          "surface_identity": 0.1538,
+          "uniprot": "P18564",
+          "gene": "ITGB6",
+          "window_identity": 0.5155,
+          "window_coverage": 0.9898,
+          "window_align_score": 381.2,
+          "surrogate_surface": "ANSSIPYFCLNQK",
+          "n_mapped": 13
+        },
+        {
+          "surface_identity": 0.1538,
+          "uniprot": "P18084",
+          "gene": "ITGB5",
+          "window_identity": 0.5053,
+          "window_coverage": 0.9694,
+          "window_align_score": 346.0,
+          "surrogate_surface": "TNGYKFPNCVKQR",
+          "n_mapped": 13
+        },
+        {
+          "surface_identity": 0.0769,
+          "uniprot": "P16144",
+          "gene": "ITGB4",
+          "window_identity": 0.4946,
+          "window_coverage": 0.949,
+          "window_align_score": 338.4,
+          "surrogate_surface": "KEPNSDGER",
+          "n_mapped": 9
+        },
+        {
+          "surface_identity": 0.2308,
+          "uniprot": "P26012",
+          "gene": "ITGB8",
+          "window_identity": 0.4796,
+          "window_coverage": 1.0,
+          "window_align_score": 377.4,
+          "surrogate_surface": "HNSDYNLDCMRQK",
+          "n_mapped": 13
+        }
+      ],
+      "families": [
+        "PF07974",
+        "PF08725",
+        "PF00362",
+        "PF17205"
+      ],
+      "state": "derived",
+      "note": "the closest 7 of 15 reviewed human proteins sharing a domain family (PF07974, PF08725, PF00362, PF17205), ranked by identity at the epitope window rather than across the whole protein. The nearest is 64% identical at this surface, which makes this a close comparison.",
+      "n_considered": 15,
+      "duplicates_excluded": [],
+      "closest_identity": 0.6429,
+      "strength": "close",
+      "ceiling": {
+        "10": 0.03,
+        "13": 0.075
+      },
+      "ceiling_noise": {
+        "10": 0.02579,
+        "13": 0.02424
+      },
+      "target_epitope": "RHPTRLERCQRQS"
+    },
+    "kit_gist": {
+      "key": "kit_gist",
+      "gene": "KIT",
+      "uniprot": "P10721",
+      "members": [
+        {
+          "surface_identity": 0.16,
+          "uniprot": "P09619",
+          "gene": "PDGFRB",
+          "window_identity": 0.2903,
+          "window_coverage": 0.992,
+          "window_align_score": 355.6,
+          "surrogate_surface": "GEVGLQARSRTQVSEALSTRRETVR",
+          "n_mapped": 25
+        },
+        {
+          "surface_identity": 0.24,
+          "uniprot": "P07333",
+          "gene": "CSF1R",
+          "window_identity": 0.264,
+          "window_coverage": 1.0,
+          "window_align_score": 355.4,
+          "surrogate_surface": "SEQNIQVEGLNKMQELANATRTSPR",
+          "n_mapped": 25
+        },
+        {
+          "surface_identity": 0.32,
+          "uniprot": "P16234",
+          "gene": "PDGFRA",
+          "window_identity": 0.264,
+          "window_coverage": 1.0,
+          "window_align_score": 335.7,
+          "surrogate_surface": "PTFSLEVEVKHVELETTDVERKKIR",
+          "n_mapped": 25
+        }
+      ],
+      "families": [
+        "PF00047",
+        "PF07714"
+      ],
+      "state": "derived",
+      "note": "the closest 3 of 185 reviewed human proteins sharing a domain family (PF00047, PF07714), ranked by identity at the epitope window rather than across the whole protein. The nearest is 29% identical at this surface, which makes this a distant comparison.",
+      "n_considered": 185,
+      "duplicates_excluded": [],
+      "closest_identity": 0.2903,
+      "strength": "distant",
+      "ceiling": {
+        "10": 0.05,
+        "13": 0.12569
+      },
+      "ceiling_noise": {
+        "10": 0.02524,
+        "13": 0.03937
+      },
+      "target_epitope": "PMINTVVENVDIEKEYPKSEREHTR"
+    },
+    "klb_mash": {
+      "key": "klb_mash",
+      "gene": "KLB",
+      "uniprot": "Q86Z14",
+      "members": [
+        {
+          "surface_identity": 0.4839,
+          "uniprot": "Q9UEF7",
+          "gene": "KL",
+          "window_identity": 0.5161,
+          "window_coverage": 0.9954,
+          "window_align_score": 1638.7,
+          "surrogate_surface": "QPDGLQKYWHNRGGQFIKGADFNHPQIKGVD",
+          "n_mapped": 31
+        },
+        {
+          "surface_identity": 0.3226,
+          "uniprot": "P09848",
+          "gene": "LCT",
+          "window_identity": 0.4457,
+          "window_coverage": 0.9931,
+          "window_align_score": 1494.1,
+          "surrogate_surface": "HRDDLFKFYHDRKGVFRRAADVGDIPYRGID",
+          "n_mapped": 31
+        },
+        {
+          "surface_identity": 0.4194,
+          "uniprot": "Q6UWM7",
+          "gene": "LCTL",
+          "window_identity": 0.4203,
+          "window_coverage": 0.9931,
+          "window_align_score": 1432.9,
+          "surrogate_surface": "YPLGSTKHWHNRQGLYAKGSDFGDPPIKGAN",
+          "n_mapped": 31
+        },
+        {
+          "surface_identity": 0.0323,
+          "uniprot": "Q9H227",
+          "gene": "GBA3",
+          "window_identity": 0.4119,
+          "window_coverage": 0.9243,
+          "window_align_score": 1380.9,
+          "surrogate_surface": "PAGGTKQWHDRKGMFIKGADFNNPVIQKVN",
+          "n_mapped": 30
+        }
+      ],
+      "families": [
+        "PF00232"
+      ],
+      "state": "derived",
+      "note": "the closest 4 of 4 reviewed human proteins sharing a domain family (PF00232), ranked by identity at the epitope window rather than across the whole protein. The nearest is 52% identical at this surface, which makes this a close comparison.",
+      "n_considered": 4,
+      "duplicates_excluded": [],
+      "closest_identity": 0.5161,
+      "strength": "close",
+      "ceiling": {
+        "10": 0.1664,
+        "13": 0.15528
+      },
+      "ceiling_noise": {
+        "10": 0.03297,
+        "13": 0.02893
+      },
+      "target_epitope": "YPKNFEKYWHNRKGWHGRGADFNNPRIREIR"
+    },
+    "lepr_lipodystrophy": {
+      "key": "lepr_lipodystrophy",
+      "gene": "LEPR",
+      "uniprot": "P48357",
+      "members": [],
+      "families": [
+        "PF00041",
+        "PF06328",
+        "PF18589"
+      ],
+      "state": "panel_too_weak",
+      "note": "The only relative found, IL12RB2, is just 27% identical to this target at the binding site. A single distant relative is not a panel: tested against controls, the margin against one such protein does not reliably separate a real binder from a face designed for the wrong protein. No number is reported.",
+      "n_considered": 137,
+      "duplicates_excluded": [],
+      "rejected_members": [
+        {
+          "surface_identity": 0.3125,
+          "uniprot": "Q99665",
+          "gene": "IL12RB2",
+          "window_identity": 0.268,
+          "window_coverage": 0.97,
+          "window_align_score": 239.3,
+          "surrogate_surface": "SKHKAPLINAITEEMC",
+          "n_mapped": 16
+        }
+      ]
+    },
+    "madcam1_ibd": {
+      "key": "madcam1_ibd",
+      "gene": "MADCAM1",
+      "uniprot": "Q13477",
+      "members": [],
+      "families": [
+        "PF09085"
+      ],
+      "state": "no_human_relatives",
+      "note": "No other reviewed human protein shares this protein's domain family (PF09085). Cross-reactivity with a close human relative is therefore not the risk here. Off-target binding to unrelated human proteins remains a real risk that this method cannot assess."
+    },
+    "mstn_muscle": {
+      "key": "mstn_muscle",
+      "gene": "MSTN",
+      "uniprot": "O14793",
+      "members": [
+        {
+          "surface_identity": 0.9375,
+          "uniprot": "O95390",
+          "gene": "GDF11",
+          "window_identity": 0.8957,
+          "window_coverage": 1.0,
+          "window_align_score": 651.9,
+          "surrogate_surface": "EDWIAPKNMLFQQIIY",
+          "n_mapped": 16
+        },
+        {
+          "surface_identity": 0.5625,
+          "uniprot": "P09529",
+          "gene": "INHBB",
+          "window_identity": 0.4513,
+          "window_coverage": 0.9826,
+          "window_align_score": 336.9,
+          "surrogate_surface": "RDWIAPTSMLFYNIVK",
+          "n_mapped": 16
+        },
+        {
+          "surface_identity": 0.5625,
+          "uniprot": "P22004",
+          "gene": "BMP6",
+          "window_identity": 0.4474,
+          "window_coverage": 0.9913,
+          "window_align_score": 356.9,
+          "surrogate_surface": "QDWIAPKSVLFSNVIL",
+          "n_mapped": 16
+        },
+        {
+          "surface_identity": 0.5625,
+          "uniprot": "P08476",
+          "gene": "INHBA",
+          "window_identity": 0.4464,
+          "window_coverage": 0.9739,
+          "window_align_score": 330.3,
+          "surrogate_surface": "KDWIAPSSMLYQNIIK",
+          "n_mapped": 16
+        },
+        {
+          "surface_identity": 0.4375,
+          "uniprot": "P12643",
+          "gene": "BMP2",
+          "window_identity": 0.4159,
+          "window_coverage": 0.9826,
+          "window_align_score": 333.6,
+          "surrogate_surface": "SDWVAPPSMLLEKVVL",
+          "n_mapped": 16
+        },
+        {
+          "surface_identity": 0.5,
+          "uniprot": "Q9NR23",
+          "gene": "GDF3",
+          "window_identity": 0.4035,
+          "window_coverage": 0.9913,
+          "window_align_score": 349.4,
+          "surrogate_surface": "RHWIAPKSMLQDNVIL",
+          "n_mapped": 16
+        },
+        {
+          "surface_identity": 0.5,
+          "uniprot": "Q9UK05",
+          "gene": "GDF2",
+          "window_identity": 0.4035,
+          "window_coverage": 0.9913,
+          "window_align_score": 305.2,
+          "surrogate_surface": "EDWIAPKSVLKVPTLK",
+          "n_mapped": 16
+        },
+        {
+          "surface_identity": 0.5,
+          "uniprot": "P22003",
+          "gene": "BMP5",
+          "window_identity": 0.4,
+          "window_coverage": 1.0,
+          "window_align_score": 338.2,
+          "surrogate_surface": "RDWIAPESVLFSNVIL",
+          "n_mapped": 16
+        }
+      ],
+      "families": [
+        "PF00019",
+        "PF00688"
+      ],
+      "state": "derived",
+      "note": "the closest 8 of 36 reviewed human proteins sharing a domain family (PF00019, PF00688), ranked by identity at the epitope window rather than across the whole protein. The nearest is 90% identical at this surface, which makes this a close comparison.",
+      "n_considered": 36,
+      "duplicates_excluded": [],
+      "closest_identity": 0.8957,
+      "strength": "close",
+      "ceiling": {
+        "10": 0.065,
+        "13": 0.07115
+      },
+      "ceiling_noise": {
+        "10": 0.0,
+        "13": 0.00289
+      },
+      "target_epitope": "EDWIAPKNMLFEQIIY"
+    },
+    "ngf_pain": {
+      "key": "ngf_pain",
+      "gene": "NGF",
+      "uniprot": "P01138",
+      "members": [
+        {
+          "surface_identity": 0.6842,
+          "uniprot": "P20783",
+          "gene": "NTF3",
+          "window_identity": 0.55,
+          "window_coverage": 0.979,
+          "window_align_score": 571.7,
+          "surrogate_surface": "HRGEYSSESLWTDYYTTSC",
+          "n_mapped": 19
+        },
+        {
+          "surface_identity": 0.6316,
+          "uniprot": "P23560",
+          "gene": "BDNF",
+          "window_identity": 0.5,
+          "window_coverage": 0.965,
+          "window_align_score": 489.1,
+          "surrogate_surface": "RRGELSSISEWADYYTTSC",
+          "n_mapped": 19
+        },
+        {
+          "surface_identity": 0.6842,
+          "uniprot": "P34130",
+          "gene": "NTF4",
+          "window_identity": 0.4748,
+          "window_coverage": 0.972,
+          "window_align_score": 489.2,
+          "surrogate_surface": "RRGELAAVSGWTDYFTTAC",
+          "n_mapped": 19
+        }
+      ],
+      "families": [
+        "PF00243"
+      ],
+      "state": "derived",
+      "note": "the closest 3 of 3 reviewed human proteins sharing a domain family (PF00243), ranked by identity at the epitope window rather than across the whole protein. The nearest is 55% identical at this surface, which makes this a close comparison.",
+      "n_considered": 3,
+      "duplicates_excluded": [],
+      "closest_identity": 0.55,
+      "strength": "close",
+      "ceiling": {
+        "10": 0.05513,
+        "13": 0.05481
+      },
+      "ceiling_noise": {
+        "10": 0.01891,
+        "13": 0.0103
+      },
+      "target_epitope": "HRGEFSSVSVWGDYFTTAC"
+    },
+    "ox40_dermatitis": {
+      "key": "ox40_dermatitis",
+      "gene": "TNFRSF4",
+      "uniprot": "P43489",
+      "members": [
+        {
+          "surface_identity": 0.2,
+          "uniprot": "P25445",
+          "gene": "FAS",
+          "window_identity": 0.3448,
+          "window_coverage": 0.9457,
+          "window_align_score": 214.4,
+          "surrogate_surface": "PNFFPKCEIKEC",
+          "n_mapped": 12
+        },
+        {
+          "surface_identity": 0.2,
+          "uniprot": "O00300",
+          "gene": "TNFRSF11B",
+          "window_identity": 0.3333,
+          "window_coverage": 0.9457,
+          "window_align_score": 229.4,
+          "surrogate_surface": "PDGFKNCSVLTQKG",
+          "n_mapped": 14
+        },
+        {
+          "surface_identity": 0.3333,
+          "uniprot": "P26842",
+          "gene": "CD27",
+          "window_identity": 0.3146,
+          "window_coverage": 0.9674,
+          "window_align_score": 218.8,
+          "surrogate_surface": "GVSFSHCNVRNC",
+          "n_mapped": 12
+        },
+        {
+          "surface_identity": 0.1333,
+          "uniprot": "P08138",
+          "gene": "NGFR",
+          "window_identity": 0.3111,
+          "window_coverage": 0.9783,
+          "window_align_score": 228.7,
+          "surrogate_surface": "DSVTPECVGSAPC",
+          "n_mapped": 13
+        },
+        {
+          "surface_identity": 0.2667,
+          "uniprot": "Q92956",
+          "gene": "TNFRSF14",
+          "window_identity": 0.3111,
+          "window_coverage": 0.9783,
+          "window_align_score": 228.8,
+          "surrogate_surface": "SPGHAAYATSRVQGG",
+          "n_mapped": 15
+        },
+        {
+          "surface_identity": 0.1333,
+          "uniprot": "P36941",
+          "gene": "LTBR",
+          "window_identity": 0.3043,
+          "window_coverage": 1.0,
+          "window_align_score": 243.2,
+          "surrogate_surface": "AENSLPCDPVEIAPC",
+          "n_mapped": 15
+        },
+        {
+          "surface_identity": 0.2667,
+          "uniprot": "P19438",
+          "gene": "TNFRSF1A",
+          "window_identity": 0.2935,
+          "window_coverage": 1.0,
+          "window_align_score": 220.9,
+          "surrogate_surface": "ESGFSKCRKEEISSC",
+          "n_mapped": 15
+        },
+        {
+          "surface_identity": 0.2,
+          "uniprot": "P25942",
+          "gene": "CD40",
+          "window_identity": 0.2935,
+          "window_coverage": 1.0,
+          "window_align_score": 229.3,
+          "surrogate_surface": "GESEQYCDPNVQQKG",
+          "n_mapped": 15
+        }
+      ],
+      "families": [
+        "PF00020"
+      ],
+      "state": "derived",
+      "note": "the closest 8 of 20 reviewed human proteins sharing a domain family (PF00020), ranked by identity at the epitope window rather than across the whole protein. The nearest is 34% identical at this surface, which makes this a distant comparison.",
+      "n_considered": 20,
+      "duplicates_excluded": [],
+      "closest_identity": 0.3448,
+      "strength": "distant",
+      "ceiling": {
+        "10": 0.25,
+        "13": 0.24904
+      },
+      "ceiling_noise": {
+        "10": 0.01881,
+        "13": 0.01936
+      },
+      "target_epitope": "GPGFPWCNLRRKQLC"
+    },
+    "selp_sicklecell": {
+      "key": "selp_sicklecell",
+      "gene": "SELP",
+      "uniprot": "P16109",
+      "members": [
+        {
+          "surface_identity": 0.2,
+          "uniprot": "P14151",
+          "gene": "SELL",
+          "window_identity": 0.6818,
+          "window_coverage": 1.0,
+          "window_align_score": 403.4,
+          "surrogate_surface": "KAHKL",
+          "n_mapped": 5
+        },
+        {
+          "surface_identity": 0.4,
+          "uniprot": "P16581",
+          "gene": "SELE",
+          "window_identity": 0.6477,
+          "window_coverage": 1.0,
+          "window_align_score": 387.6,
+          "surrogate_surface": "QRSKK",
+          "n_mapped": 5
+        },
+        {
+          "surface_identity": 0.2,
+          "uniprot": "P06734",
+          "gene": "FCER2",
+          "window_identity": 0.2892,
+          "window_coverage": 0.9432,
+          "window_align_score": 204.9,
+          "surrogate_surface": "SFDRK",
+          "n_mapped": 5
+        }
+      ],
+      "families": [
+        "PF00059",
+        "PF00084"
+      ],
+      "state": "derived",
+      "note": "the closest 3 of 126 reviewed human proteins sharing a domain family (PF00059, PF00084), ranked by identity at the epitope window rather than across the whole protein. The nearest is 68% identical at this surface, which makes this a close comparison.",
+      "n_considered": 126,
+      "duplicates_excluded": [],
+      "closest_identity": 0.6818,
+      "strength": "close",
+      "ceiling": {
+        "10": 0.0625,
+        "13": 0.08654
+      },
+      "ceiling_noise": {
+        "10": 0.02102,
+        "13": 0.02495
+      },
+      "target_epitope": "RHLKK"
+    },
+    "tau_alzheimers": {
+      "key": "tau_alzheimers",
+      "gene": "MAPT",
+      "uniprot": "P10636",
+      "members": [
+        {
+          "surface_identity": 0.875,
+          "uniprot": "P27816",
+          "gene": "MAP4",
+          "window_identity": 0.6912,
+          "window_coverage": 1.0,
+          "window_align_score": 332.3,
+          "surrogate_surface": "KHVPGGGN",
+          "n_mapped": 8
+        },
+        {
+          "surface_identity": 0.5,
+          "uniprot": "P11137",
+          "gene": "MAP2",
+          "window_identity": 0.6029,
+          "window_coverage": 1.0,
+          "window_align_score": 273.3,
+          "surrogate_surface": "KYQPKGGQ",
+          "n_mapped": 8
+        }
+      ],
+      "families": [
+        "PF00418"
+      ],
+      "state": "derived",
+      "note": "the closest 2 of 2 reviewed human proteins sharing a domain family (PF00418), ranked by identity at the epitope window rather than across the whole protein. The nearest is 69% identical at this surface, which makes this a close comparison.",
+      "n_considered": 2,
+      "duplicates_excluded": [],
+      "closest_identity": 0.6912,
+      "strength": "close",
+      "ceiling": {
+        "10": 0.0,
+        "13": 0.0
+      },
+      "ceiling_noise": {
+        "10": 0.06197,
+        "13": 0.04772
+      },
+      "target_epitope": "KHVPGGGS"
+    },
+    "tfpi_haemophilia": {
+      "key": "tfpi_haemophilia",
+      "gene": "TFPI",
+      "uniprot": "P10646",
+      "members": [
+        {
+          "surface_identity": 0.12,
+          "uniprot": "P49223",
+          "gene": "SPINT3",
+          "window_identity": 0.3563,
+          "window_coverage": 0.725,
+          "window_align_score": 251.2,
+          "surrogate_surface": "IKLLVCTMRYGGCGGNSNFLKKF",
+          "n_mapped": 23
+        },
+        {
+          "surface_identity": 0.52,
+          "uniprot": "Q8TEU8",
+          "gene": "WFIKKN2",
+          "window_identity": 0.3304,
+          "window_coverage": 0.9583,
+          "window_align_score": 336.7,
+          "surrogate_surface": "LAMSGPACAARYGGCEGNGNFEAES",
+          "n_mapped": 25
+        },
+        {
+          "surface_identity": 0.44,
+          "uniprot": "O43278",
+          "gene": "SPINT1",
+          "window_identity": 0.2917,
+          "window_coverage": 1.0,
+          "window_align_score": 297.6,
+          "surrogate_surface": "LQIHFPHCEIRYGGCYGNKNFESGI",
+          "n_mapped": 25
+        },
+        {
+          "surface_identity": 0.44,
+          "uniprot": "Q96NZ8",
+          "gene": "WFIKKN1",
+          "window_identity": 0.2833,
+          "window_coverage": 1.0,
+          "window_align_score": 308.7,
+          "surrogate_surface": "QAARGPACGERYGGCEGNGNFEDPV",
+          "n_mapped": 25
+        },
+        {
+          "surface_identity": 0.52,
+          "uniprot": "Q02388",
+          "gene": "COL7A1",
+          "window_identity": 0.283,
+          "window_coverage": 0.8833,
+          "window_align_score": 265.7,
+          "surrogate_surface": "QPAPWDPCATRYGGCGGNARFEA",
+          "n_mapped": 23
+        },
+        {
+          "surface_identity": 0.12,
+          "uniprot": "P12111",
+          "gene": "COL6A3",
+          "window_identity": 0.2762,
+          "window_coverage": 0.875,
+          "window_align_score": 288.4,
+          "surrogate_surface": "PLLTEICDIKYGGCGGNEKFGEKV",
+          "n_mapped": 24
+        },
+        {
+          "surface_identity": 0.48,
+          "uniprot": "Q06481",
+          "gene": "APLP2",
+          "window_identity": 0.2605,
+          "window_coverage": 0.9917,
+          "window_align_score": 295.0,
+          "surrogate_surface": "MSKEITVCAMRYGGCGGNRNFEYAV",
+          "n_mapped": 25
+        },
+        {
+          "surface_identity": 0.12,
+          "uniprot": "P02760",
+          "gene": "AMBP",
+          "window_identity": 0.2564,
+          "window_coverage": 0.975,
+          "window_align_score": 281.2,
+          "surrogate_surface": "TETKKECGTRYGGCMGNGNFVEQT",
+          "n_mapped": 24
+        }
+      ],
+      "families": [
+        "PF00014"
+      ],
+      "state": "derived",
+      "note": "the closest 8 of 17 reviewed human proteins sharing a domain family (PF00014), ranked by identity at the epitope window rather than across the whole protein. The nearest is 36% identical at this surface, which makes this a moderate comparison.",
+      "n_considered": 17,
+      "duplicates_excluded": [],
+      "closest_identity": 0.3563,
+      "strength": "moderate",
+      "ceiling": {
+        "10": 0.09259,
+        "13": 0.13473
+      },
+      "ceiling_noise": {
+        "10": 0.01802,
+        "13": 0.01431
+      },
+      "target_epitope": "LPLKLMFCAMRYGGCEGNQRFEEKM"
+    },
+    "tim3_mds": {
+      "key": "tim3_mds",
+      "gene": "HAVCR2",
+      "uniprot": "Q8TDQ0",
+      "members": [],
+      "families": [
+        "PF07686"
+      ],
+      "state": "family_too_generic",
+      "note": "The only domain family on record for this protein is shared by too many human proteins to identify close relatives: PF07686 (419 human proteins). A panel drawn from it would be arbitrary rather than informative, so none was built. This is a limit of the method, not a finding about the target."
+    },
+    "trem2_alzheimers": {
+      "key": "trem2_alzheimers",
+      "gene": "TREM2",
+      "uniprot": "Q9NZC2",
+      "members": [],
+      "families": [
+        "PF07686"
+      ],
+      "state": "family_too_generic",
+      "note": "The only domain family on record for this protein is shared by too many human proteins to identify close relatives: PF07686 (419 human proteins). A panel drawn from it would be arbitrary rather than informative, so none was built. This is a limit of the method, not a finding about the target."
+    },
+    "acvr1_fop": {
+      "key": "acvr1_fop",
+      "gene": "ACVR1",
+      "uniprot": "Q04771",
+      "members": [],
+      "families": [
+        "PF01064",
+        "PF07714",
+        "PF08515"
+      ],
+      "state": "no_close_relatives",
+      "note": "135 human proteins share a domain family with this target, but none is more than 25% identical to it at the binding site itself. They share a fold, not this surface. Mapping the epitope onto them would produce a surrogate surface too unreliable to score against, so no number is reported.",
+      "n_considered": 135,
+      "duplicates_excluded": []
+    },
+    "aqp4_nmo": {
+      "key": "aqp4_nmo",
+      "gene": "AQP4",
+      "uniprot": "P55087",
+      "members": [
+        {
+          "surface_identity": 0.125,
+          "uniprot": "P55064",
+          "gene": "AQP5",
+          "window_identity": 0.5072,
+          "window_coverage": 0.9718,
+          "window_align_score": 587.3,
+          "surrogate_surface": "WPSLN",
+          "n_mapped": 5
+        },
+        {
+          "surface_identity": 0.125,
+          "uniprot": "P41181",
+          "gene": "AQP2",
+          "window_identity": 0.471,
+          "window_coverage": 0.9718,
+          "window_align_score": 563.4,
+          "surrogate_surface": "WPQAD",
+          "n_mapped": 5
+        },
+        {
+          "surface_identity": 0.0,
+          "uniprot": "P29972",
+          "gene": "AQP1",
+          "window_identity": 0.4366,
+          "window_coverage": 1.0,
+          "window_align_score": 556.9,
+          "surrogate_surface": "FVNNQTSL",
+          "n_mapped": 8
+        },
+        {
+          "surface_identity": 0.25,
+          "uniprot": "Q13520",
+          "gene": "AQP6",
+          "window_identity": 0.3723,
+          "window_coverage": 0.9648,
+          "window_align_score": 505.7,
+          "surrogate_surface": "WPTGD",
+          "n_mapped": 5
+        },
+        {
+          "surface_identity": 0.125,
+          "uniprot": "Q92482",
+          "gene": "AQP3",
+          "window_identity": 0.3121,
+          "window_coverage": 0.993,
+          "window_align_score": 464.1,
+          "surrogate_surface": "VVSRGPN",
+          "n_mapped": 7
+        },
+        {
+          "surface_identity": 0.0,
+          "uniprot": "O94778",
+          "gene": "AQP8",
+          "window_identity": 0.3066,
+          "window_coverage": 0.9648,
+          "window_align_score": 443.2,
+          "surrogate_surface": "NTDTGFW",
+          "n_mapped": 7
+        },
+        {
+          "surface_identity": 0.25,
+          "uniprot": "O14520",
+          "gene": "AQP7",
+          "window_identity": 0.2857,
+          "window_coverage": 0.9859,
+          "window_align_score": 444.1,
+          "surrogate_surface": "MVNKKYPV",
+          "n_mapped": 8
+        },
+        {
+          "surface_identity": 0.125,
+          "uniprot": "Q96PS8",
+          "gene": "AQP10",
+          "window_identity": 0.2714,
+          "window_coverage": 0.9859,
+          "window_align_score": 428.2,
+          "surrogate_surface": "ATSGEPK",
+          "n_mapped": 7
+        }
+      ],
+      "families": [
+        "PF00230"
+      ],
+      "state": "derived",
+      "note": "the closest 8 of 14 reviewed human proteins sharing a domain family (PF00230), ranked by identity at the epitope window rather than across the whole protein. The nearest is 51% identical at this surface, which makes this a close comparison.",
+      "n_considered": 14,
+      "duplicates_excluded": [],
+      "closest_identity": 0.5072,
+      "strength": "close",
+      "ceiling": {
+        "10": 0.085,
+        "13": 0.06538
+      },
+      "ceiling_noise": {
+        "10": 0.02378,
+        "13": 0.03349
+      },
+      "target_epitope": "WGTEKPPS"
+    },
+    "c1s_cad": {
+      "key": "c1s_cad",
+      "gene": "C1S",
+      "uniprot": "P09871",
+      "members": [
+        {
+          "surface_identity": 0.2143,
+          "uniprot": "P00736",
+          "gene": "C1R",
+          "window_identity": 0.4388,
+          "window_coverage": 1.0,
+          "window_align_score": 337.8,
+          "surrogate_surface": "PQLGSPLGNPGKKE",
+          "n_mapped": 14
+        },
+        {
+          "surface_identity": 0.2143,
+          "uniprot": "O00187",
+          "gene": "MASP2",
+          "window_identity": 0.4184,
+          "window_coverage": 1.0,
+          "window_align_score": 333.4,
+          "surrogate_surface": "LQESTDTERAGKDT",
+          "n_mapped": 14
+        },
+        {
+          "surface_identity": 0.0714,
+          "uniprot": "P48740",
+          "gene": "MASP1",
+          "window_identity": 0.4184,
+          "window_coverage": 1.0,
+          "window_align_score": 350.7,
+          "surrogate_surface": "SRETTDTEQTGQEV",
+          "n_mapped": 14
+        },
+        {
+          "surface_identity": 0.2143,
+          "uniprot": "O60494",
+          "gene": "CUBN",
+          "window_identity": 0.3804,
+          "window_coverage": 0.9388,
+          "window_align_score": 292.1,
+          "surrogate_surface": "PQYCGNSNPRI",
+          "n_mapped": 11
+        },
+        {
+          "surface_identity": 0.0,
+          "uniprot": "Q9UGM3",
+          "gene": "DMBT1",
+          "window_identity": 0.3736,
+          "window_coverage": 0.9286,
+          "window_align_score": 285.0,
+          "surrogate_surface": "AKICNDTRI",
+          "n_mapped": 9
+        },
+        {
+          "surface_identity": 0.0714,
+          "uniprot": "Q9Y6L7",
+          "gene": "TLL2",
+          "window_identity": 0.3478,
+          "window_coverage": 0.9388,
+          "window_align_score": 264.5,
+          "surrogate_surface": "RHFCGYKPED",
+          "n_mapped": 10
+        },
+        {
+          "surface_identity": 0.2143,
+          "uniprot": "Q9NZP8",
+          "gene": "C1RL",
+          "window_identity": 0.3469,
+          "window_coverage": 1.0,
+          "window_align_score": 309.6,
+          "surrogate_surface": "PQQGSPLGRPGQRE",
+          "n_mapped": 14
+        },
+        {
+          "surface_identity": 0.4286,
+          "uniprot": "O14786",
+          "gene": "NRP1",
+          "window_identity": 0.3402,
+          "window_coverage": 0.9898,
+          "window_align_score": 243.2,
+          "surrogate_surface": "PQRSMVYTDSIAEG",
+          "n_mapped": 14
+        }
+      ],
+      "families": [
+        "PF00431",
+        "PF14670",
+        "PF00084",
+        "PF00089"
+      ],
+      "state": "derived",
+      "note": "the closest 8 of 218 reviewed human proteins sharing a domain family (PF00431, PF14670, PF00084, PF00089), ranked by identity at the epitope window rather than across the whole protein. The nearest is 44% identical at this surface, which makes this a moderate comparison.",
+      "n_considered": 218,
+      "duplicates_excluded": [],
+      "closest_identity": 0.4388,
+      "strength": "moderate",
+      "ceiling": {
+        "10": 0.03733,
+        "13": 0.03346
+      },
+      "ceiling_noise": {
+        "10": 0.00984,
+        "13": 0.01799
+      },
+      "target_epitope": "LQRSSNNPHSIVEE"
+    },
+    "cd73_io": {
+      "key": "cd73_io",
+      "gene": "NT5E",
+      "uniprot": "P21589",
+      "members": [],
+      "families": [
+        "PF02872",
+        "PF00149"
+      ],
+      "state": "no_close_relatives",
+      "note": "27 human proteins share a domain family with this target, but none is more than 25% identical to it at the binding site itself. They share a fold, not this surface. Mapping the epitope onto them would produce a surrogate surface too unreliable to score against, so no number is reported.",
+      "n_considered": 27,
+      "duplicates_excluded": []
+    },
+    "cfb_complement": {
+      "key": "cfb_complement",
+      "gene": "CFB",
+      "uniprot": "P00751",
+      "members": [
+        {
+          "surface_identity": 0.2759,
+          "uniprot": "P06681",
+          "gene": "C2",
+          "window_identity": 0.4213,
+          "window_coverage": 0.9787,
+          "window_align_score": 1379.5,
+          "surrogate_surface": "KSSATRKAVGITPRGCEDGFNGAVTRGHGDRSSGSSSENGTGTYNGKSNMGGSTHE",
+          "n_mapped": 56
+        }
+      ],
+      "families": [
+        "PF00084",
+        "PF00089",
+        "PF00092"
+      ],
+      "state": "derived",
+      "note": "the closest 1 of 205 reviewed human proteins sharing a domain family (PF00084, PF00089, PF00092), ranked by identity at the epitope window rather than across the whole protein. The nearest is 42% identical at this surface, which makes this a moderate comparison.",
+      "n_considered": 205,
+      "duplicates_excluded": [],
+      "closest_identity": 0.4213,
+      "strength": "moderate",
+      "ceiling": {
+        "10": 0.3298,
+        "13": 0.36312
+      },
+      "ceiling_noise": {
+        "10": 0.02987,
+        "13": 0.02313
+      },
+      "target_epitope": "RSTDQKRRHGEWPRPCYDGYNGARVQRLEDHSRESGSTYLKSGTKQGLHNMGGDTEKN"
+    },
+    "chrna1_myasthenia": {
+      "key": "chrna1_myasthenia",
+      "gene": "CHRNA1",
+      "uniprot": "P02708",
+      "members": [
+        {
+          "surface_identity": 0.4286,
+          "uniprot": "P11230",
+          "gene": "CHRNB1",
+          "window_identity": 0.4688,
+          "window_coverage": 1.0,
+          "window_align_score": 220.1,
+          "surrogate_surface": "EGREKSG",
+          "n_mapped": 7
+        },
+        {
+          "surface_identity": 0.2857,
+          "uniprot": "P43681",
+          "gene": "CHRNA4",
+          "window_identity": 0.4062,
+          "window_coverage": 1.0,
+          "window_align_score": 204.7,
+          "surrogate_surface": "HERKKSG",
+          "n_mapped": 7
+        },
+        {
+          "surface_identity": 0.2857,
+          "uniprot": "P07510",
+          "gene": "CHRNG",
+          "window_identity": 0.3594,
+          "window_coverage": 1.0,
+          "window_align_score": 216.2,
+          "surrogate_surface": "NERADQN",
+          "n_mapped": 7
+        },
+        {
+          "surface_identity": 0.1429,
+          "uniprot": "P17787",
+          "gene": "CHRNB2",
+          "window_identity": 0.3594,
+          "window_coverage": 1.0,
+          "window_align_score": 202.5,
+          "surrogate_surface": "DEREHPS",
+          "n_mapped": 7
+        },
+        {
+          "surface_identity": 0.4286,
+          "uniprot": "P32297",
+          "gene": "CHRNA3",
+          "window_identity": 0.3594,
+          "window_coverage": 1.0,
+          "window_align_score": 217.0,
+          "surrogate_surface": "EHRERED",
+          "n_mapped": 7
+        },
+        {
+          "surface_identity": 0.0,
+          "uniprot": "Q9GZZ6",
+          "gene": "CHRNA10",
+          "window_identity": 0.3594,
+          "window_coverage": 1.0,
+          "window_align_score": 213.7,
+          "surrogate_surface": "RLKRDAN",
+          "n_mapped": 7
+        },
+        {
+          "surface_identity": 0.2857,
+          "uniprot": "Q07001",
+          "gene": "CHRND",
+          "window_identity": 0.3492,
+          "window_coverage": 0.9844,
+          "window_align_score": 191.5,
+          "surrogate_surface": "NERRHKG",
+          "n_mapped": 7
+        },
+        {
+          "surface_identity": 0.1429,
+          "uniprot": "P30532",
+          "gene": "CHRNA5",
+          "window_identity": 0.3438,
+          "window_coverage": 1.0,
+          "window_align_score": 179.0,
+          "surrogate_surface": "IDSKDQD",
+          "n_mapped": 7
+        }
+      ],
+      "families": [
+        "PF02931",
+        "PF02932"
+      ],
+      "state": "derived",
+      "note": "the closest 8 of 45 reviewed human proteins sharing a domain family (PF02931, PF02932), ranked by identity at the epitope window rather than across the whole protein. The nearest is 47% identical at this surface, which makes this a moderate comparison.",
+      "n_considered": 45,
+      "duplicates_excluded": [],
+      "closest_identity": 0.4688,
+      "strength": "moderate",
+      "ceiling": {
+        "10": 0.1,
+        "13": 0.14519
+      },
+      "ceiling_noise": {
+        "10": 0.00589,
+        "13": 0.0068
+      },
+      "target_epitope": "ETRAKKD"
+    },
+    "fcrn_myasthenia": {
+      "key": "fcrn_myasthenia",
+      "gene": "FCGRT",
+      "uniprot": "P55899",
+      "members": [
+        {
+          "surface_identity": 0.0556,
+          "uniprot": "P13747",
+          "gene": "HLA-E",
+          "window_identity": 0.2797,
+          "window_coverage": 0.9916,
+          "window_align_score": 292.6,
+          "surrogate_surface": "GYQSEGSHYDAVDTAQE",
+          "n_mapped": 17
+        },
+        {
+          "surface_identity": 0.0556,
+          "uniprot": "P10321",
+          "gene": "HLA-C",
+          "window_identity": 0.2735,
+          "window_coverage": 0.9832,
+          "window_align_score": 285.4,
+          "surrogate_surface": "GYYNQGSHYDAADTAQQ",
+          "n_mapped": 17
+        },
+        {
+          "surface_identity": 0.1111,
+          "uniprot": "Q95460",
+          "gene": "MR1",
+          "window_identity": 0.2712,
+          "window_coverage": 0.9916,
+          "window_align_score": 312.9,
+          "surrogate_surface": "HYNHSGSHYDAVDNVHTQ",
+          "n_mapped": 18
+        },
+        {
+          "surface_identity": 0.1111,
+          "uniprot": "P30511",
+          "gene": "HLA-F",
+          "window_identity": 0.265,
+          "window_coverage": 0.9832,
+          "window_align_score": 287.3,
+          "surrogate_surface": "LLNSEGSHYDAADTAQQ",
+          "n_mapped": 17
+        },
+        {
+          "surface_identity": 0.2222,
+          "uniprot": "Q29983",
+          "gene": "MICA",
+          "window_identity": 0.265,
+          "window_coverage": 0.9832,
+          "window_align_score": 274.1,
+          "surrogate_surface": "IKDQKGLHYDQSSAQLAV",
+          "n_mapped": 18
+        },
+        {
+          "surface_identity": 0.1667,
+          "uniprot": "Q8TD07",
+          "gene": "RAET1E",
+          "window_identity": 0.2609,
+          "window_coverage": 0.9664,
+          "window_align_score": 273.4,
+          "surrogate_surface": "PQITSDPSTNVINHESKE",
+          "n_mapped": 18
+        },
+        {
+          "surface_identity": 0.1111,
+          "uniprot": "Q30201",
+          "gene": "HFE",
+          "window_identity": 0.2542,
+          "window_coverage": 0.9916,
+          "window_align_score": 297.2,
+          "surrogate_surface": "IMESKESHYDAAEPRWPL",
+          "n_mapped": 18
+        },
+        {
+          "surface_identity": 0.2222,
+          "uniprot": "Q9BZM6",
+          "gene": "ULBP1",
+          "window_identity": 0.2542,
+          "window_coverage": 0.9916,
+          "window_align_score": 283.9,
+          "surrogate_surface": "NLIPIEPLFNALHPGKKE",
+          "n_mapped": 18
+        }
+      ],
+      "families": [
+        "PF07654",
+        "PF00129"
+      ],
+      "state": "derived",
+      "note": "the closest 8 of 78 reviewed human proteins sharing a domain family (PF07654, PF00129), ranked by identity at the epitope window rather than across the whole protein. The nearest is 28% identical at this surface, which makes this a distant comparison.",
+      "n_considered": 78,
+      "duplicates_excluded": [],
+      "closest_identity": 0.2797,
+      "strength": "distant",
+      "ceiling": {
+        "10": -0.075,
+        "13": 0.06923
+      },
+      "ceiling_noise": {
+        "10": 0.00291,
+        "13": 0.01247
+      },
+      "target_epitope": "ALGGKGPYLNGDWPELAQ"
+    },
+    "fgf23_xlh": {
+      "key": "fgf23_xlh",
+      "gene": "FGF23",
+      "uniprot": "Q9GZV9",
+      "members": [
+        {
+          "surface_identity": 0.1912,
+          "uniprot": "O95750",
+          "gene": "FGF19",
+          "window_identity": 0.3077,
+          "window_coverage": 0.8927,
+          "window_align_score": 535.6,
+          "surrogate_surface": "HVHYWGPYSGPHSSFGEIKAVALRVAVVYYEEIDGYNYKNLSFLLEPEDLRGHLESDM",
+          "n_mapped": 58
+        },
+        {
+          "surface_identity": 0.1912,
+          "uniprot": "Q9NSA1",
+          "gene": "FGF21",
+          "window_identity": 0.2985,
+          "window_coverage": 0.8627,
+          "window_align_score": 538.5,
+          "surrogate_surface": "LLQFGQRYDDAQQTHDQLKALKPGIQVSFFELLDGYNLPLALEPIVGSSDPLSMVGPSQGRSPSY",
+          "n_mapped": 65
+        },
+        {
+          "surface_identity": 0.1912,
+          "uniprot": "O15520",
+          "gene": "FGF10",
+          "window_identity": 0.2824,
+          "window_coverage": 0.7296,
+          "window_align_score": 441.3,
+          "surrogate_surface": "SSPSAGYQDVRRSTFEEITSVEIGVAINYFERINGYNTRRHFPMH",
+          "n_mapped": 45
+        },
+        {
+          "surface_identity": 0.1912,
+          "uniprot": "Q92913",
+          "gene": "FGF13",
+          "window_identity": 0.271,
+          "window_coverage": 0.9185,
+          "window_align_score": 506.0,
+          "surrogate_surface": "LFGSEPLTLYSRQGHENLIPVGLRVAVKYFESVNYYVNHVAAFKLVPSLHDLTEFSRSGSGTPTKS",
+          "n_mapped": 66
+        },
+        {
+          "surface_identity": 0.1618,
+          "uniprot": "O43320",
+          "gene": "FGF16",
+          "window_identity": 0.2703,
+          "window_coverage": 0.794,
+          "window_align_score": 443.0,
+          "surrogate_surface": "LQRGPTFLLYCRTGHHEFISLAVGISVGYLEQFNWYNGYHQFTLRVSMSRDLFHY",
+          "n_mapped": 55
+        },
+        {
+          "surface_identity": 0.1765,
+          "uniprot": "Q9HCT0",
+          "gene": "FGF22",
+          "window_identity": 0.2667,
+          "window_coverage": 0.7082,
+          "window_align_score": 389.4,
+          "surrogate_surface": "GPRSPHERLFSSTHFREIRSVHVGVVVGYYERINGHNRTRAHLPV",
+          "n_mapped": 45
+        },
+        {
+          "surface_identity": 0.1912,
+          "uniprot": "P31371",
+          "gene": "FGF9",
+          "window_identity": 0.2595,
+          "window_coverage": 0.794,
+          "window_align_score": 440.4,
+          "surrogate_surface": "LPGPVTLLLYCRTGHKEFISIAVGVSVGYLEQFNWYNGTQFTLRVELYKDILSQS",
+          "n_mapped": 55
+        },
+        {
+          "surface_identity": 0.1765,
+          "uniprot": "P11487",
+          "gene": "FGF3",
+          "window_identity": 0.2589,
+          "window_coverage": 0.9614,
+          "window_align_score": 562.7,
+          "surrogate_surface": "GVYELGARLYCATKHEEITAVEVGVALGYYERILGYNKTRSLLPLHMGLPRPPGKGVQPRRRRQK",
+          "n_mapped": 65
+        }
+      ],
+      "families": [
+        "PF00167"
+      ],
+      "state": "derived",
+      "note": "the closest 8 of 21 reviewed human proteins sharing a domain family (PF00167), ranked by identity at the epitope window rather than across the whole protein. The nearest is 31% identical at this surface, which makes this a distant comparison.",
+      "n_considered": 21,
+      "duplicates_excluded": [],
+      "closest_identity": 0.3077,
+      "strength": "distant",
+      "ceiling": {
+        "10": 0.02537,
+        "13": 0.02885
+      },
+      "ceiling_noise": {
+        "10": 0.00293,
+        "13": 0.002
+      },
+      "target_epitope": "LLGSWGLYATARNSHHMIRSEDAGVVVRYFHQTNGYDLSRLIFNIRHQDSERDPLNVLKPRARMTPAP"
+    },
+    "il11_fibrosis": {
+      "key": "il11_fibrosis",
+      "gene": "IL11",
+      "uniprot": "P20809",
+      "members": [],
+      "families": [
+        "PF07400"
+      ],
+      "state": "no_human_relatives",
+      "note": "No other reviewed human protein shares this protein's domain family (PF07400). Cross-reactivity with a close human relative is therefore not the risk here. Off-target binding to unrelated human proteins remains a real risk that this method cannot assess."
+    },
+    "il5ra_asthma": {
+      "key": "il5ra_asthma",
+      "gene": "IL5RA",
+      "uniprot": "Q01344",
+      "members": [],
+      "families": [
+        "PF09240"
+      ],
+      "state": "panel_too_weak",
+      "note": "The only relative found, IL13RA2, is just 27% identical to this target at the binding site. A single distant relative is not a panel: tested against controls, the margin against one such protein does not reliably separate a real binder from a face designed for the wrong protein. No number is reported.",
+      "n_considered": 6,
+      "duplicates_excluded": [],
+      "rejected_members": [
+        {
+          "surface_identity": 0.1905,
+          "uniprot": "Q14627",
+          "gene": "IL13RA2",
+          "window_identity": 0.2662,
+          "window_coverage": 0.9778,
+          "window_align_score": 770.9,
+          "surrogate_surface": "ESETWKTIIKADKIPRCYCD",
+          "n_mapped": 20
+        }
+      ]
+    },
+    "itgav_fibrosis": {
+      "key": "itgav_fibrosis",
+      "gene": "ITGAV",
+      "uniprot": "P06756",
+      "members": [
+        {
+          "surface_identity": 0.2273,
+          "uniprot": "P08648",
+          "gene": "ITGA5",
+          "window_identity": 0.544,
+          "window_coverage": 1.0,
+          "window_align_score": 752.0,
+          "surrogate_surface": "SEKSDFSQYSYEYLINLVQQRQ",
+          "n_mapped": 22
+        },
+        {
+          "surface_identity": 0.1364,
+          "uniprot": "P53708",
+          "gene": "ITGA8",
+          "window_identity": 0.4974,
+          "window_coverage": 1.0,
+          "window_align_score": 725.4,
+          "surrogate_surface": "ILPNSNAQFNSKDILRKLAEEV",
+          "n_mapped": 22
+        },
+        {
+          "surface_identity": 0.0909,
+          "uniprot": "P08514",
+          "gene": "ITGA2B",
+          "window_identity": 0.3886,
+          "window_coverage": 1.0,
+          "window_align_score": 568.9,
+          "surrogate_surface": "VLEGNTIDYSRGILLWHVSQDS",
+          "n_mapped": 22
+        },
+        {
+          "surface_identity": 0.1818,
+          "uniprot": "Q13797",
+          "gene": "ITGA9",
+          "window_identity": 0.2917,
+          "window_coverage": 0.9948,
+          "window_align_score": 434.8,
+          "surrogate_surface": "TILYKKKHFKIKVYIFRADRKI",
+          "n_mapped": 22
+        },
+        {
+          "surface_identity": 0.1364,
+          "uniprot": "Q13683",
+          "gene": "ITGA7",
+          "window_identity": 0.2789,
+          "window_coverage": 0.9845,
+          "window_align_score": 447.9,
+          "surrogate_surface": "QQIGRPQFYHDGPYEAGGEERL",
+          "n_mapped": 22
+        },
+        {
+          "surface_identity": 0.2273,
+          "uniprot": "P26006",
+          "gene": "ITGA3",
+          "window_identity": 0.2708,
+          "window_coverage": 0.9948,
+          "window_align_score": 418.1,
+          "surrogate_surface": "TSEMCNSTYKTQVGSLKNITRH",
+          "n_mapped": 22
+        }
+      ],
+      "families": [
+        "PF01839",
+        "PF08441",
+        "PF20805",
+        "PF20806",
+        "PF00357"
+      ],
+      "state": "derived",
+      "note": "the closest 6 of 18 reviewed human proteins sharing a domain family (PF01839, PF08441, PF20805, PF20806, PF00357), ranked by identity at the epitope window rather than across the whole protein. The nearest is 54% identical at this surface, which makes this a close comparison.",
+      "n_considered": 18,
+      "duplicates_excluded": [],
+      "closest_identity": 0.544,
+      "strength": "close",
+      "ceiling": {
+        "10": 0.00917,
+        "13": 0.0094
+      },
+      "ceiling_noise": {
+        "10": 0.02331,
+        "13": 0.02721
+      },
+      "target_epitope": "YEMSQDIQFKDNVYSIKYNQRT"
+    },
+    "klkb1_hae": {
+      "key": "klkb1_hae",
+      "gene": "KLKB1",
+      "uniprot": "P03952",
+      "members": [
+        {
+          "surface_identity": 0.6486,
+          "uniprot": "P03951",
+          "gene": "F11",
+          "window_identity": 0.6667,
+          "window_coverage": 0.9614,
+          "window_align_score": 1155.8,
+          "surrogate_surface": "TSTQRLCHCYGVYMAESDLRGHDACKSSWGEGCAQGY",
+          "n_mapped": 37
+        },
+        {
+          "surface_identity": 0.1081,
+          "uniprot": "Q9BYE2",
+          "gene": "TMPRSS13",
+          "window_identity": 0.4365,
+          "window_coverage": 0.973,
+          "window_align_score": 849.6,
+          "surrogate_surface": "FTTICHCFVTYDEEDDETDSDSCQSSWGTGCGQGY",
+          "n_mapped": 35
+        },
+        {
+          "surface_identity": 0.1081,
+          "uniprot": "O15393",
+          "gene": "TMPRSS2",
+          "window_identity": 0.4268,
+          "window_coverage": 0.9498,
+          "window_align_score": 816.3,
+          "surrogate_surface": "VNVVCHCEPLYSKTKDEKDNDSCQSSWGSGCAKGY",
+          "n_mapped": 35
+        },
+        {
+          "surface_identity": 0.0811,
+          "uniprot": "P57727",
+          "gene": "TMPRSS3",
+          "window_identity": 0.4251,
+          "window_coverage": 0.9537,
+          "window_align_score": 830.9,
+          "surrogate_surface": "FGYLCHCYDLYPKRLDDAGGDSCQSSFGIGCAEGY",
+          "n_mapped": 35
+        },
+        {
+          "surface_identity": 0.027,
+          "uniprot": "Q6UWB4",
+          "gene": "PRSS55",
+          "window_identity": 0.4204,
+          "window_coverage": 0.9459,
+          "window_align_score": 781.3,
+          "surrogate_surface": "AEPFCHCYSEFRANMDDKPDACKSSWGKSCGEGY",
+          "n_mapped": 34
+        },
+        {
+          "surface_identity": 0.1081,
+          "uniprot": "Q8NF86",
+          "gene": "PRSS33",
+          "window_identity": 0.4163,
+          "window_coverage": 0.9459,
+          "window_align_score": 780.1,
+          "surrogate_surface": "HGAVCHCPRRYEDGADPGDVDACQSSWGKGCALGY",
+          "n_mapped": 35
+        },
+        {
+          "surface_identity": 0.1622,
+          "uniprot": "Q9BQR3",
+          "gene": "PRSS27",
+          "window_identity": 0.415,
+          "window_coverage": 0.9768,
+          "window_align_score": 827.6,
+          "surrogate_surface": "RGSFCHCRNTYGTASDEDPKDACKSSWGEGCARGY",
+          "n_mapped": 35
+        },
+        {
+          "surface_identity": 0.5135,
+          "uniprot": "Q9H3S3",
+          "gene": "TMPRSS5",
+          "window_identity": 0.413,
+          "window_coverage": 0.9537,
+          "window_align_score": 819.9,
+          "surrogate_surface": "ALGFRTCHCHSFYAQNHDPSSGDACQSSWGRGCAEGY",
+          "n_mapped": 37
+        }
+      ],
+      "families": [
+        "PF00024",
+        "PF00089"
+      ],
+      "state": "derived",
+      "note": "the closest 8 of 120 reviewed human proteins sharing a domain family (PF00024, PF00089), ranked by identity at the epitope window rather than across the whole protein. The nearest is 67% identical at this surface, which makes this a close comparison.",
+      "n_considered": 120,
+      "duplicates_excluded": [],
+      "closest_identity": 0.6667,
+      "strength": "close",
+      "ceiling": {
+        "10": 0.05877,
+        "13": 0.01668
+      },
+      "ceiling_noise": {
+        "10": 0.0048,
+        "13": 0.0054
+      },
+      "target_epitope": "VLAQRLCHCDGLYVSEGDEKDYDACKSSWGEGCARGY"
+    },
+    "masp2_tma": {
+      "key": "masp2_tma",
+      "gene": "MASP2",
+      "uniprot": "O00187",
+      "members": [
+        {
+          "surface_identity": 0.3448,
+          "uniprot": "P00736",
+          "gene": "C1R",
+          "window_identity": 0.3926,
+          "window_coverage": 0.9603,
+          "window_align_score": 740.3,
+          "surrogate_surface": "HGRHTQESYNFIWLVCQGDSVSWGCG",
+          "n_mapped": 26
+        },
+        {
+          "surface_identity": 0.1034,
+          "uniprot": "P05981",
+          "gene": "HPN",
+          "window_identity": 0.3878,
+          "window_coverage": 0.9722,
+          "window_align_score": 710.6,
+          "surrogate_surface": "AHLHCYNSEENQAICQGDSVSWGTGLK",
+          "n_mapped": 27
+        },
+        {
+          "surface_identity": 0.1379,
+          "uniprot": "P56730",
+          "gene": "PRSS12",
+          "window_identity": 0.3797,
+          "window_coverage": 0.9405,
+          "window_align_score": 617.7,
+          "surrogate_surface": "RLLHCYPDRSCRCQGDSTSWGYGVS",
+          "n_mapped": 25
+        },
+        {
+          "surface_identity": 0.1379,
+          "uniprot": "P03952",
+          "gene": "KLKB1",
+          "window_identity": 0.3693,
+          "window_coverage": 0.9563,
+          "window_align_score": 676.2,
+          "surrogate_surface": "LTAHCYVSEGICKGDSTSWGEGRQ",
+          "n_mapped": 24
+        },
+        {
+          "surface_identity": 0.069,
+          "uniprot": "Q9NRS4",
+          "gene": "TMPRSS4",
+          "window_identity": 0.3629,
+          "window_coverage": 0.9405,
+          "window_align_score": 701.5,
+          "surrogate_surface": "QHVHCFPMYPKMAECQGDSVSWGYGGT",
+          "n_mapped": 27
+        },
+        {
+          "surface_identity": 0.4138,
+          "uniprot": "P48740",
+          "gene": "MASP1",
+          "window_identity": 0.3598,
+          "window_coverage": 0.9484,
+          "window_align_score": 684.1,
+          "surrogate_surface": "QPFHCQDPNTFFAYKCAGDSVSWGDDKR",
+          "n_mapped": 28
+        },
+        {
+          "surface_identity": 0.3448,
+          "uniprot": "P09871",
+          "gene": "C1S",
+          "window_identity": 0.3577,
+          "window_coverage": 0.9762,
+          "window_align_score": 715.7,
+          "surrogate_surface": "NPWHVPGRTNFRKVVCKGDSVSWGQT",
+          "n_mapped": 26
+        },
+        {
+          "surface_identity": 0.0345,
+          "uniprot": "P00742",
+          "gene": "F10",
+          "window_identity": 0.3571,
+          "window_coverage": 0.9444,
+          "window_align_score": 673.0,
+          "surrogate_surface": "NEGHCRTKETYQCICQGDSVSWGEGRK",
+          "n_mapped": 27
+        }
+      ],
+      "families": [
+        "PF00431",
+        "PF07645",
+        "PF00084",
+        "PF00089"
+      ],
+      "state": "derived",
+      "note": "the closest 8 of 254 reviewed human proteins sharing a domain family (PF00431, PF07645, PF00084, PF00089), ranked by identity at the epitope window rather than across the whole protein. The nearest is 39% identical at this surface, which makes this a moderate comparison.",
+      "n_considered": 254,
+      "duplicates_excluded": [],
+      "closest_identity": 0.3926,
+      "strength": "moderate",
+      "ceiling": {
+        "10": 0.01143,
+        "13": 0.0
+      },
+      "ceiling_noise": {
+        "10": 0.01747,
+        "13": 0.01598
+      },
+      "target_epitope": "GTTHAYHDAGFLAYSCRGDSVSWGSMNEQ"
+    },
+    "met_nsclc": {
+      "key": "met_nsclc",
+      "gene": "MET",
+      "uniprot": "P08581",
+      "members": [],
+      "families": [
+        "PF07714",
+        "PF01437",
+        "PF01403",
+        "PF01833"
+      ],
+      "state": "panel_too_weak",
+      "note": "The only relative found, MST1R, is just 28% identical to this target at the binding site. A single distant relative is not a panel: tested against controls, the margin against one such protein does not reliably separate a real binder from a face designed for the wrong protein. No number is reported.",
+      "n_considered": 172,
+      "duplicates_excluded": [],
+      "rejected_members": [
+        {
+          "surface_identity": 0.2632,
+          "uniprot": "Q04912",
+          "gene": "MST1R",
+          "window_identity": 0.2794,
+          "window_coverage": 1.0,
+          "window_align_score": 566.1,
+          "surrogate_surface": "GAQTELSIAEGQDLRRDNR",
+          "n_mapped": 19
+        }
+      ]
+    },
+    "psma_prostate": {
+      "key": "psma_prostate",
+      "gene": "FOLH1",
+      "uniprot": "Q04609",
+      "members": [
+        {
+          "surface_identity": 0.5,
+          "uniprot": "Q9Y3Q0",
+          "gene": "NAALAD2",
+          "window_identity": 0.7397,
+          "window_coverage": 0.9979,
+          "window_align_score": 2405.9,
+          "surrogate_surface": "DTIFKTSYLEPEPGTNDIYDRY",
+          "n_mapped": 22
+        },
+        {
+          "surface_identity": 0.2273,
+          "uniprot": "Q9UQQ1",
+          "gene": "NAALADL1",
+          "window_identity": 0.4435,
+          "window_coverage": 0.9856,
+          "window_align_score": 1682.2,
+          "surrogate_surface": "GGIHSCHRTEEQPPSQDDNFSF",
+          "n_mapped": 22
+        },
+        {
+          "surface_identity": 0.1364,
+          "uniprot": "Q9UP52",
+          "gene": "TFR2",
+          "window_identity": 0.2969,
+          "window_coverage": 0.9443,
+          "window_align_score": 1341.6,
+          "surrogate_surface": "FAPNTLHWVDEEVYGDIRKPE",
+          "n_mapped": 21
+        },
+        {
+          "surface_identity": 0.0909,
+          "uniprot": "P02786",
+          "gene": "TFRC",
+          "window_identity": 0.2753,
+          "window_coverage": 0.9361,
+          "window_align_score": 1204.3,
+          "surrogate_surface": "VANSVIIVDVAELAAKNKI",
+          "n_mapped": 19
+        },
+        {
+          "surface_identity": 0.0,
+          "uniprot": "Q58DX5",
+          "gene": "NAALADL2",
+          "window_identity": 0.2709,
+          "window_coverage": 0.9361,
+          "window_align_score": 1205.7,
+          "surrogate_surface": "SQFHPNGQPCSDSHDKRN",
+          "n_mapped": 18
+        }
+      ],
+      "families": [
+        "PF02225",
+        "PF04389",
+        "PF04253"
+      ],
+      "state": "derived",
+      "note": "the closest 5 of 25 reviewed human proteins sharing a domain family (PF02225, PF04389, PF04253), ranked by identity at the epitope window rather than across the whole protein. The nearest is 74% identical at this surface, which makes this a close comparison.",
+      "n_considered": 25,
+      "duplicates_excluded": [],
+      "closest_identity": 0.7397,
+      "strength": "close",
+      "ceiling": {
+        "10": 0.044,
+        "13": 0.03885
+      },
+      "ceiling_noise": {
+        "10": 0.0039,
+        "13": 0.01183
+      },
+      "target_epitope": "NNIFNTSLFEPEPGGYDKKFQY"
+    },
+    "siglec8_eoe": {
+      "key": "siglec8_eoe",
+      "gene": "SIGLEC8",
+      "uniprot": "Q9NYZ4",
+      "members": [
+        {
+          "surface_identity": 0.1176,
+          "uniprot": "Q96PQ1",
+          "gene": "SIGLEC12",
+          "window_identity": 0.6515,
+          "window_coverage": 0.9778,
+          "window_align_score": 565.8,
+          "surrogate_surface": "GAKDSYPQNGWTASQK",
+          "n_mapped": 16
+        },
+        {
+          "surface_identity": 0.0588,
+          "uniprot": "Q9Y336",
+          "gene": "SIGLEC9",
+          "window_identity": 0.6512,
+          "window_coverage": 0.9556,
+          "window_align_score": 537.4,
+          "surrogate_surface": "GTSSYPSHGWIYPHK",
+          "n_mapped": 15
+        },
+        {
+          "surface_identity": 0.3529,
+          "uniprot": "O15389",
+          "gene": "SIGLEC5",
+          "window_identity": 0.6512,
+          "window_coverage": 0.9556,
+          "window_align_score": 527.5,
+          "surrogate_surface": "GSLPVSYPWRSWYSSQK",
+          "n_mapped": 17
+        },
+        {
+          "surface_identity": 0.0588,
+          "uniprot": "P20138",
+          "gene": "CD33",
+          "window_identity": 0.6357,
+          "window_coverage": 0.9556,
+          "window_align_score": 545.7,
+          "surrogate_surface": "AMDNFHPIPYYDKNSN",
+          "n_mapped": 16
+        },
+        {
+          "surface_identity": 0.4706,
+          "uniprot": "Q9Y286",
+          "gene": "SIGLEC7",
+          "window_identity": 0.6269,
+          "window_coverage": 0.9926,
+          "window_align_score": 559.6,
+          "surrogate_surface": "GQKKDSYPVDSQTDSQK",
+          "n_mapped": 17
+        },
+        {
+          "surface_identity": 0.0588,
+          "uniprot": "Q96LC7",
+          "gene": "SIGLEC10",
+          "window_identity": 0.5504,
+          "window_coverage": 0.9556,
+          "window_align_score": 501.3,
+          "surrogate_surface": "DRSYPRQDWTGSAG",
+          "n_mapped": 14
+        },
+        {
+          "surface_identity": 0.1176,
+          "uniprot": "O43699",
+          "gene": "SIGLEC6",
+          "window_identity": 0.5447,
+          "window_coverage": 0.9111,
+          "window_align_score": 437.9,
+          "surrogate_surface": "QERPTTLPASRK",
+          "n_mapped": 12
+        },
+        {
+          "surface_identity": 0.4706,
+          "uniprot": "A6NMB1",
+          "gene": "SIGLEC16",
+          "window_identity": 0.5231,
+          "window_coverage": 0.963,
+          "window_align_score": 489.5,
+          "surrogate_surface": "GSLPSSYPRDGWDESGG",
+          "n_mapped": 17
+        }
+      ],
+      "families": [
+        "PF00047",
+        "PF13927",
+        "PF27822",
+        "PF07686"
+      ],
+      "state": "derived",
+      "note": "the closest 8 of 198 reviewed human proteins sharing a domain family (PF00047, PF13927, PF27822, PF07686), ranked by identity at the epitope window rather than across the whole protein. The nearest is 65% identical at this surface, which makes this a close comparison.",
+      "n_considered": 198,
+      "duplicates_excluded": [],
+      "closest_identity": 0.6515,
+      "strength": "close",
+      "ceiling": {
+        "10": 0.05313,
+        "13": 0.05337
+      },
+      "ceiling_noise": {
+        "10": 0.01081,
+        "13": 0.0199
+      },
+      "target_epitope": "GDRDGSYPQDGWTDSWN"
+    },
+    "sod1_als": {
+      "key": "sod1_als",
+      "gene": "SOD1",
+      "uniprot": "P00441",
+      "members": [
+        {
+          "surface_identity": 0.5,
+          "uniprot": "O14618",
+          "gene": "CCS",
+          "window_identity": 0.4933,
+          "window_coverage": 0.974,
+          "window_align_score": 525.0,
+          "surrogate_surface": "PGTQDGLEPADGREEL",
+          "n_mapped": 16
+        },
+        {
+          "surface_identity": 0.3125,
+          "uniprot": "P08294",
+          "gene": "SOD3",
+          "window_identity": 0.4014,
+          "window_coverage": 0.9545,
+          "window_align_score": 457.6,
+          "surrogate_surface": "AQPTEGFPNRDGSARL",
+          "n_mapped": 16
+        }
+      ],
+      "families": [
+        "PF00080"
+      ],
+      "state": "derived",
+      "note": "the closest 2 of 2 reviewed human proteins sharing a domain family (PF00080), ranked by identity at the epitope window rather than across the whole protein. The nearest is 49% identical at this surface, which makes this a moderate comparison.",
+      "n_considered": 2,
+      "duplicates_excluded": [],
+      "closest_identity": 0.4933,
+      "strength": "moderate",
+      "ceiling": {
+        "10": 0.19833,
+        "13": 0.20513
+      },
+      "ceiling_noise": {
+        "10": 0.06178,
+        "13": 0.05488
+      },
+      "target_epitope": "DGPQKGLTEKDGVESL"
+    },
+    "sost_osteoporosis": {
+      "key": "sost_osteoporosis",
+      "gene": "SOST",
+      "uniprot": "Q9BQB4",
+      "members": [
+        {
+          "surface_identity": 0.7333,
+          "uniprot": "Q6X4U4",
+          "gene": "SOSTDC1",
+          "window_identity": 0.4344,
+          "window_coverage": 0.9919,
+          "window_align_score": 406.6,
+          "surrogate_surface": "LPNWIGYRTRQHNES",
+          "n_mapped": 15
+        }
+      ],
+      "families": [
+        "PF05463"
+      ],
+      "state": "derived",
+      "note": "the closest 1 of 1 reviewed human proteins sharing a domain family (PF05463), ranked by identity at the epitope window rather than across the whole protein. The nearest is 43% identical at this surface, which makes this a moderate comparison.",
+      "n_considered": 1,
+      "duplicates_excluded": [],
+      "closest_identity": 0.4344,
+      "strength": "moderate",
+      "ceiling": {
+        "10": 0.45,
+        "13": 0.43846
+      },
+      "ceiling_noise": {
+        "10": 0.13792,
+        "13": 0.14567
+      },
+      "target_epitope": "LPNAIGRRTRFHNQS"
+    },
+    "tgfb1_fibrosis": {
+      "key": "tgfb1_fibrosis",
+      "gene": "TGFB1",
+      "uniprot": "P01137",
+      "members": [
+        {
+          "surface_identity": 0.875,
+          "uniprot": "P10600",
+          "gene": "TGFB3",
+          "window_identity": 0.6714,
+          "window_coverage": 1.0,
+          "window_align_score": 322.7,
+          "surrogate_surface": "LYDRQDLG",
+          "n_mapped": 8
+        },
+        {
+          "surface_identity": 0.75,
+          "uniprot": "P61812",
+          "gene": "TGFB2",
+          "window_identity": 0.6286,
+          "window_coverage": 1.0,
+          "window_align_score": 316.9,
+          "surrogate_surface": "LYDKRDLG",
+          "n_mapped": 8
+        },
+        {
+          "surface_identity": 0.25,
+          "uniprot": "Q9NR23",
+          "gene": "GDF3",
+          "window_identity": 0.4118,
+          "window_coverage": 0.9714,
+          "window_align_score": 226.7,
+          "surrogate_surface": "LFNRDLGW",
+          "n_mapped": 8
+        },
+        {
+          "surface_identity": 0.25,
+          "uniprot": "P58166",
+          "gene": "INHBE",
+          "window_identity": 0.3939,
+          "window_coverage": 0.9429,
+          "window_align_score": 195.8,
+          "surrogate_surface": "HYDQELG",
+          "n_mapped": 7
+        },
+        {
+          "surface_identity": 0.0,
+          "uniprot": "P08476",
+          "gene": "INHBA",
+          "window_identity": 0.3846,
+          "window_coverage": 0.9286,
+          "window_align_score": 188.8,
+          "surrogate_surface": "FFSKDIG",
+          "n_mapped": 7
+        },
+        {
+          "surface_identity": 0.375,
+          "uniprot": "P22003",
+          "gene": "BMP5",
+          "window_identity": 0.3788,
+          "window_coverage": 0.9429,
+          "window_align_score": 186.1,
+          "surrogate_surface": "LYSRDLG",
+          "n_mapped": 7
+        },
+        {
+          "surface_identity": 0.25,
+          "uniprot": "O95390",
+          "gene": "GDF11",
+          "window_identity": 0.3529,
+          "window_coverage": 0.9714,
+          "window_align_score": 197.3,
+          "surrogate_surface": "LTDEAFG",
+          "n_mapped": 7
+        },
+        {
+          "surface_identity": 0.25,
+          "uniprot": "O14793",
+          "gene": "MSTN",
+          "window_identity": 0.3382,
+          "window_coverage": 0.9714,
+          "window_align_score": 190.3,
+          "surrogate_surface": "LTDEAFG",
+          "n_mapped": 7
+        }
+      ],
+      "families": [
+        "PF00019",
+        "PF00688"
+      ],
+      "state": "derived",
+      "note": "the closest 8 of 36 reviewed human proteins sharing a domain family (PF00019, PF00688), ranked by identity at the epitope window rather than across the whole protein. The nearest is 67% identical at this surface, which makes this a close comparison.",
+      "n_considered": 36,
+      "duplicates_excluded": [],
+      "closest_identity": 0.6714,
+      "strength": "close",
+      "ceiling": {
+        "10": 0.0,
+        "13": 0.0
+      },
+      "ceiling_noise": {
+        "10": 0.07537,
+        "13": 0.07919
+      },
+      "target_epitope": "LYDRKDLG"
+    },
+    "vista_io": {
+      "key": "vista_io",
+      "gene": "VSIR",
+      "uniprot": "Q9H7M9",
+      "members": [],
+      "families": [
+        "PF07686"
+      ],
+      "state": "family_too_generic",
+      "note": "The only domain family on record for this protein is shared by too many human proteins to identify close relatives: PF07686 (419 human proteins). A panel drawn from it would be arbitrary rather than informative, so none was built. This is a limit of the method, not a finding about the target."
+    },
+    "vwf_thrombosis": {
+      "key": "vwf_thrombosis",
+      "gene": "VWF",
+      "uniprot": "P04275",
+      "members": [
+        {
+          "surface_identity": 0.1579,
+          "uniprot": "Q96P44",
+          "gene": "COL21A1",
+          "window_identity": 0.3185,
+          "window_coverage": 0.9783,
+          "window_align_score": 412.1,
+          "surrogate_surface": "DYPVLEIPLGSKQFDYKA",
+          "n_mapped": 18
+        },
+        {
+          "surface_identity": 0.2105,
+          "uniprot": "Q99715",
+          "gene": "COL12A1",
+          "window_identity": 0.3139,
+          "window_coverage": 0.9928,
+          "window_align_score": 407.9,
+          "surrogate_surface": "SDTRTEFNLNQDDYKNSAE",
+          "n_mapped": 19
+        },
+        {
+          "surface_identity": 0.0526,
+          "uniprot": "Q9P218",
+          "gene": "COL20A1",
+          "window_identity": 0.3088,
+          "window_coverage": 0.9855,
+          "window_align_score": 405.9,
+          "surrogate_surface": "GDAQTEWDLNSLTHGQAAV",
+          "n_mapped": 19
+        },
+        {
+          "surface_identity": 0.0526,
+          "uniprot": "Q5GFL6",
+          "gene": "VWA2",
+          "window_identity": 0.3037,
+          "window_coverage": 0.9783,
+          "window_align_score": 405.9,
+          "surrogate_surface": "SQVQTAFGLDTTLHDKQRK",
+          "n_mapped": 19
+        },
+        {
+          "surface_identity": 0.1053,
+          "uniprot": "P21941",
+          "gene": "MATN1",
+          "window_identity": 0.2993,
+          "window_coverage": 0.9928,
+          "window_align_score": 394.1,
+          "surrogate_surface": "STVKQEFSLRALQFTKAER",
+          "n_mapped": 19
+        },
+        {
+          "surface_identity": 0.2105,
+          "uniprot": "A8TX70",
+          "gene": "COL6A5",
+          "window_identity": 0.2941,
+          "window_coverage": 0.9855,
+          "window_align_score": 378.2,
+          "surrogate_surface": "DKTKEEFQLNRKNFQYSKI",
+          "n_mapped": 19
+        },
+        {
+          "surface_identity": 0.1053,
+          "uniprot": "O15232",
+          "gene": "MATN3",
+          "window_identity": 0.2847,
+          "window_coverage": 0.9928,
+          "window_align_score": 380.6,
+          "surrogate_surface": "STVKIEFQLQALQTDEEAR",
+          "n_mapped": 19
+        },
+        {
+          "surface_identity": 0.2105,
+          "uniprot": "A6NMZ7",
+          "gene": "COL6A6",
+          "window_identity": 0.2815,
+          "window_coverage": 0.9783,
+          "window_align_score": 386.7,
+          "surrogate_surface": "DINKEEFQLNRSSFQYTKV",
+          "n_mapped": 19
+        }
+      ],
+      "families": [
+        "PF08742",
+        "PF01826",
+        "PF25962",
+        "PF00092",
+        "PF16164",
+        "PF00093",
+        "PF00094",
+        "PF23244"
+      ],
+      "state": "derived",
+      "note": "the closest 8 of 83 reviewed human proteins sharing a domain family (PF08742, PF01826, PF25962, PF00092, PF16164, PF00093, PF00094, PF23244), ranked by identity at the epitope window rather than across the whole protein. The nearest is 32% identical at this surface, which makes this a distant comparison.",
+      "n_considered": 83,
+      "duplicates_excluded": [],
+      "closest_identity": 0.3185,
+      "strength": "distant",
+      "ceiling": {
+        "10": -0.04972,
+        "13": 0.08948
+      },
+      "ceiling_noise": {
+        "10": 0.00596,
+        "13": 0.00873
+      },
+      "target_epitope": "SITTIDVPWNVDGFRYMHA"
+    }
+  },
+  "ceiling_noise_factor": 2.0
+}

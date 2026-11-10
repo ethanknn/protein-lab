@@ -1,0 +1,178 @@
+{
+  "pdb_id": "1G1S",
+  "title": "P-SELECTIN LECTIN/EGF DOMAINS COMPLEXED WITH PSGL-1 PEPTIDE",
+  "resolution": 1.9,
+  "target_chain": "A",
+  "binder_chains": [
+    "D"
+  ],
+  "chain_roles": {
+    "A": "target",
+    "B": "target",
+    "C": "partner",
+    "D": "partner"
+  },
+  "epitope": [
+    {
+      "chain": "A",
+      "resseq": 85,
+      "icode": "",
+      "resname": "ARG",
+      "aa": "R",
+      "label": "A:R85",
+      "centroid": [
+        56.338,
+        119.516,
+        30.523
+      ],
+      "min_distance_to_binder": 2.859
+    },
+    {
+      "chain": "A",
+      "resseq": 108,
+      "icode": "",
+      "resname": "HIS",
+      "aa": "H",
+      "label": "A:H108",
+      "centroid": [
+        51.232,
+        118.089,
+        32.981
+      ],
+      "min_distance_to_binder": 3.491
+    },
+    {
+      "chain": "A",
+      "resseq": 110,
+      "icode": "",
+      "resname": "LEU",
+      "aa": "L",
+      "label": "A:L110",
+      "centroid": [
+        47.528,
+        115.667,
+        30.991
+      ],
+      "min_distance_to_binder": 3.123
+    },
+    {
+      "chain": "A",
+      "resseq": 111,
+      "icode": "",
+      "resname": "LYS",
+      "aa": "K",
+      "label": "A:K111",
+      "centroid": [
+        52.475,
+        112.595,
+        31.864
+      ],
+      "min_distance_to_binder": 3.319
+    },
+    {
+      "chain": "A",
+      "resseq": 112,
+      "icode": "",
+      "resname": "LYS",
+      "aa": "K",
+      "label": "A:K112",
+      "centroid": [
+        49.138,
+        108.255,
+        30.138
+      ],
+      "min_distance_to_binder": 3.694
+    }
+  ],
+  "paratope_sequence": "ELFLPET",
+  "epitope_sequence": "RHLKK",
+  "descriptors": {
+    "n_residue_contacts": 12,
+    "n_salt_bridges": 1,
+    "n_hydrophobic_contacts": 2,
+    "epitope_radius_of_gyration": 5.79,
+    "n_epitope_residues": 5,
+    "n_paratope_residues": 7
+  },
+  "contacts": [
+    {
+      "target": "A:R85",
+      "binder": "D:P614",
+      "min_distance": 2.859,
+      "atom_pairs": 7
+    },
+    {
+      "target": "A:L110",
+      "binder": "D:F612",
+      "min_distance": 3.123,
+      "atom_pairs": 7
+    },
+    {
+      "target": "A:K111",
+      "binder": "D:L608",
+      "min_distance": 3.319,
+      "atom_pairs": 3
+    },
+    {
+      "target": "A:R85",
+      "binder": "D:T616",
+      "min_distance": 3.425,
+      "atom_pairs": 5
+    },
+    {
+      "target": "A:H108",
+      "binder": "D:L613",
+      "min_distance": 3.491,
+      "atom_pairs": 5
+    },
+    {
+      "target": "A:H108",
+      "binder": "D:P614",
+      "min_distance": 3.519,
+      "atom_pairs": 7
+    },
+    {
+      "target": "A:K112",
+      "binder": "D:E606",
+      "min_distance": 3.694,
+      "atom_pairs": 3
+    },
+    {
+      "target": "A:R85",
+      "binder": "D:L613",
+      "min_distance": 3.726,
+      "atom_pairs": 9
+    },
+    {
+      "target": "A:K111",
+      "binder": "D:L613",
+      "min_distance": 3.735,
+      "atom_pairs": 6
+    },
+    {
+      "target": "A:L110",
+      "binder": "D:L613",
+      "min_distance": 4.0,
+      "atom_pairs": 7
+    },
+    {
+      "target": "A:R85",
+      "binder": "D:L608",
+      "min_distance": 4.105,
+      "atom_pairs": 1
+    },
+    {
+      "target": "A:R85",
+      "binder": "D:E615",
+      "min_distance": 4.244,
+      "atom_pairs": 2
+    }
+  ],
+  "binder_kind": "protein",
+  "target_identity": 0.9937,
+  "target_coverage": 1.0,
+  "identity_method": "aligned",
+  "warnings": [
+    "the interface is 5 residues, which is small: a typical antibody epitope covers 15-25. There is little surface here for a designed binder to grip, and the scores have correspondingly less to discriminate on"
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "pdb_id": "8UDZ",
+  "title": "THE STRUCTURE OF LTBP-49247 FAB BOUND TO TGFBETA1 SMALL LATENT COMPLEX",
+  "resolution": 2.21,
+  "target_chain": "A",
+  "binder_chains": [
+    "C",
+    "D"
+  ],
+  "chain_roles": {
+    "A": "target",
+    "B": "target",
+    "C": "antibody_heavy",
+    "D": "antibody_light",
+    "E": "antibody_heavy",
+    "F": "antibody_light"
+  },
+  "epitope": [
+    {
+      "chain": "A",
+      "resseq": 298,
+      "icode": "",
+      "resname": "LEU",
+      "aa": "L",
+      "label": "A:L298",
+      "centroid": [
+        17.757,
+        -17.98,
+        68.86
+      ],
+      "min_distance_to_binder": 3.505
+    },
+    {
+      "chain": "A",
+      "resseq": 299,
+      "icode": "",
+      "resname": "TYR",
+      "aa": "Y",
+      "label": "A:Y299",
+      "centroid": [
+        15.226,
+        -17.04,
+        74.514
+      ],
+      "min_distance_to_binder": 2.959
+    },
+    {
+      "chain": "A",
+      "resseq": 301,
+      "icode": "",
+      "resname": "ASP",
+      "aa": "D",
+      "label": "A:D301",
+      "centroid": [
+        9.717,
+        -15.015,
+        74.789
+      ],
+      "min_distance_to_binder": 3.842
+    },
+    {
+      "chain": "A",
+      "resseq": 303,
+      "icode": "",
+      "resname": "ARG",
+      "aa": "R",
+      "label": "A:R303",
+      "centroid": [
+        3.627,
+        -13.718,
+        77.019
+      ],
+      "min_distance_to_binder": 3.005
+    },
+    {
+      "chain": "A",
+      "resseq": 304,
+      "icode": "",
+      "resname": "LYS",
+      "aa": "K",
+      "label": "A:K304",
+      "centroid": [
+        8.666,
+        -10.984,
+        74.418
+      ],
+      "min_distance_to_binder": 2.708
+    },
+    {
+      "chain": "A",
+      "resseq": 305,
+      "icode": "",
+      "resname": "ASP",
+      "aa": "D",
+      "label": "A:D305",
+      "centroid": [
+        8.988,
+        -13.669,
+        69.925
+      ],
+      "min_distance_to_binder": 2.706
+    },
+    {
+      "chain": "A",
+      "resseq": 306,
+      "icode": "",
+      "resname": "LEU",
+      "aa": "L",
+      "label": "A:L306",
+      "centroid": [
+        5.003,
+        -16.078,
+        69.012
+      ],
+      "min_distance_to_binder": 3.33
+    },
+    {
+      "chain": "A",
+      "resseq": 307,
+      "icode": "",
+      "resname": "GLY",
+      "aa": "G",
+      "label": "A:G307",
+      "centroid": [
+        1.744,
+        -13.915,
+        71.402
+      ],
+      "min_distance_to_binder": 3.171
+    }
+  ],
+  "paratope_sequence": "RRNDNNYDY",
+  "epitope_sequence": "LYDRKDLG",
+  "descriptors": {
+    "n_residue_contacts": 20,
+    "n_salt_bridges": 4,
+    "n_hydrophobic_contacts": 2,
+    "epitope_radius_of_gyration": 6.681,
+    "n_epitope_residues": 8,
+    "n_paratope_residues": 9
+  },
+  "contacts": [
+    {
+      "target": "A:D305",
+      "binder": "C:R105",
+      "min_distance": 2.903,
+      "atom_pairs": 11
+    },
+    {
+      "target": "A:Y299",
+      "binder": "C:R105",
+      "min_distance": 2.959,
+      "atom_pairs": 6
+    },
+    {
+      "target": "A:D305",
+      "binder": "C:R104",
+      "min_distance": 2.986,
+      "atom_pairs": 6
+    },
+    {
+      "target": "A:L298",
+      "binder": "C:R105",
+      "min_distance": 3.505,
+      "atom_pairs": 3
+    },
+    {
+      "target": "A:K304",
+      "binder": "C:R104",
+      "min_distance": 4.435,
+      "atom_pairs": 1
+    },
+    {
+      "target": "A:D305",
+      "binder": "D:Y33",
+      "min_distance": 2.706,
+      "atom_pairs": 12
+    },
+    {
+      "target": "A:K304",
+      "binder": "D:D52",
+      "min_distance": 2.708,
+      "atom_pairs": 5
+    },
+    {
+      "target": "A:K304",
+      "binder": "D:Y96",
+      "min_distance": 2.736,
+      "atom_pairs": 6
+    },
+    {
+      "target": "A:D305",
+      "binder": "D:Y96",
+      "min_distance": 2.948,
+      "atom_pairs": 6
+    },
+    {
+      "target": "A:R303",
+      "binder": "D:N31",
+      "min_distance": 3.005,
+      "atom_pairs": 11
+    },
+    {
+      "target": "A:K304",
+      "binder": "D:D30",
+      "min_distance": 3.123,
+      "atom_pairs": 7
+    },
+    {
+      "target": "A:G307",
+      "binder": "D:Y96",
+      "min_distance": 3.171,
+      "atom_pairs": 14
+    },
+    {
+      "target": "A:L306",
+      "binder": "D:Y96",
+      "min_distance": 3.33,
+      "atom_pairs": 10
+    },
+    {
+      "target": "A:R303",
+      "binder": "D:Y96",
+      "min_distance": 3.353,
+      "atom_pairs": 4
+    },
+    {
+      "target": "A:K304",
+      "binder": "D:N31",
+      "min_distance": 3.388,
+      "atom_pairs": 7
+    },
+    {
+      "target": "A:K304",
+      "binder": "D:Y33",
+      "min_distance": 3.544,
+      "atom_pairs": 22
+    },
+    {
+      "target": "A:K304",
+      "binder": "D:N32",
+      "min_distance": 3.842,
+      "atom_pairs": 10
+    },
+    {
+      "target": "A:D301",
+      "binder": "D:Y33",
+      "min_distance": 3.842,
+      "atom_pairs": 3
+    },
+    {
+      "target": "A:Y299",
+      "binder": "D:Y33",
+      "min_distance": 4.009,
+      "atom_pairs": 1
+    },
+    {
+      "target": "A:R303",
+      "binder": "D:N28",
+      "min_distance": 4.244,
+      "atom_pairs": 1
+    }
+  ],
+  "binder_kind": "antibody",
+  "target_identity": 1.0,
+  "target_coverage": 1.0,
+  "identity_method": "aligned",
+  "warnings": [
+    "this structure holds more than one binder; the interface with antibody chains C,D was used and chains E were set aside so two separate binding sites are not merged into one",
+    "the interface is 8 residues, which is small: a typical antibody epitope covers 15-25. There is little surface here for a designed binder to grip, and the scores have correspondingly less to discriminate on"
+  ]
+}
